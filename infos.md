@@ -1,23 +1,41 @@
 ---
 layout: page
-title: Infos pratiques
-permalink: /infos/
+title: Publications
+permalink: /about/
 ---
 
-1) Prendre le **RER D** direction **Corbeil Essonnes** ou **Malesherbes**. Fréquence des trains: un train chaque 10-15 minutes.
-Plus d'infos [ici](https://www.transilien.com/lignes/rer-trains/rer-D).
 
-2) **35 min de trajet** depuis Gare de Lyon.
+## Current work
 
-3) sortir à la station **Evry Courcouronnes**. Choisir sur le quai la sortie à l'avant du train. 
+I am a Postdoctoral Researcher in computational statistics *since May 2017* at the University of Evry (near Paris) in the laboratory [LaMME](http://www.math-evry.cnrs.fr/doku.php). My current research focuses on changepoint detection using pruned dynamic programming algorithm with application to genomics.
 
-4) suivre ce plan qui i) longe sur **100 m** par la gauche un parking couvert ii) traverse un parc sur **300 m** (attention au passage rouge : on rejoint la route en passant dans l'herbe juste avant le pont pieton).
 
-![_config.yml]({{ site.baseurl }}/images/carte.png)
+## My interests
 
-5) vous êtes arrivés à **l'IBGBI**. (vous pouvez pas le rater!)
+As an Applied Mathematician, I work at the interface of different fields. My current and past interests are 
 
-![_config.yml]({{ site.baseurl }}/images/ibgbi.png)
+| **Statistics**  | **Optimization** | **Analysis** | **Mathematical Physics** |
+|---|---|---|---|
+|changepoint detection |Quadratic Programming | Complex analysis |Hele-Shaw problem |
+|Lasso regularization |Computational geometry | Univalent polynomials |Numerical analysis |
+|Logistic regression |Convex optimization |Control theory |PDE of fluid dynamics |
 
-6) On vous attend au **4ème étage** (prendre l'ascenseur). Tout le bâtiment est en accès libre. 
+In particular, problems involving *optimization* are among my favorites. They are close to application and usefull in many branches of mathematics: Statistics, numerical analysis, control theory, mathematical physics...
+
+
+## Colleagues
+
+Mathematics is a social activity. Here is a non-exhaustive list of my collaborators, colleagues and friends:
+
+- [Guillem Rigaill](https://www6.inra.fr/saclay-plant-sciences/Formation/Ecoles-d-ete/Ecole-d-ete-2016/Speakers/Guillem-Rigaill)
+- [Julien Chiquet](http://julien.cremeriefamily.info/index.html)
+- [Michel Koskas](https://www6.inra.fr/mia-paris/Equipes/Membres/Michel-Koskas)
+- [Christophe Ambroise](http://www.math-evry.cnrs.fr/members/cambroise/welcome)
+- [Toby Dylan Hocking](http://tdhock.github.io/)
+- [Mohammed Sedki](https://www.researchgate.net/profile/Sedki_Mohammed)
+- [Laetitia Comminges](https://www.ceremade.dauphine.fr/page_membre.php?idpers=456)
+- [Gregory Vial](http://perso.ec-lyon.fr/vial.gregory/)
+- [Lev Lokutsievskiy](http://mech.math.msu.su/~lion/?q=node/1)
+- [Alexandre Demidov](http://www.mathnet.ru/rus/person9169) (PhD co-supervisor)
+- [Jean-Pierre Loheac](https://scholar.google.com/scholar?hl=ru&as_sdt=0%2C5&q=jean-pierre+loh%C3%A9ac&btnG=) (PhD co-supervisor)
 
