@@ -18,17 +18,11 @@ avatar: https://vincentrunge.github.io/images/profile.png
 # Includes an icon in the footer for each username you enter
 footer-links:
   email: vincent.runge@univ-evry.fr
-  facebook:
-  flickr:
   github: vrunge
-  instagram:
-  linkedin:
-  pinterest:
-  rss: # just type anything here for a working RSS icon
-  twitter: # jekyllrb
-  stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
-  youtube: # channel/<your_long_string> or user/<user-name>
-  googleplus: # anything in your profile username that comes after plus.google.com/
+  linkedin: "//www.linkedin.com/in/vincent-runge-5b9350ab/?trk=hp-identity-name"
+  researchgate: "//www.researchgate.net/profile/Vincent_Runge2"
+  googlescholar: "//scholar.google.co.uk/citations?user=YzxaQlsAAAAJ&hl=fr"
+  arxiv: "//arxiv.org/find/all/1/au:+Runge%5fVincent/0/1/0/all/0/1"	
 
 
 # Enter your Disqus shortname (not your username) to enable commenting on posts
