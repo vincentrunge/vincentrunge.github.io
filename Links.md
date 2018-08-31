@@ -22,6 +22,11 @@ Terrence Tao. Known as the best living mathematician [blog](https://terrytao.wor
 Djalil Chafai. One of the best french blog on maths [blog](http://djalil.chafai.net/blog/)
 
 
+### <a name="boolsite"></a>math books
+
+I am a "bookavore" always looking for old interesting math books. The site ["abebooks.com"](https://www.abebooks.com/) is the perfect place to find cheap books.
+
+
 ### <a name="Calculus"></a>Calculus
 
 ["Wolfram Alpha"](http://www.wolframalpha.com/)
@@ -56,10 +61,6 @@ Math life
 http://www.ihp.fr/fr/calendar
 https://www.cirm-math.fr/
 https://www.mfo.de/
-
-Calculus
-
-http://www.wolframalpha.com/
 
 Films
 
