@@ -14,11 +14,15 @@ I am a Post-Doc in computational statistics *since May 2017* at the University o
 
 As an Applied Mathematician, I like to work at the interface of different fields. My current and past interests are 
 
-| **Statistics**  | **Optimization** | **Analysis** | **Mathematical Physics** |
-|---|---|---|---|
-|changepoint detection |Quadratic Programming | Complex analysis |Hele-Shaw problem |
-|Lasso regularization |Computational geometry | Univalent polynomials |Numerical analysis |
-|Logistic regression |Convex optimization |Control theory |PDE of fluid dynamics |
+
+
+**Statistics** : Changepoint detection, Lasso regularization, Logistic regression.
+
+**Optimization** : Convex optimization, Computational geometry, Quadratic and linear programming.
+
+**Analysis** : PDE, Control theory, Complex analysis, Univalent polynomials.
+
+**Mathematical Physics** : Fluid dynamics, Hele-Shaw problem, Numerical analysis.
 
 In particular, problems involving *optimization* are among my favorites. They are close to application and the guidline principle of my research. 
 
