@@ -22,24 +22,24 @@ arXiv. *Runge V. 2018*. [link](https://arxiv.org/abs/1703.08995)
 1. <u>Stokes--Leibenson problem for Hele-Shaw flow: a critical set in the space of contours</u>  
 Russian Journal of Mathematical Physics  
 *Demidov A.S. Lohéac J.-P. and Runge V. 2016*. 
-[pdf](./5.pdf) 
+[pdf](./Publications/5.pdf) 
 
 1. <u>Exact Real Trinomial Solutions to the Inner and Outer Hele--Shaw Problems</u>  
 Journal of Mathematical Fluid Mechanics  
 *Runge V. 2015*.
-[pdf](./4.pdf) 
+[pdf](./Publications/4.pdf) 
 
 1. <u>Optimal Control by Multipoles in the Hele-Shaw Problem</u>  
 Journal of Mathematical Fluid Mechanics  
 *Lokutsievskiy L. and Runge V. 2015*.
-[pdf](./3.pdf) 
+[pdf](./Publications/3.pdf) 
 
 1. <u>Attractors--Repellers in the Space of Contours in the Stokes--Leibenson Problem for Hele--Shaw Flows</u>  
 Journal of Mathematical Sciences  
 *Demidov A.S. and Lohéac J.-P. and Runge V. 2013*.
-[pdf](./2.pdf) 
+[pdf](./Publications/2.pdf) 
 
 1. <u>Problème de Cauchy pour lʼapproximation de Stokes–Leibenson dʼune cellule de Hele–Shaw en coin</u>  
 Comptes rendus - Mecanique  
 *Demidov A.S. and Lohéac J.-P. and Runge V. 2013*.
-[pdf](./1.pdf) 
+[pdf](./Publications/1.pdf) 
