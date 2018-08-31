@@ -8,9 +8,30 @@ permalink: /Links/
 An important part of my job consists in finding books, publications or blogs, helping me in my everyday work. Mathematical research is facilitated by a wide open access to research literature. This section gathers my favorite sources of information for math research and math "entertainment".
 
 
+### <a name="handbooks"></a>Handbooks of math functions
+
+["M. Abramowitz and I. A. Stegun"](http://people.math.sfu.ca/~cbm/aands/subj.htm)
+
+["NIST Digital Library"](http://dlmf.nist.gov/)
+
+
+### <a name="blogs"></a>Blogs
+
+Terrence Tao. Known as the best living mathematician [blog](https://terrytao.wordpress.com/)
+
+Djalil Chafai. One of the best french blog on maths [blog](http://djalil.chafai.net/blog/)
+
+
+### <a name="Calculus"></a>Calculus
+
+["Wolfram Alpha"](http://www.wolframalpha.com/)
+
+
 ### <a name="mathL"></a>Math leisure
 
-- A well-known french math journal ["image des maths"](http://images.math.cnrs.fr/) 
+- A well-known french math magazine ["image des maths"](http://images.math.cnrs.fr/) 
+
+- Scientific news on math/physics/biology and computer science ["Quanta magazine"](http://www.quantamagazine.org/)
  
 - An amazing russian site on [Chebyshev's mechanisms](http://www.tcheb.ru/) 
  
@@ -23,19 +44,7 @@ An important part of my job consists in finding books, publications or blogs, he
 
 ### <a name="inRussian"></a>in Russian
 
-http://www.mathnet.ru/index.phtml/?option_lang=rus
-
-### <a name="blogs"></a>Blogs
-
-Terrence Tao. Known as the best living mathematician [blog](https://terrytao.wordpress.com/)
-
-Djalil Chafai. One of the best french blog on maths [blog](http://djalil.chafai.net/blog/)
-
-### <a name="handbooks"></a>Handbooks of math functions
-
-http://people.math.sfu.ca/~cbm/aands/subj.htm
-
-http://dlmf.nist.gov/
+Open access to research papers ["mathnet"](http://www.mathnet.ru/index.phtml/?option_lang=rus)
 
 
 TO BE CONTINUED...

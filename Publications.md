@@ -43,3 +43,5 @@ Journal of Mathematical Sciences
 Comptes rendus - Mecanique  
 *Demidov A.S. and Lohéac J.-P. and Runge V. 2013*.
 [pdf](./Publications/1.pdf) 
+
+
