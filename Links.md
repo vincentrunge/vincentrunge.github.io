@@ -5,10 +5,7 @@ permalink: /Links/
 ---
 
 
-
-Mathematical activity is facilitated by a wide open access to research literature. An important part of my job consists in finding books, publications or blogs, helping to better understand my problems.
-
-This section gathers my favorite sources of information for math research and math "entertainment".
+An important part of my job consists in finding books, publications or blogs, helping me in my everyday work. Mathematical research is facilitated by a wide open access to research literature. This section gathers my favorite sources of information for math research and math "entertainment".
 
 
 ### <a name="mathL"></a>Math leisure
@@ -41,6 +38,10 @@ http://people.math.sfu.ca/~cbm/aands/subj.htm
 http://dlmf.nist.gov/
 
 
+TO BE CONTINUED...
+
+<!---
+
 Math life
 
 http://www.ihp.fr/fr/calendar
@@ -55,4 +56,4 @@ Films
 
 http://analysis-situs.math.cnrs.fr/#
 
-
+-->

@@ -7,12 +7,12 @@ permalink: /About/
 
 ## Current work
 
-I am a Postdoctoral Researcher in computational statistics *since May 2017* at the University of Evry (near Paris) in the laboratory [LaMME](http://www.math-evry.cnrs.fr/doku.php). My current research focuses on changepoint detection using pruned dynamic programming algorithm with application to genomics.
+I am a Post-Doc in computational statistics *since May 2017* at the University of Evry (near Paris) in the laboratory [LaMME](http://www.math-evry.cnrs.fr/doku.php). My current research is about changepoint detection using pruned dynamic programming algorithm with a focus on the multivariate case and application to genomics.
 
 
-## My interests
+## My math interests
 
-As an Applied Mathematician, I work at the interface of different fields. My current and past interests are 
+As an Applied Mathematician, I like to work at the interface of different fields. My current and past interests are 
 
 | **Statistics**  | **Optimization** | **Analysis** | **Mathematical Physics** |
 |---|---|---|---|
@@ -20,7 +20,7 @@ As an Applied Mathematician, I work at the interface of different fields. My cur
 |Lasso regularization |Computational geometry | Univalent polynomials |Numerical analysis |
 |Logistic regression |Convex optimization |Control theory |PDE of fluid dynamics |
 
-In particular, problems involving *optimization* are among my favorites. They are close to application and usefull in many branches of mathematics: Statistics, numerical analysis, control theory, mathematical physics...
+In particular, problems involving *optimization* are among my favorites. They are close to application and the guidline principle of my research. 
 
 
 ## Colleagues
