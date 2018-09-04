@@ -10,9 +10,9 @@ An important part of my job consists in finding books, publications or blogs, he
 
 ### <a name="handbooks"></a>Handbooks of math functions
 
-["M. Abramowitz and I. A. Stegun"](http://people.math.sfu.ca/~cbm/aands/subj.htm)
+[M. Abramowitz and I. A. Stegun](http://people.math.sfu.ca/~cbm/aands/subj.htm)
 
-["NIST Digital Library"](http://dlmf.nist.gov/)
+[NIST Digital Library](http://dlmf.nist.gov/)
 
 
 ### <a name="blogs"></a>Blogs
@@ -24,19 +24,19 @@ Djalil Chafai. One of the best french blog on maths [blog](http://djalil.chafai.
 
 ### <a name="boolsite"></a>math books
 
-I am a "bookavore" always looking for old interesting math books. The site ["abebooks.com"](https://www.abebooks.com/) is the perfect place to find cheap books.
+I am a "bookavore" always looking for old interesting math books. The site [abebooks.com](https://www.abebooks.com/) is the perfect place to find cheap books.
 
 
 ### <a name="Calculus"></a>Calculus
 
-["Wolfram Alpha"](http://www.wolframalpha.com/)
+[Wolfram Alpha](http://www.wolframalpha.com/)
 
 
 ### <a name="mathL"></a>Math leisure
 
-- A well-known french math magazine ["image des maths"](http://images.math.cnrs.fr/) 
+- A well-known french math magazine [image des maths](http://images.math.cnrs.fr/) 
 
-- Scientific news on math/physics/biology and computer science ["Quanta magazine"](http://www.quantamagazine.org/)
+- Scientific news on math/physics/biology and computer science [Quanta magazine](http://www.quantamagazine.org/)
  
 - An amazing russian site on [Chebyshev's mechanisms](http://www.tcheb.ru/) 
  
@@ -49,7 +49,7 @@ I am a "bookavore" always looking for old interesting math books. The site ["abe
 
 ### <a name="inRussian"></a>in Russian
 
-Open access to research papers ["mathnet"](http://www.mathnet.ru/index.phtml/?option_lang=rus)
+Open access to research papers [mathnet](http://www.mathnet.ru/index.phtml/?option_lang=rus)
 
 
 TO BE CONTINUED...
