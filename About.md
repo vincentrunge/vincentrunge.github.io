@@ -9,7 +9,7 @@ permalink: /About/
 
 I am a Post-Doc in computational statistics *since May 2017* at the University of Evry (near Paris) in the laboratory [LaMME](http://www.math-evry.cnrs.fr/doku.php). My current research is about *changepoint detection* using pruned dynamic programming algorithm with a focus on the multivariate framework and application to genomics.
 
-I am one of the co-organizer of the monthly Evry Stat-math seminar [MathForGenomics](https://mathforgenomics.github.io/)
+I am one of the co-organizers of the monthly Evry stat-math seminar [MathForGenomics](https://mathforgenomics.github.io/)
 
 
 ## My math interests
