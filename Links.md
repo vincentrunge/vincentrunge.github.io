@@ -10,6 +10,8 @@ An important part of my job consists in finding books, publications or blogs, he
 
 ### <a name="handbooks"></a>Handbooks of math functions
 
+Two essential sources of information when one needs very specific results on special functions.
+
 [M. Abramowitz and I. A. Stegun](http://people.math.sfu.ca/~cbm/aands/subj.htm)
 
 [NIST Digital Library](http://dlmf.nist.gov/)
@@ -29,7 +31,7 @@ I am a "bookavore" always looking for old interesting math books. The site [abeb
 
 ### <a name="Calculus"></a>Calculus
 
-[Wolfram Alpha](http://www.wolframalpha.com/)
+You need to compute a primitive function and do not have access to Mathematica or Maple... [Wolfram Alpha](http://www.wolframalpha.com/) is THE solution to our problem.
 
 
 ### <a name="mathL"></a>Math leisure
@@ -44,7 +46,11 @@ I am a "bookavore" always looking for old interesting math books. The site [abeb
 
 ### <a name="Youtube"></a>Youtube channel
   
-- A very good french channel [Deux (deux ?) minutes pour...](https://www.youtube.com/watch?v=uazPP0ny3XQ&list=PLlrxd3f47yy2mvLivlFU1a9ukoG8-Dkvs)
+- A very good french channel [Deux (deux ?) minutes pour...](https://www.youtube.com/watch?v=uazPP0ny3XQ&list=PLlrxd3f47yy2mvLivlFU1a9ukoG8-Dkvs). Both high level and very clear !
+
+- A popular channel in english, [Mathologer](https://www.youtube.com/channel/UC1_uAIS3r8Vu6JjXWvastJ)
+
+- Lecture on maths from the EPFL [Wandida](https://www.youtube.com/user/TheWandida/playlists)
 
 
 ### <a name="inRussian"></a>in Russian
