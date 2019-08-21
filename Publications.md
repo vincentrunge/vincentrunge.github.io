@@ -4,7 +4,7 @@ title: Publications
 permalink: /Publications/
 ---
 
-This winter 2019, I'm working on a future JSS (journal of statistical software) paper and its  [code](https://github.com/vrunge/gfpop) to solve a changepoint detection problem with graph constraints.
+Paper in preparation for the journal of statistical software to solve the changepoint detection problem with graph constraints (constraints on successive means). The [code](https://github.com/vrunge/gfpop) is available on github.
 
 ## Preprints 
 
