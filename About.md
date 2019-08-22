@@ -7,7 +7,7 @@ permalink: /About/
 
 ## Current work
 
-Assistant Professor in computational statistics *since September 2019* at the University of Evry (near Paris) in the laboratory [LaMME](http://www.math-evry.cnrs.fr/doku.php). My current research is about *changepoint detection* using pruned dynamic programming algorithm with a focus on the multivariate framework and application to genomics.
+Assistant Professor in statistics *since September 2019* at the University of Evry (near Paris) in the laboratory [LaMME](http://www.math-evry.cnrs.fr/doku.php). My current research is about *changepoint detection* using pruned dynamic programming algorithm with a focus on the multivariate framework and application to genomics.
 
 I am one of the co-organizers of the monthly Evry stat-math seminar [MathForGenomics](https://mathforgenomics.github.io/)
 
