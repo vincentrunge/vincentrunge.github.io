@@ -5,11 +5,14 @@ permalink: /Enseignements/
 ---
 
 
-## Cours L2 Bio. Statitiques. 
+### Cours L2 Bio. Statitiques
+
 
 
 
 ---
 
-## Cours L3 Bio. Programmation R. 
+### Cours L3 Bio. Programmation R
+
+
 
