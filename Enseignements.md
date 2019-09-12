@@ -7,7 +7,13 @@ permalink: /Enseignements/
 
 ### Cours L2 Bio. Statitiques
 
-Slides. Introduction + Statistiques descriptives + estimateurs + tests statistiques
+Introduction + Statistiques descriptives
+[Télécharger ici les Slides](./Publications/MSV31_cours.pdf) 
+
+
+
+
+
 
 
 ---
