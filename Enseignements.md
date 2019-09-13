@@ -7,8 +7,10 @@ permalink: /Enseignements/
 
 ### Cours L2 Bio. Statitiques
 
-Introduction + Statistiques descriptives
-[Télécharger ici les Slides](./Publications/MSV31_cours.pdf) 
+1. Introduction + Statistiques descriptives
+
+- [Télécharger ici les Slides](./Publications/MSV31_cours.pdf)
+- Programme de l'examen et compléments [Télécharger ici](./Publications/Stat_descriptives.pdf) 
 
 
 
