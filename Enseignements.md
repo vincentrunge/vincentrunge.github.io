@@ -11,13 +11,19 @@ permalink: /Enseignements/
 
 - [Télécharger ici les Slides](./Publications/MSV31_cours.pdf)
 
-*2) COMPLEMENTS sur le cours*
+
+*2) LES TDs*
+
+- [Feuille 1](./Publications/MSV31_TD1.pdf)
+
+
+*3)  PROGRAMME des évaluations et COMPLEMENTS sur le cours*
 
 - **Statistiques descriptives**. Programme de l'examen et compléments [Télécharger ici](./Publications/Stat_descriptives.pdf) 
 - **Estimateurs et estimations** A venir
 - **Tests statistiques** A venir
 
-*3) PROBABILITES pour les statistiques*
+*4) PROBABILITES pour les statistiques*
 
 - **Généralités**. [Télécharger ici](./Publications/Rappels_probabilites.pdf) 
 - **Satellites de la loi normale**. A venir
