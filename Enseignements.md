@@ -7,7 +7,7 @@ permalink: /Enseignements/
 
 ### Cours L2 Bio. Statitiques
 
-*1) SLIDES DE COURS*. Introduction + Statistiques descriptives
+*1) SLIDES DE COURS*. Introduction + Statistiques descriptives + Estimation ponctuelle
 
 - [Télécharger ici les Slides](./Publications/MSV31_cours.pdf)
 
@@ -15,7 +15,7 @@ permalink: /Enseignements/
 *2) LES TDs*
 
 - [Feuille 1](./Publications/MSV31_TD1.pdf)
-
+- [Feuille 2](./Publications/MSV31_TD1.pdf)
 
 *3)  PROGRAMME des évaluations et COMPLEMENTS sur le cours*
 
