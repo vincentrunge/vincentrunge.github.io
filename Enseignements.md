@@ -20,7 +20,7 @@ permalink: /Enseignements/
 *3)  PROGRAMME des évaluations et COMPLEMENTS sur le cours*
 
 - **Statistiques descriptives**. [Télécharger ici](./Publications/Stat_descriptives.pdf) 
-- **Estimateurs et estimations**. A venir
+- **Estimateurs et estimations**. [Télécharger ici une version provisoire](./Publications/Estimation.pdf)
 - **Tests statistiques**. A venir
 
 *4) PROBABILITES pour les statistiques*
