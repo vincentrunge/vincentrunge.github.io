@@ -14,8 +14,9 @@ permalink: /Enseignements/
 
 *2) LES TDs*
 
-- [Feuille 1](./Publications/MSV31_TD1.pdf)
-- [Feuille 2](./Publications/MSV31_TD1.pdf)
+- [TD1 & TD2](./Publications/MSV31_TD1.pdf)
+- [TD3](./Publications/MSV31_TD3.pdf)
+- [TD4](./Publications/MSV31_TD4.pdf)
 
 *3)  PROGRAMME des évaluations et COMPLEMENTS sur le cours*
 
