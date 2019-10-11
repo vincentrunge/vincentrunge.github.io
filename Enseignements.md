@@ -7,7 +7,7 @@ permalink: /Enseignements/
 
 ### Cours L2 Bio. Statitiques
 
-*1) SLIDES DE COURS*. Introduction + Statistiques descriptives + Estimation ponctuelle
+*1) SLIDES DE COURS*.  Introduction + Statistiques descriptives + Estimation ponctuelle + Estiamation par intervalle
 
 - [Télécharger ici les Slides](./Publications/MSV31_cours.pdf)
 
