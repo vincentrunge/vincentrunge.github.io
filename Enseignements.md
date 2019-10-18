@@ -18,6 +18,7 @@ permalink: /Enseignements/
 - [TD3](./Publications/MSV31_TD3.pdf)
 - [TD4](./Publications/MSV31_TD4.pdf)
 - [TD5](./Publications/MSV31_TD5.pdf)
+- [TD6](./Publications/MSV31_TD6.pdf)
 
 *3)  PROGRAMME des évaluations et COMPLEMENTS sur le cours*
 
