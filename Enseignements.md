@@ -32,6 +32,10 @@ permalink: /Enseignements/
 - **Satellites de la loi normale**. A venir
 
 
+[TELECHARGER résultats du DS](./Publications/resultats.ods)
+
+
+
 ---
 
 ### Cours L3 Bio. Programmation R
