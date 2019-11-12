@@ -33,7 +33,8 @@ permalink: /Enseignements/
 
 
 [TELECHARGER résultats du DS](./Publications/resultats.ods)
-
+[TELECHARGER scans part1 de A à L](./Publications/Ab_to_Lo.rar)
+[TELECHARGER scans part2 de L à Y](./Publications/Lu_to_Y.rar)
 
 
 ---
