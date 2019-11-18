@@ -19,6 +19,9 @@ permalink: /Enseignements/
 - [TD4](./Publications/MSV31_TD4.pdf)
 - [TD5](./Publications/MSV31_TD5.pdf)
 - [TD6](./Publications/MSV31_TD6.pdf)
+- [TD7](./Publications/MSV31_TD7.pdf)
+
+Les tables statistiques sont disponibles [ici](./Publications/tables_statistiques.pdf)
 
 *3)  PROGRAMME des évaluations et COMPLEMENTS sur le cours*
 
