@@ -47,6 +47,7 @@ Les tables statistiques sont disponibles [ici](./Publications/tables_statistique
 ### TP M1 MINT. Machine Learning
 
 [TP1. Python introduction](./Publications/TP1_introduction_student2019.ipynb)
+[TP1. Python statistiques descriptives](./Publications/TP1_stat_descriptives_student2019.ipynb)
 
 
 
