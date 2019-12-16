@@ -44,7 +44,9 @@ Les tables statistiques sont disponibles [ici](./Publications/tables_statistique
 
 ---
 
-### Cours L3 Bio. Programmation R
+### TP M1 MINT. Machine Learning
+
+[TP1. Python introduction](./Publications/TP1_introduction_student2019.ipynb)
 
 
 
