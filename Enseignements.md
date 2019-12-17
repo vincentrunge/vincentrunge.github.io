@@ -48,7 +48,7 @@ Les tables statistiques sont disponibles [ici](./Publications/tables_statistique
 
 - [TP1. Python introduction](./Publications/TP1_introduction_student2019.ipynb)
 - [TP1. Python statistiques descriptives](./Publications/TP1_stat_descriptives_student2019.ipynb)
-- [TP1. Python Naive Bayes](./Publications/TP1_NaiveBayes.ipynb)
+- [TP1. Python Naive Bayes](./Publications/TP1_naiveBayes.ipynb)
 - [TP1. Python LDA QDA](./Publications/TP1_LDAQDA.ipynb)
 
 
