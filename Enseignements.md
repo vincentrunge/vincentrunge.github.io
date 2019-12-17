@@ -51,5 +51,7 @@ Les tables statistiques sont disponibles [ici](./Publications/tables_statistique
 - [TP1. Python Naive Bayes](./Publications/TP1_naiveBayes.ipynb)
 - [TP1. Python LDA QDA](./Publications/TP1_LDAQDA.ipynb)
 
+[iris.csv](./Publications/iris.csv)
+
 
 
