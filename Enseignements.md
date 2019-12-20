@@ -28,7 +28,7 @@ Les tables statistiques sont disponibles [ici](./Publications/tables_statistique
 
 - **Statistiques descriptives**. [Télécharger ici](./Publications/Stat_descriptives.pdf) 
 - **Estimateurs et estimations**. [Télécharger ici](./Publications/Estimation.pdf)
-- **Tests statistiques**. A venir
+- **Tests statistiques**. [Télécharger ici](./Publications/Tests.pdf)
 
 *4) PROBABILITES pour les statistiques*
 
