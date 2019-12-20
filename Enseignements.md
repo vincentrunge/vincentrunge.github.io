@@ -33,7 +33,7 @@ Les tables statistiques sont disponibles [ici](./Publications/tables_statistique
 *4) PROBABILITES pour les statistiques*
 
 - **Généralités**. [Télécharger ici](./Publications/Rappels_probabilites.pdf) 
-- **Satellites de la loi normale**. A venir
+
 
 *5) RESULTATS évaluations*
 
