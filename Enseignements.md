@@ -55,8 +55,6 @@ Les tables statistiques sont disponibles [ici](./Publications/tables_statistique
 
 - [TP2. Python vowel.LDA_QDA_KNN_tree](./Publications/TP2_Vowel_Etudiant.ipynb)
 
-[vowel.train.csv](./Publications/vowel.train.csv)
-
-[vowel.test.csv](./Publications/vowel.test.csv)
+[vowel.train.csv](./Publications/vowel.train.csv) et [vowel.test.csv](./Publications/vowel.test.csv)
 
 
