@@ -8,8 +8,7 @@ permalink: /Publications/
 ## Preprints 
 
 * <u>gfpop: an R Package for Univariate Graph-Constrained Change-point Detection</u>  
-arXiv. *Vincent Runge, Toby Dylan Hocking, Gaetano Romano, Fatemeh Afghah, Paul Fearnhead, Guillem Rigaill 2020*. [link](https://arxiv.org/abs/2002.03646)
-The [code](https://github.com/vrunge/gfpop) is available on github.
+arXiv. *Vincent Runge, Toby Dylan Hocking, Gaetano Romano, Fatemeh Afghah, Paul Fearnhead, Guillem Rigaill 2020*. [link](https://arxiv.org/abs/2002.03646). (The [R package](https://github.com/vrunge/gfpop) is on github)
 
 * <u>Is a Finite Intersection of Balls Covered by a Finite Union of Balls in Euclidean Spaces ?</u>  
 arXiv. *Runge V. 2018*. [link](https://arxiv.org/abs/1804.06699)
