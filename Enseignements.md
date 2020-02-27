@@ -58,3 +58,9 @@ Les tables statistiques sont disponibles [ici](./Publications/tables_statistique
 [vowel.train.csv](./Publications/vowel.train.csv) et [vowel.test.csv](./Publications/vowel.test.csv)
 
 
+
+- [TP4. SVM Iris](./Publications/TP4_SVM_iris.ipynb)
+
+- [le projet à rendre](./Publications/Projet_wifi_localization.ipynb) et les [données](./Publications/wifi_localization.txt)
+
+
