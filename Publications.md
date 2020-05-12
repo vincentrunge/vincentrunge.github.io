@@ -7,6 +7,9 @@ permalink: /Publications/
 
 ## Preprints 
 
+* <u>Detecting Abrupt Changes in the Presence of Local Fluctuations and Autocorrelated Noise</u>  
+arXiv. *Gaetano Romano, Guillem Rigaill, Vincent Runge, Paul Fearnhead 2020*. [link](https://arxiv.org/abs/2005.01379). (The [R package](https://github.com/gtromano/DeCAFS) is on github)
+
 * <u>gfpop: an R Package for Univariate Graph-Constrained Change-point Detection</u>  
 arXiv. *Vincent Runge, Toby Dylan Hocking, Gaetano Romano, Fatemeh Afghah, Paul Fearnhead, Guillem Rigaill 2020*. [link](https://arxiv.org/abs/2002.03646). (The [R package](https://github.com/vrunge/gfpop) is on github)
 
