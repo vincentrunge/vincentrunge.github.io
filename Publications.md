@@ -13,9 +13,6 @@ arXiv. *Gaetano Romano, Guillem Rigaill, Vincent Runge, Paul Fearnhead 2020*. [l
 * <u>gfpop: an R Package for Univariate Graph-Constrained Change-point Detection</u>  
 arXiv. *Vincent Runge, Toby Dylan Hocking, Gaetano Romano, Fatemeh Afghah, Paul Fearnhead, Guillem Rigaill 2020*. [link](https://arxiv.org/abs/2002.03646). (The [R package](https://github.com/vrunge/gfpop) is on github)
 
-* <u>Is a Finite Intersection of Balls Covered by a Finite Union of Balls in Euclidean Spaces ?</u>  
-arXiv. *Runge V. 2018*. [link](https://arxiv.org/abs/1804.06699)
-
 * <u>On the Limit Imbalanced Logistic Regression by Binary Predictors</u>  
 arXiv. *Runge V. 2018*. [link](https://arxiv.org/abs/1703.08995)
 
@@ -23,6 +20,9 @@ arXiv. *Runge V. 2018*. [link](https://arxiv.org/abs/1703.08995)
 
 
 ## Publications
+
+* <u>Is a Finite Intersection of Balls Covered by a Finite Union of Balls in Euclidean Spaces ?</u>  
+arXiv. *Runge V. 2018*. [preprint](https://arxiv.org/abs/1804.06699) and [paper](https://link.springer.com/article/10.1007/s10957-020-01762-2)
 
 * <u>Stokes--Leibenson problem for Hele-Shaw flow: a critical set in the space of contours</u>  
 Russian Journal of Mathematical Physics  
