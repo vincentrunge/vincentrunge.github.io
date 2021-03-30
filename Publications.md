@@ -8,10 +8,13 @@ permalink: /Publications/
 ## Preprints 
 
 * <u>Detecting Abrupt Changes in the Presence of Local Fluctuations and Autocorrelated Noise</u>  
-arXiv. *Gaetano Romano, Guillem Rigaill, Vincent Runge, Paul Fearnhead 2020*. [link](https://arxiv.org/abs/2005.01379). (The [R package](https://github.com/gtromano/DeCAFS) is on github)
+arXiv. *Gaetano Romano, Guillem Rigaill, Vincent Runge, Paul Fearnhead 2020*. [link](https://arxiv.org/abs/2005.01379). (The [R package](https://github.com/gtromano/DeCAFS) is on github) (paper accepted in the Journal of the American Statistical Association. JASA)
+
+* <u>Change-in-Slope Optimal Partitioning Algorithm in a Finite-Size Parameter Space</u>  
+arXiv. *Vincent Runge, Marco Pascucci, Nicolas Deschamps de Boishebert 2020*. [link](https://arxiv.org/abs/2012.11573). (The [R package](https://github.com/vrunge/slopeOP) is on github + CRAN)
 
 * <u>gfpop: an R Package for Univariate Graph-Constrained Change-point Detection</u>  
-arXiv. *Vincent Runge, Toby Dylan Hocking, Gaetano Romano, Fatemeh Afghah, Paul Fearnhead, Guillem Rigaill 2020*. [link](https://arxiv.org/abs/2002.03646). (The [R package](https://github.com/vrunge/gfpop) is on github)
+arXiv. *Vincent Runge, Toby Dylan Hocking, Gaetano Romano, Fatemeh Afghah, Paul Fearnhead, Guillem Rigaill 2020*. [link](https://arxiv.org/abs/2002.03646). (The [R package](https://github.com/vrunge/gfpop) is on github + CRAN)
 
 * <u>On the Limit Imbalanced Logistic Regression by Binary Predictors</u>  
 arXiv. *Runge V. 2018*. [link](https://arxiv.org/abs/1703.08995)
