@@ -25,7 +25,7 @@ arXiv. *Runge V. 2018*. [link](https://arxiv.org/abs/1703.08995)
 ## Publications
 
 * <u>Is a Finite Intersection of Balls Covered by a Finite Union of Balls in Euclidean Spaces ?</u>  
-arXiv. *Runge V.*. [preprint 2018](https://arxiv.org/abs/1804.06699) and [paper 2020](https://link.springer.com/article/10.1007/s10957-020-01762-2)
+arXiv. *Runge V.* [preprint 2018](https://arxiv.org/abs/1804.06699) and [paper 2020](https://link.springer.com/article/10.1007/s10957-020-01762-2)
 
 * <u>Stokes--Leibenson problem for Hele-Shaw flow: a critical set in the space of contours</u>  
 Russian Journal of Mathematical Physics  
