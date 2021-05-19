@@ -7,9 +7,6 @@ permalink: /Publications/
 
 ## Preprints 
 
-* <u>Detecting Abrupt Changes in the Presence of Local Fluctuations and Autocorrelated Noise</u>  
-arXiv. *Gaetano Romano, Guillem Rigaill, Vincent Runge, Paul Fearnhead 2020*. [link](https://arxiv.org/abs/2005.01379). (The [R package](https://github.com/gtromano/DeCAFS) is on github) (paper accepted in the Journal of the American Statistical Association. JASA)
-
 * <u>Change-in-Slope Optimal Partitioning Algorithm in a Finite-Size Parameter Space</u>  
 arXiv. *Vincent Runge, Marco Pascucci, Nicolas Deschamps de Boishebert 2020*. [link](https://arxiv.org/abs/2012.11573). (The [R package](https://github.com/vrunge/slopeOP) is on github + CRAN)
 
@@ -23,6 +20,10 @@ arXiv. *Runge V. 2018*. [link](https://arxiv.org/abs/1703.08995)
 
 
 ## Publications
+
+
+* <u>Detecting Abrupt Changes in the Presence of Local Fluctuations and Autocorrelated Noise</u>  
+ *Gaetano Romano, Guillem Rigaill, Vincent Runge, Paul Fearnhead 2021. [link](https://www.tandfonline.com/doi/full/10.1080/01621459.2021.1909598). (The [R package](https://github.com/gtromano/DeCAFS) is on github).  Journal of the American Statistical Association
 
 * <u>Is a Finite Intersection of Balls Covered by a Finite Union of Balls in Euclidean Spaces ?</u>  
 arXiv. *Runge V.* [preprint 2018](https://arxiv.org/abs/1804.06699) and [paper 2020](https://link.springer.com/article/10.1007/s10957-020-01762-2)
