@@ -25,6 +25,7 @@ arXiv. *Runge V. 2018*. [link](https://arxiv.org/abs/1703.08995)
 * <u>Detecting Abrupt Changes in the Presence of Local Fluctuations and Autocorrelated Noise</u>  
  Journal of the American Statistical Association.
  [link](https://www.tandfonline.com/doi/full/10.1080/01621459.2021.1909598). (The [R package](https://github.com/gtromano/DeCAFS) is on github).
+ 
  *Gaetano Romano, Guillem Rigaill, Vincent Runge, Paul Fearnhead* 2021.
  
 * <u>Is a Finite Intersection of Balls Covered by a Finite Union of Balls in Euclidean Spaces ?</u>  
