@@ -1,5 +1,5 @@
 
-Enseignement section (to be updated)
+### Enseignement section (to be updated)
 
 
 *1) SLIDES DE COURS*.  Introduction + Statistiques descriptives + Estimation ponctuelle + Estiamation par intervalle + tests statistiques
