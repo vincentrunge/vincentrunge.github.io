@@ -17,6 +17,8 @@ Assistant Professor in statistics *since September 2019* at the University of Ev
 
 I am one of the co-organizers of the monthly Evry stat-math seminar [MathForGenomics](https://mathforgenomics.github.io/)
 
+ - PhD student (co-director with Guillem Rigaill) : Liudmila Pishchagina (working on multivariate extensions of FPOP algorithm)
+
 
 ## My math interests
 
