@@ -15,16 +15,30 @@ The Paris-Saclay Change-Point workshop is a **2-day meeting** (January 16th and 
 
 [More information here](https://www.universite-paris-saclay.fr/en/education/master/mathematics-and-applications/m2-data-science-health-insurance-and-finance)
 
+## Séminaire scientifique
+
+I am the initiator and one of the co-organizers of the Evry stat-math seminar [MathForGenomics](https://mathforgenomics.github.io/)
+
+## PhD student
+
+Co-director with Guillem Rigaill: Liudmila Pishchagina (working on multivariate extensions of FPOP algorithm) 2021-2024
+
+
+## Recent presentations to conferences and workshops
+
+- 2022 December (Brighton) StateScale meeting
+- 2022 July (London) IMS
+- 2021 March (Northern Arizona Univeristy. USA). Research seminar online
+- 2020 Septebmer (Paris) Séminaire de Statistiques MAP5
+- 2019 December (London) CMStatistics
+- 2019 November (Paris) Paris-Lancaster change-points workshop
+
+
+
 ## Current work
 
 Assistant Professor in statistics *since September 2019* at the University of Evry (near Paris) in the laboratory [LaMME](http://www.math-evry.cnrs.fr/doku.php). My current research is about *changepoint detection* using pruned dynamic programming algorithm with a focus on the multivariate framework and application to genomics.
 
-I am one of the co-organizers of the monthly Evry stat-math seminar [MathForGenomics](https://mathforgenomics.github.io/)
-
- - PhD student (co-director with Guillem Rigaill) : Liudmila Pishchagina (working on multivariate extensions of FPOP algorithm)
-
-
-## My math interests
 
 As an Applied Mathematician, I like to work at the interface of different fields. My current and past interests are 
 
@@ -37,4 +51,5 @@ As an Applied Mathematician, I like to work at the interface of different fields
 **Mathematical Physics** : Fluid dynamics, Hele-Shaw problem, Numerical analysis.
 
 In particular, problems involving *optimization* are among my favorites. They are close to application and the guidline principle of my research. 
+
 
