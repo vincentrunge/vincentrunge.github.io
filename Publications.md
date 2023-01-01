@@ -4,10 +4,9 @@ title: Publications
 permalink: /Publications/
 ---
 
-* *(In preparation)* <u>Efficient Pruning Rules For Optimal Partitioning Algorithms in Two-Dimensional Parameter Space.</u> *Vincent Runge, Antonina Bondarchuk* 2023
+* *(In preparation)* <u>Efficient Pruning Rules For Optimal Partitioning Algorithms in Two-Dimensional Parameter Space.</u> *Vincent Runge, Antonina Bondarchuk 2023*
 
-* *(In preparation)* <u>Geometric-Based Pruning Rules For Change-Point Detection in Multivariate Time-Series.</u>
-* Liudmila Pishchagina, Guillem Rigaill, Vincent Runge.* 2023
+* *(In preparation)* <u>Geometric-Based Pruning Rules For Change-Point Detection in Multivariate Time-Series.</u> *Liudmila Pishchagina, Guillem Rigaill, Vincent Runge. 2023*
 
 * <u>Detecting Abrupt Changes in the Presence of Local Fluctuations and Autocorrelated Noise</u>  
  Journal of the American Statistical Association.
