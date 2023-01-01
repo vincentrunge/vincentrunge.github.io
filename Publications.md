@@ -10,8 +10,8 @@ permalink: /Publications/
  *Gaetano Romano, Guillem Rigaill, Vincent Runge, Paul Fearnhead. 2021.*
  
 * <u>gfpop: an R Package for Univariate Graph-Constrained Change-point Detection</u>  
-arXiv. *Vincent Runge, Toby Dylan Hocking, Gaetano Romano, Fatemeh Afghah, Paul Fearnhead, Guillem Rigaill 2020*. [link](https://arxiv.org/abs/2002.03646). (The [R package](https://github.com/vrunge/gfpop) is on github + CRAN) To be published in JSS
- 
+arXiv. *Vincent Runge, Toby Dylan Hocking, Gaetano Romano, Fatemeh Afghah, Paul Fearnhead, Guillem Rigaill 2020*. [link](https://arxiv.org/abs/2002.03646). (The [R package](https://github.com/vrunge/gfpop) is on github + CRAN) Accepted in JSS.
+
 * <u>Exponential Integral Solutions for Fixation Time in Wright-Fisher Model With Selection</u>  
 arXiv. *Runge V., Liehrmann A., Spinga P. 2022*. [link](https://arxiv.org/abs/2205.06480)
  
