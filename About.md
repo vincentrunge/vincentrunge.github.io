@@ -4,14 +4,22 @@ title: About
 permalink: /About/
 ---
 
-## Co-organizer of the Change-Point Paris-Saclay conference (January 2023)
+## Change-Point Paris-Saclay conference (January 2023)
+
+Co-organizer with [Charles Truong](https://charles.doffy.net)
 
 The Paris-Saclay Change-Point workshop is a **2-day meeting** (January 16th and 17th 2023) dedicated to **theoretical and applied methods for solving change-point detection problems**. The primary goal of the workshop consists in fostering new interactions within the European community of change-point researchers. This event is **free of charge** (no registration fee) and open to anyone willing to contribute to the development of the field (M2 students, PhD, young and senior researchers).
 
 [Website of the Paris-Saclay Changepoint Workshop](https://parissaclaychangepoint.github.io)
 
+Procceedings of the conference to be published with [ESAIM](https://www.esaim-proc.org)  
+Articles are available in [Open Review](https://openreview.net/group?id=PSCP%2F2023%2FWorkshop)
 
-## Head of the Paris-Saclay M2 "Data Science: health insurance and finance"
+
+## Paris-Saclay M2 "Data Science: health insurance and finance"
+
+Head of the Master 2 since September 2022. 
+Co-director with Agathe Guilloux (2020-2022)
 
 [More information here](https://www.universite-paris-saclay.fr/en/education/master/mathematics-and-applications/m2-data-science-health-insurance-and-finance)
 
