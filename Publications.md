@@ -4,6 +4,11 @@ title: Publications
 permalink: /Publications/
 ---
 
+* *(In preparation)* <u>Efficient Pruning Rules For Optimal Partitioning Algorithms in Two-Dimensional Parameter Space.</u> *Vincent Runge, Antonina Bondarchuk* 2023
+
+* *(In preparation)* <u>Geometric-Based Pruning Rules For Change-Point Detection in Multivariate Time-Series.</u>
+* Liudmila Pishchagina, Guillem Rigaill, Vincent Runge.* 2023
+
 * <u>Detecting Abrupt Changes in the Presence of Local Fluctuations and Autocorrelated Noise</u>  
  Journal of the American Statistical Association.
  [link](https://www.tandfonline.com/doi/full/10.1080/01621459.2021.1909598). (The [R package](https://github.com/gtromano/DeCAFS) is on github).  
