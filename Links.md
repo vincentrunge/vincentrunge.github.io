@@ -13,7 +13,7 @@ An important part of my job consists in finding books, publications or blogs, he
 
 ![](https://github.com/vincentrunge/vincentrunge.github.io/blob/master/images/recreation.png)
 
-![](https://github.com/vincentrunge/vincentrunge.github.io/blob/master/images/recreation.svg)
+![](https://raw.github.com/vincentrunge/vincentrunge.github.io/blob/master/images/recreation.svg)
 
 
 ![Book logo](/vincentrunge.github.io/blob/master/images/recreation.svg)
