@@ -20,6 +20,8 @@ An important part of my job consists in finding books, publications or blogs, he
  
 - [Imaginary](https://imaginary.org/) is a site dedicated to interactive mathematics. 
 
+- la série Arte [Voyage au pays des maths](https://www.youtube.com/watch?v=wS1Tsj_fl5o&list=PLCwXWOyIR22veT31gK5JwmqxuVc0Uoy8a)
+
 ### <a name="Youtube"></a>Youtube channel
   
 - pedagogy 2.0 with amazing animations! math + entertainment: [3blue 1brown](https://www.youtube.com/@3blue1brown)
