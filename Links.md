@@ -33,13 +33,13 @@ An important part of my job consists in finding books, publications or blogs, he
 
 - The best channel to learn university-level mathematics: [The Bright Side of Mathematics](https://www.youtube.com/@brightsideofmaths)
 
-- A popular channel with accessible explanations of hard and beautiful maths: [Mathologer](https://www.youtube.com/channel/UC1_uAIS3r8Vu6JjXWvastJ)
+- A popular channel with accessible explanations of hard and beautiful maths: [Mathologer](https://www.youtube.com/@Mathologer)
 
 - solving problems with [Dr. Peyam](https://www.youtube.com/@drpeyam)
 
 - mathematical marathon and maths for fun with [black pen red pen](https://www.youtube.com/@blackpenredpen)
  
-- A very good french channel [Deux (deux ?) minutes pour...](https://www.youtube.com/watch?v=uazPP0ny3XQ&list=PLlrxd3f47yy2mvLivlFU1a9ukoG8-Dkvs)
+- math channel in French [Deux (deux ?) minutes pour...](https://www.youtube.com/watch?v=vpmlGMZSpvQ&list=PLlrxd3f47yy2mvLivlFU1a9ukoG8-Dkvs)
 
 - Lecture on maths from the EPFL [Wandida](https://www.youtube.com/user/TheWandida/playlists)
 
