@@ -15,11 +15,7 @@ An important part of my job consists in finding books, publications or blogs, he
 
 ![](https://raw.github.com/vincentrunge/vincentrunge.github.io/blob/master/images/recreation.svg)
 
-
-![Book logo](/vincentrunge.github.io/blob/master/images/recreation.svg)
-
-![Book logo](/vincentrunge.github.io/blob/master/images/recreation.png)
-
+![Alt text](vincentrunge.github.io/blob/master/images/recreation/png?raw=true "Title")
 
 
 ### <a name="mathL"></a>Math leisure
