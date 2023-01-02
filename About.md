@@ -23,7 +23,7 @@ Head of the Master 2 since September 2022.
 Co-director with Agathe Guilloux (2020-2022)
 
 
-**2) Séminaire scientifique *Math For genomics* **
+**2) Séminaire scientifique *Math For genomics***
 
 I am the initiator and one of the co-organizers of the Evry stat-math seminar [MathForGenomics](https://mathforgenomics.github.io/)
 
