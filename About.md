@@ -20,6 +20,7 @@ Articles are available in [Open Review](https://openreview.net/group?id=PSCP%2F2
 **1) Paris-Saclay M2 "Data Science: health insurance and finance"** [More information here](https://www.universite-paris-saclay.fr/en/education/master/mathematics-and-applications/m2-data-science-health-insurance-and-finance)
 
 Head of the Master 2 since September 2022. 
+
 Co-director with Agathe Guilloux (2020-2022)
 
 
