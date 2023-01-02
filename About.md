@@ -30,7 +30,7 @@ I am the initiator and one of the co-organizers of the Evry stat-math seminar [M
 **3) Student supervision**
 
 + PhD student: Liudmila Pishchagina (working on multivariate extensions of FPOP algorithm) 2021-2024 (Co-director with Guillem Rigaill)
-+ 
+
 + supervised about 10 internships (level L2 to M2) on change-point detection problems or problems related to genomics (Wright-Fisher model)
 
 
