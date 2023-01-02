@@ -9,6 +9,7 @@ An important part of my job consists in finding books, publications or blogs, he
 
 <img src="https://github.com/vincentrunge/vincentrunge.github.io/blob/master/images/recreation.png" width="400">
 
+![]([https://github.com/vincentrunge/vincentrunge.github.io/blob/master/images/recreation.png =x400)
 
 ### <a name="mathL"></a>Math leisure
 
