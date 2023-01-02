@@ -7,6 +7,8 @@ permalink: /Links/
 
 An important part of my job consists in finding books, publications or blogs, helping me in my everyday work. Mathematical research is facilitated by a wide open access to research literature. This section gathers my favorite sources of information for math research and math "entertainment".
 
+<img src="https://github.com/vincentrunge/vincentrunge.github.io/blob/master/images/recreation.png" width="200">
+
 ![](https://github.com/vincentrunge/vincentrunge.github.io/blob/master/images/recreation.png =100x20)
 
 ### <a name="mathL"></a>Math leisure
