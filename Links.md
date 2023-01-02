@@ -8,6 +8,8 @@ permalink: /Links/
 An important part of my job consists in finding books, publications or blogs, helping me in my everyday work. Mathematical research is facilitated by a wide open access to research literature. This section gathers my favorite sources of information for math research and math "entertainment".
 
 
+--- 
+
 <img src="/recreation.png" width="400">
 
 ### <a name="mathL"></a>Math leisure
@@ -24,6 +26,8 @@ An important part of my job consists in finding books, publications or blogs, he
 
 - la série Arte [Voyage au pays des maths](https://www.youtube.com/watch?v=wS1Tsj_fl5o&list=PLCwXWOyIR22veT31gK5JwmqxuVc0Uoy8a)
 
+
+--- 
 
 <img src="/youtub.png" width="400">
 
@@ -55,10 +59,14 @@ An important part of my job consists in finding books, publications or blogs, he
 - Djalil Chafai. One of the best french blog on maths [blog](http://djalil.chafai.net/blog/)
 
 
+--- 
+
 ### <a name="Calculus"></a>Calculus
 
 You need to compute a primitive function and do not have access to Mathematica or Maple... [Wolfram Alpha](http://www.wolframalpha.com/) is THE solution to our problem.
 
+
+--- 
 
 <img src="/AS.png" width="400">
 
@@ -67,6 +75,8 @@ You need to compute a primitive function and do not have access to Mathematica o
 - Results on special functions [Abramowitz and Stegun book](https://en.wikipedia.org/wiki/Abramowitz_and_Stegun) available online on [NIST Digital Library](http://dlmf.nist.gov/)
 
 
+
+--- 
 
 ### <a name="inRussian"></a>in Russian
 
