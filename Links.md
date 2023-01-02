@@ -59,9 +59,11 @@ An important part of my job consists in finding books, publications or blogs, he
 You need to compute a primitive function and do not have access to Mathematica or Maple... [Wolfram Alpha](http://www.wolframalpha.com/) is THE solution to our problem.
 
 
+<img src="https://github.com/vincentrunge/vincentrunge.github.io/blob/master/images/AS.png" width="400">
+
 ### <a name="handbooks"></a>Handbooks of math functions
 
-- Results on special functions [MAbramowitz and Stegun book]([http://people.math.sfu.ca/~cbm/aands/subj.htm](https://en.wikipedia.org/wiki/Abramowitz_and_Stegun)) available online on [NIST Digital Library](http://dlmf.nist.gov/)
+- Results on special functions [Abramowitz and Stegun book]([http://people.math.sfu.ca/~cbm/aands/subj.htm](https://en.wikipedia.org/wiki/Abramowitz_and_Stegun)) available online on [NIST Digital Library](http://dlmf.nist.gov/)
 
 
 
