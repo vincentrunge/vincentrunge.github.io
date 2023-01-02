@@ -14,9 +14,11 @@ An important part of my job consists in finding books, publications or blogs, he
 
 ### <a name="blogs"></a>Blogs
 
-Terrence Tao. Known as the best living mathematician [blog](https://terrytao.wordpress.com/)
+- Francis Bach blog [on machine learning theory](https://francisbach.com)
 
-Djalil Chafai. One of the best french blog on maths [blog](http://djalil.chafai.net/blog/)
+- Terrence Tao. Known as the best living mathematician [blog](https://terrytao.wordpress.com/)
+
+- Djalil Chafai. One of the best french blog on maths [blog](http://djalil.chafai.net/blog/)
 
 
 ### <a name="Calculus"></a>Calculus
@@ -29,8 +31,10 @@ You need to compute a primitive function and do not have access to Mathematica o
 - A well-known french math magazine [image des maths](http://images.math.cnrs.fr/) 
 
 - Scientific news on math/physics/biology and computer science [Quanta magazine](http://www.quantamagazine.org/)
+
+- [How to turn a sphere inside out !!!](https://www.youtube.com/watch?v=OI-To1eUtuU&t=673s)
  
-- An amazing russian site on [Chebyshev's mechanisms](http://www.tcheb.ru/) 
+- An amazing site in Russian on [Chebyshev's mechanisms](http://www.tcheb.ru/) 
  
 - [Imaginary](https://imaginary.org/) is a site dedicated to interactive mathematics. 
 
