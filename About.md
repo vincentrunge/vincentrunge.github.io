@@ -15,32 +15,32 @@ The Paris-Saclay Change-Point workshop is a **2-day meeting** (January 16th and 
 Procceedings of the conference to be published with [ESAIM](https://www.esaim-proc.org)  
 Articles are available in [Open Review](https://openreview.net/group?id=PSCP%2F2023%2FWorkshop)
 
+## Responsabilities
 
-## Paris-Saclay M2 "Data Science: health insurance and finance"
+1)  Paris-Saclay M2 "Data Science: health insurance and finance" [More information here](https://www.universite-paris-saclay.fr/en/education/master/mathematics-and-applications/m2-data-science-health-insurance-and-finance)
 
 Head of the Master 2 since September 2022. 
 Co-director with Agathe Guilloux (2020-2022)
 
-[More information here](https://www.universite-paris-saclay.fr/en/education/master/mathematics-and-applications/m2-data-science-health-insurance-and-finance)
 
-## Séminaire scientifique
+2) Séminaire scientifique *Math For genomics*
 
 I am the initiator and one of the co-organizers of the Evry stat-math seminar [MathForGenomics](https://mathforgenomics.github.io/)
 
-## PhD student
+3) Student supervision 
 
-Co-director with Guillem Rigaill: Liudmila Pishchagina (working on multivariate extensions of FPOP algorithm) 2021-2024
+PhD student: Liudmila Pishchagina (working on multivariate extensions of FPOP algorithm) 2021-2024 (Co-director with Guillem Rigaill)
+Internships: I supervised about 10 internships (level L2 to M2)
 
 
 ## Recent presentations to conferences and workshops
 
-- 2022 December (Brighton) StateScale meeting
-- 2022 July (London) IMS
+- 2022 December (Brighton, UK) StateScale meeting
+- 2022 July (London, UK) IMS
 - 2021 March (Northern Arizona Univeristy. USA). Research seminar online
 - 2020 Septebmer (Paris) Séminaire de Statistiques MAP5
-- 2019 December (London) CMStatistics
+- 2019 December (London, UK) CMStatistics
 - 2019 November (Paris) Paris-Lancaster change-points workshop
-
 
 
 ## Current work
