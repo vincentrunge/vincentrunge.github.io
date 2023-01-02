@@ -7,14 +7,9 @@ permalink: /Links/
 
 An important part of my job consists in finding books, publications or blogs, helping me in my everyday work. Mathematical research is facilitated by a wide open access to research literature. This section gathers my favorite sources of information for math research and math "entertainment".
 
+### <a name="handbooks"></a>H- andbooks of math functions
 
-### <a name="handbooks"></a>Handbooks of math functions
-
-Two essential sources of information when one needs very specific results on special functions.
-
-[M. Abramowitz and I. A. Stegun](http://people.math.sfu.ca/~cbm/aands/subj.htm)
-
-[NIST Digital Library](http://dlmf.nist.gov/)
+- Results on special functions [MAbramowitz and Stegun book]([http://people.math.sfu.ca/~cbm/aands/subj.htm](https://en.wikipedia.org/wiki/Abramowitz_and_Stegun)) available online on [NIST Digital Library](http://dlmf.nist.gov/)
 
 
 ### <a name="blogs"></a>Blogs
@@ -22,11 +17,6 @@ Two essential sources of information when one needs very specific results on spe
 Terrence Tao. Known as the best living mathematician [blog](https://terrytao.wordpress.com/)
 
 Djalil Chafai. One of the best french blog on maths [blog](http://djalil.chafai.net/blog/)
-
-
-### <a name="boolsite"></a>math books
-
-I am a "bookavore" always looking for old interesting math books. The site [abebooks.com](https://www.abebooks.com/) is the perfect place to find cheap books.
 
 
 ### <a name="Calculus"></a>Calculus
