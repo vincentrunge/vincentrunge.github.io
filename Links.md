@@ -9,7 +9,7 @@ An important part of my job consists in finding books, publications or blogs, he
 
 ![](/AS.png)
 
-![](/AS.png =250x)
+![](/AS.png=250x)
 
 ### <a name="mathL"></a>Math leisure
 
