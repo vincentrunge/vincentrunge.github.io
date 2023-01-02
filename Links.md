@@ -7,7 +7,7 @@ permalink: /Links/
 
 An important part of my job consists in finding books, publications or blogs, helping me in my everyday work. Mathematical research is facilitated by a wide open access to research literature. This section gathers my favorite sources of information for math research and math "entertainment".
 
-### <a name="handbooks"></a>H- andbooks of math functions
+### <a name="handbooks"></a>Handbooks of math functions
 
 - Results on special functions [MAbramowitz and Stegun book]([http://people.math.sfu.ca/~cbm/aands/subj.htm](https://en.wikipedia.org/wiki/Abramowitz_and_Stegun)) available online on [NIST Digital Library](http://dlmf.nist.gov/)
 
@@ -36,9 +36,17 @@ You need to compute a primitive function and do not have access to Mathematica o
 
 ### <a name="Youtube"></a>Youtube channel
   
-- A very good french channel [Deux (deux ?) minutes pour...](https://www.youtube.com/watch?v=uazPP0ny3XQ&list=PLlrxd3f47yy2mvLivlFU1a9ukoG8-Dkvs). Both high level and very clear !
+- pedagogy 2.0 [3blue 1brown](https://www.youtube.com/@3blue1brown)
+
+- The best channel to learn university-level mathematics [The Bright Side of Mathematics](https://www.youtube.com/@brightsideofmaths)
 
 - A popular channel in english, [Mathologer](https://www.youtube.com/channel/UC1_uAIS3r8Vu6JjXWvastJ)
+
+- solving problems with [Dr. Peyam](https://www.youtube.com/@drpeyam)
+
+- mathematical marathon with [black pen red pen](https://www.youtube.com/@blackpenredpen)
+- 
+- A very good french channel [Deux (deux ?) minutes pour...](https://www.youtube.com/watch?v=uazPP0ny3XQ&list=PLlrxd3f47yy2mvLivlFU1a9ukoG8-Dkvs). Both high level and very clear !
 
 - Lecture on maths from the EPFL [Wandida](https://www.youtube.com/user/TheWandida/playlists)
 
