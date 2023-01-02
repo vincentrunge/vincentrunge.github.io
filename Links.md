@@ -7,7 +7,9 @@ permalink: /Links/
 
 An important part of my job consists in finding books, publications or blogs, helping me in my everyday work. Mathematical research is facilitated by a wide open access to research literature. This section gathers my favorite sources of information for math research and math "entertainment".
 
-![Scenario 1: Across columns](/AS.png)`
+![](/AS.png)
+
+![](/AS.png =250x)
 
 ### <a name="mathL"></a>Math leisure
 
