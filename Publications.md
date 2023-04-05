@@ -8,13 +8,15 @@ permalink: /Publications/
 
 * *(In preparation)* <u>Geometric-Based Pruning Rules For Change-Point Detection in Multivariate Time-Series.</u> *Liudmila Pishchagina, Guillem Rigaill, Vincent Runge. 2023*
 
+* <u>gfpop: an R Package for Univariate Graph-Constrained Change-point Detection</u>  
+Journal of Statistical Software.
+[link](https://www.jstatsoft.org/article/view/v106i06)
+*Vincent Runge, Toby Dylan Hocking, Gaetano Romano, Fatemeh Afghah, Paul Fearnhead, Guillem Rigaill 2023*. (The [R package](https://github.com/vrunge/gfpop) is available on github and CRAN.)
+
 * <u>Detecting Abrupt Changes in the Presence of Local Fluctuations and Autocorrelated Noise</u>  
  Journal of the American Statistical Association.
  [link](https://www.tandfonline.com/doi/full/10.1080/01621459.2021.1909598). (The [R package](https://github.com/gtromano/DeCAFS) is on github).  
  *Gaetano Romano, Guillem Rigaill, Vincent Runge, Paul Fearnhead. 2021.*
- 
-* <u>gfpop: an R Package for Univariate Graph-Constrained Change-point Detection</u>  
-arXiv. *Vincent Runge, Toby Dylan Hocking, Gaetano Romano, Fatemeh Afghah, Paul Fearnhead, Guillem Rigaill 2020*. [link](https://arxiv.org/abs/2002.03646). (The [R package](https://github.com/vrunge/gfpop) is on github + CRAN) Accepted in JSS.
 
 * <u>Exponential Integral Solutions for Fixation Time in Wright-Fisher Model With Selection</u>  
 arXiv. *Runge V., Liehrmann A., Spinga P. 2022*. [link](https://arxiv.org/abs/2205.06480)
