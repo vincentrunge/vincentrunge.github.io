@@ -9,8 +9,7 @@ permalink: /Publications/
 *Vincent Runge, Charles Truong, Simon Querné, 2024*   
 
 * <u>An Efficient Algorithm for Exact Segmentation of Large Compositional and Categorical Time Series</u>   
-stats.   
-*Charles Truong, Vincent Runge, 2024*   
+stats. *Charles Truong, Vincent Runge, 2024*   
 
 * <u>Online Multivariate Changepoint Detection: Leveraging Links With Computational Geometry</u>   
 arxiv. [link](https://arxiv.org/abs/2311.01174)   
