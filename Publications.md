@@ -5,18 +5,18 @@ permalink: /Publications/
 ---
 
 
-* *(In preparation)* <u>Duality-Based Pruning Methods For Exact Multiple Change-Point Detection</u>
-*Vincent Runge, Charles Truong, Simon Querné, 2024*
+* *(In preparation)* <u>Duality-Based Pruning Methods For Exact Multiple Change-Point Detection</u>   
+*Vincent Runge, Charles Truong, Simon Querné, 2024*   
 
-* <u>An Efficient Algorithm for Exact Segmentation of Large Compositional and Categorical Time Series</u>
-stats.
-*Charles Truong, Vincent Runge, 2024*
+* <u>An Efficient Algorithm for Exact Segmentation of Large Compositional and Categorical Time Series</u>   
+stats.   
+*Charles Truong, Vincent Runge, 2024*   
 
-* <u>Online Multivariate Changepoint Detection: Leveraging Links With Computational Geometry</u>
-arxiv. [link](https://arxiv.org/abs/2311.01174)
+* <u>Online Multivariate Changepoint Detection: Leveraging Links With Computational Geometry</u>   
+arxiv. [link](https://arxiv.org/abs/2311.01174)   
 *Liudmila Pishchagina, Gaetano Romano, Paul Fearnhead, Vincent Runge, Guillem Rigaill, 2024*
 
-* <u>Geometric-Based Pruning Rules For Change-Point Detection in Multivariate Time-Series</u>
+* <u>Geometric-Based Pruning Rules For Change-Point Detection in Multivariate Time-Series</u>   
 Computo [link](https://openreview.net/pdf/e64991a58e37bf3171dd9b03a4248dfc1f283167.pdf)
 *Liudmila Pishchagina, Guillem Rigaill, Vincent Runge, 2024*
   
