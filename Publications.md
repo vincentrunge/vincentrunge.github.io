@@ -37,7 +37,7 @@ arXiv. *Runge V., Liehrmann A., Spinga P. 2022*. [link](https://arxiv.org/abs/22
 arXiv. *Vincent Runge, Marco Pascucci, Nicolas Deschamps de Boishebert 2020*. [link](https://arxiv.org/abs/2012.11573). (The [R package](https://github.com/vrunge/slopeOP) is on github + CRAN)
 
 * <u>Is a Finite Intersection of Balls Covered by a Finite Union of Balls in Euclidean Spaces ?</u>  
-arXiv. *Runge V.* [preprint 2018](https://arxiv.org/abs/1804.06699) and [paper 2020](https://link.springer.com/article/10.1007/s10957-020-01762-2)
+ Journal of Optimization Theory and Applications. *Runge V.* [preprint 2018](https://arxiv.org/abs/1804.06699) and [paper 2020](https://link.springer.com/article/10.1007/s10957-020-01762-2)
 
 * <u>On the Limit Imbalanced Logistic Regression by Binary Predictors</u>  
 arXiv. *Runge V. 2018*. [link](https://arxiv.org/abs/1703.08995)
