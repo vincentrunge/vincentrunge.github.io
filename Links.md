@@ -33,9 +33,11 @@ An important part of my job consists in finding books, publications or blogs hel
 
 ### <a name="Youtube"></a>Youtube channel
   
-- pedagogy 2.0 with amazing animations! math + entertainment: [3blue 1brown](https://www.youtube.com/@3blue1brown)
+- *pedagogy 2.0* with amazing animations! math + entertainment: [3blue 1brown](https://www.youtube.com/@3blue1brown)
 
-- The best channel to learn university-level mathematics: [The Bright Side of Mathematics](https://www.youtube.com/@brightsideofmaths)
+- *Machine Learning* explained [statquest](https://www.youtube.com/@statquest/videos)
+
+- The *best* channel to learn university-level mathematics: [The Bright Side of Mathematics](https://www.youtube.com/@brightsideofmaths)
 
 - A popular channel with accessible explanations of hard and beautiful maths: [Mathologer](https://www.youtube.com/@Mathologer)
 
