@@ -4,6 +4,19 @@ title: About
 permalink: /About/
 ---
 
+
+
+## Student supervision
+
++ PhD student: Liudmila Pishchagina (working on multivariate extensions of FPOP algorithm) 2021-2024 (Co-director with Guillem Rigaill)
+
++ Engineer (2024-2025): Nicolas Cecchi (with Charles Truong and Nicolas Oudre)
+
++ internships:
+  2024: Simon Querné (M2). 2023: Olha Pomomarenko (L3). 2022: Antonina Bondarchuk (L3), Marko Kachaikin (L2), Kader HOUSSEIN (L2)
+  2021: Liudmila PPishchagina (M2), Saâd Qriouet (M1), Pauline Spinga (L3). 2020: Nicolas Deschamps de Boishebert (M1). Jawad Boulafha ((M1)
+  
+
 ## Change-Point Paris-Saclay conference (January 2023)
 
 Co-organizer with [Charles Truong](https://charles.doffy.net)
@@ -12,28 +25,17 @@ The Paris-Saclay Change-Point workshop is a **2-day meeting** (January 16th and 
 
 [Website of the Paris-Saclay Changepoint Workshop](https://parissaclaychangepoint.github.io)
 
-Procceedings of the conference to be published with [ESAIM](https://www.esaim-proc.org)  
-Articles are available in [Open Review](https://openreview.net/group?id=PSCP%2F2023%2FWorkshop)
-
-## Responsabilities
+## Past Responsabilities
 
 **1) Paris-Saclay M2 "Data Science: health insurance and finance"** [More information here](https://www.universite-paris-saclay.fr/en/education/master/mathematics-and-applications/m2-data-science-health-insurance-and-finance)
 
-Head of the Master 2 since September 2022. 
-
-Co-director with Agathe Guilloux (2020-2022)
+Head of the Master 2 (2022-2023)
+Co-direction with Agathe Guilloux (2020-2022)
 
 
 **2) Séminaire scientifique *Math For genomics***
 
-I am the initiator and one of the co-organizers of the Evry stat-math seminar [MathForGenomics](https://mathforgenomics.github.io/)
-
-**3) Student supervision**
-
-+ PhD student: Liudmila Pishchagina (working on multivariate extensions of FPOP algorithm) 2021-2024 (Co-director with Guillem Rigaill)
-
-+ supervised about 10 internships (level L2 to M2) on change-point detection problems or problems related to genomics (Wright-Fisher model)
-
+Co-organizers of the Evry stat-math seminar [MathForGenomics](https://mathforgenomics.github.io/)
 
 ## Recent presentations to conferences and workshops
 
@@ -52,14 +54,14 @@ Assistant Professor in statistics *since September 2019* at the University of Ev
 
 As an Applied Mathematician, I like to work at the interface of different fields. My current and past interests are 
 
-**Statistics** : Change-point detection, Lasso regularization, Logistic regression.
+**Statistics** : Change-point detection (by dynamic programming)
 
 **Optimization** : Convex optimization, Computational geometry, Quadratic and linear programming.
 
-**Analysis** : PDE, Control theory, Complex analysis, Univalent polynomials.
+**Numercial analysis** : Quasi-Newton algorithm
 
-**Mathematical Physics** : Fluid dynamics, Hele-Shaw problem, Numerical analysis.
+**Package development** : gfpop, dust (see github)
 
-In particular, problems involving *optimization* are among my favorites. They are close to application and the guidline principle of my research. 
+In particular, problems involving *optimization tools* are among my favorites.. 
 
 
