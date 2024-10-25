@@ -14,7 +14,7 @@ permalink: /About/
 
 + internships:
   2024: Simon Querné (M2). 2023: Olha Pomomarenko (L3). 2022: Antonina Bondarchuk (L3), Marko Kachaikin (L2), Kader HOUSSEIN (L2)
-  2021: Liudmila PPishchagina (M2), Saâd Qriouet (M1), Pauline Spinga (L3). 2020: Nicolas Deschamps de Boishebert (M1). Jawad Boulafha (M1)
+  2021: Liudmila PPishchagina (M2), Saâd Qriouet (M1), Pauline Spinga (L3). 2020: Nicolas Deschamps de Boishebert (M1). Jawad Boulafha (M1). 2018: Alexandre Schulz (M1)
   
 
 ## Change-Point Paris-Saclay conference (January 2023)
