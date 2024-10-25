@@ -8,7 +8,7 @@ permalink: /About/
 ## Student supervision
 
 + PhD student: Liudmila Pishchagina / Shabarshova: 
-multivariate extensions of change point detection algorithms in online (MdFOCuS) and offline settings(FeomFPOP)) 2021-2024 (Co-direction with Guillem Rigaill)
+multivariate extensions of change point detection algorithms in online (MdFOCuS) and offline settings(FeomFPOP) 2021-2024 (Co-direction with Guillem Rigaill)
 
 + Engineer (2024-2025): Nicolas Cecchi (with Charles Truong and Nicolas Oudre)
 
