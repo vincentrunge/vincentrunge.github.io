@@ -5,16 +5,16 @@ permalink: /About/
 ---
 
 
-
 ## Student supervision
 
-+ PhD student: Liudmila Pishchagina (working on multivariate extensions of FPOP algorithm) 2021-2024 (Co-director with Guillem Rigaill)
++ PhD student: Liudmila Pishchagina / Shabarshova: 
+multivariate extensions of change point detection algorithms in online (MdFOCuS) and offline settings(FeomFPOP)) 2021-2024 (Co-direction with Guillem Rigaill)
 
 + Engineer (2024-2025): Nicolas Cecchi (with Charles Truong and Nicolas Oudre)
 
 + internships:
   2024: Simon Querné (M2). 2023: Olha Pomomarenko (L3). 2022: Antonina Bondarchuk (L3), Marko Kachaikin (L2), Kader HOUSSEIN (L2)
-  2021: Liudmila PPishchagina (M2), Saâd Qriouet (M1), Pauline Spinga (L3). 2020: Nicolas Deschamps de Boishebert (M1). Jawad Boulafha (M1). 2018: Alexandre Schulz (M1)
+  2021: Liudmila Pishchagina (M2), Saâd Qriouet (M1), Pauline Spinga (L3). 2020: Nicolas Deschamps de Boishebert (M1). Jawad Boulafha (M1). 2018: Alexandre Schulz (M1)
   
 
 ## Change-Point Paris-Saclay conference (January 2023)
