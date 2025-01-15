@@ -8,24 +8,24 @@ permalink: /About/
 
 **1.	Topology for data analysis**. 
 Homology groups and Simplicial complexes
-15 May. 2pm – 4pm
+(15 May. 2pm – 4pm)
   	
 **2.	TDA toolbox**.
 Euler Curve, Persistance diagram, bar codes
-22 May. 2pm – 4pm
+(22 May. 2pm – 4pm)
   	
 **3.	Theoretical fundaments of TDA**.
 Convergence and stability
-29 May. 2pm – 4pm
+(29 May. 2pm – 4pm)
   	
 **4.	TDA applications to statistics and machine learning**.
-5 June. 2pm – 4pm
+(5 June. 2pm – 4pm)
 
 **5.	Computational challenges in TDA**.
-12 June. 2pm – 4pm
+(12 June. 2pm – 4pm)
 
-**5.	Research seminar (TBA)**.
-19 June. 2pm – 4pm
+**6.	Research seminar (TBA)**.
+(19 June. 2pm – 4pm)
 
 **Bibliography:**
 Computational topology: an introduction. Edelsbrunner Herbert and Harer John L
