@@ -5,7 +5,10 @@ permalink: /About/
 ---
 
 ## Topological Data Analysis Working Group (May-June 2025)
-(co-organized with Ruben Martos, Postdoc LaMME)
+
+co-organized with:
+- Ruben MARTOS, Postdoc LaMME
+- Anica KOSTIC, London School of Economics
 
 **1.	Topology for data analysis**. 
 Homology groups and Simplicial complexes
