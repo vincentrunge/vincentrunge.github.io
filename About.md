@@ -4,7 +4,7 @@ title: About
 permalink: /About/
 ---
 
-## Topological Data Analysis Working Group (co-organized with Ruben Martos, Postdoc LaMME)
+## Topological Data Analysis Working Group May-June 2025 (co-organized with Ruben Martos, Postdoc LaMME)
 
 **1.	Topology for data analysis**. 
 Homology groups and Simplicial complexes
