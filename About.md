@@ -4,6 +4,46 @@ title: About
 permalink: /About/
 ---
 
+## Topological Data Analysis Working Group (co-organized with Ruben Martos, Postdoc LaMME)
+
+1.	Topology for data analysis
+Homology groups and Simplicial complexes
+15 May. 2pm – 4pm
+  	
+2.	TDA toolbox
+Euler Curve, Persistance diagram, bar codes
+22 May. 2pm – 4pm
+  	
+3.	Theoretical fundaments of TDA
+Convergence and stability
+29 May. 2pm – 4pm
+  	
+4.	TDA applications to statistics and machine learning
+5 June. 2pm – 4pm
+
+5.	Computational challenges in TDA
+12 June. 2pm – 4pm
+
+5.	Research seminar (TBA)
+19 June. 2pm – 4pm
+
+**Bibliography:**
+Computational topology: an introduction. Edelsbrunner Herbert and Harer John L
+American Mathematical Society. 2022
+
+An introduction to topological data analysis: fundamental and practical aspects for data scientists. Chazal, Frédéric and Michel Bertrand
+Frontiers in artificial intelligence. 2021
+
+Euler characteristic tools for topological data analysis. Hacquard Olympio and Lebovici Vadim
+Journal of Machine Learning Research. 2024
+
+Topological data analysis. Wasserman Larry
+Annual Review of Statistics and Its Application 2018
+
+A universal null-distribution for topological data analysis. Bobrowski Omer and Skraba Primoz
+Scientific Reports. Nature Publishing Group UK London 2023
+
+
 
 ## Student supervision
 
