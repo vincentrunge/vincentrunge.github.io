@@ -6,25 +6,25 @@ permalink: /About/
 
 ## Topological Data Analysis Working Group (co-organized with Ruben Martos, Postdoc LaMME)
 
-1.	Topology for data analysis
+**1.	Topology for data analysis**. 
 Homology groups and Simplicial complexes
 15 May. 2pm – 4pm
   	
-2.	TDA toolbox
+**2.	TDA toolbox**.
 Euler Curve, Persistance diagram, bar codes
 22 May. 2pm – 4pm
   	
-3.	Theoretical fundaments of TDA
+**3.	Theoretical fundaments of TDA**.
 Convergence and stability
 29 May. 2pm – 4pm
   	
-4.	TDA applications to statistics and machine learning
+**4.	TDA applications to statistics and machine learning**.
 5 June. 2pm – 4pm
 
-5.	Computational challenges in TDA
+**5.	Computational challenges in TDA**.
 12 June. 2pm – 4pm
 
-5.	Research seminar (TBA)
+**5.	Research seminar (TBA)**.
 19 June. 2pm – 4pm
 
 **Bibliography:**
