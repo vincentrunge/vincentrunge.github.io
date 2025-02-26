@@ -8,6 +8,12 @@ permalink: /Publications/
 * *(In preparation)* <u>Duality-Based Pruning Methods For Exact Multiple Change-Point Detection</u>   
 *Vincent Runge, Charles Truong, Simon Querné, 2024*   
 
+_ _ _ 
+
+* <u>Change Point Detection in Hadamard Spaces by Alternating Minimization</u>   
+stats. [link](https://openreview.net/forum?id=Leyh3mDyof)
+AISTATS. *Anica Kostic, Vincent Runge, Charles Truong, 2025*
+
 * <u>An Efficient Algorithm for Exact Segmentation of Large Compositional and Categorical Time Series</u>   
 stats. [link](http://dx.doi.org/10.1002/sta4.70012)
 *Charles Truong, Vincent Runge, 2024* 
