@@ -7,13 +7,17 @@ permalink: /About/
 
 ## Table of Contents
 
-- [Organization of recent conferences](#Recent_conferences)
+Organization of recent conferences
 
-[TDA working group](#tda) (2025)
-[Ukrainian math day] (2025)
-[Impact IA] (2025)
+- [TDA working group](#tda) (2025)
+- [Ukrainian math day](#ukraine) (2025)
+- [Impact IA](#impact) (2025)
+- [Change-Point Paris-Saclay conference (January 2023)]((#chpt) (2023)
 
-## <a id="tda"> Topological Data Analysis Working Group (May-June 2025)
+
+## Recent conferences and workshop 
+
+### <a id="tda"> Topological Data Analysis Working Group (May-June 2025)
 
 co-organized with:
 - Ruben MARTOS, Postdoc LaMME
@@ -57,6 +61,24 @@ A universal null-distribution for topological data analysis. Bobrowski Omer and 
 Scientific Reports. Nature Publishing Group UK London 2023
 
 
+### <a id="ukraine"> Ukrainian Math Day in Evry Paris-Saclay
+
+
+
+### <a id="impact"> Impact IA for master student
+
+
+### <a id="chpt"> Change-Point Paris-Saclay conference (January 2023)
+
+Co-organizer with [Charles Truong](https://charles.doffy.net)
+
+The Paris-Saclay Change-Point workshop is a **2-day meeting** (January 16th and 17th 2023) dedicated to **theoretical and applied methods for solving change-point detection problems**. The primary goal of the workshop consists in fostering new interactions within the European community of change-point researchers. This event is **free of charge** (no registration fee) and open to anyone willing to contribute to the development of the field (M2 students, PhD, young and senior researchers).
+
+[Website of the Paris-Saclay Changepoint Workshop](https://parissaclaychangepoint.github.io)
+
+
+
+
 ## Student supervision
 
 + PhD student: Nicolas Cecchi (2025 - ...)
@@ -69,14 +91,6 @@ multivariate extensions of change point detection algorithms in online (MdFOCuS)
   2025: Emmeline Bourget (M2). 2024: Simon Querné (M2). 2023: Olha Pomomarenko (L3). 2022: Antonina Bondarchuk (L3), Marko Kachaikin (L2), Kader HOUSSEIN (L2)
   2021: Liudmila Pishchagina (M2), Saâd Qriouet (M1), Pauline Spinga (L3). 2020: Nicolas Deschamps de Boishebert (M1). Jawad Boulafha (M1). 2018: Alexandre Schulz (M1)
   
-
-## Change-Point Paris-Saclay conference (January 2023)
-
-Co-organizer with [Charles Truong](https://charles.doffy.net)
-
-The Paris-Saclay Change-Point workshop is a **2-day meeting** (January 16th and 17th 2023) dedicated to **theoretical and applied methods for solving change-point detection problems**. The primary goal of the workshop consists in fostering new interactions within the European community of change-point researchers. This event is **free of charge** (no registration fee) and open to anyone willing to contribute to the development of the field (M2 students, PhD, young and senior researchers).
-
-[Website of the Paris-Saclay Changepoint Workshop](https://parissaclaychangepoint.github.io)
 
 ## Past Responsabilities
 
