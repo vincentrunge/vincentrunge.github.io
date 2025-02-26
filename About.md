@@ -114,6 +114,7 @@ Co-organizers of the Evry stat-math seminar [MathForGenomics](https://mathforgen
 
 ## <span style="color:teal;"> 4. Presentations to conferences and workshops </span> 
 
+- 2025 january (Evry LaMME) HCERES scientific presentation
 - 2023 February (Paris IHP) Séminaire parisien de statistiques
 - 2022 December (Brighton, UK) StateScale meeting
 - 2022 July (London, UK) IMS
