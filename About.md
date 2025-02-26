@@ -4,8 +4,7 @@ title: About
 permalink: /About/
 ---
 
-
-## Table of Contents
+## <span style="color:blue;"> Table of Contents </span> 
 
 Organization of recent conferences
 
