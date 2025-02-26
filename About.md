@@ -12,12 +12,12 @@ Organization of recent conferences
 - [TDA working group](#tda) (2025)
 - [Ukrainian math day](#ukraine) (2025)
 - [Impact IA](#impact) (2025)
-- [Change-Point Paris-Saclay conference (January 2023)]((#chpt) (2023)
+- [Change-Point Paris-Saclay conference (January 2023)](#chpt) (2023)
 
 
 ## Recent conferences and workshop 
 
-### <a id="tda"> Topological Data Analysis Working Group (May-June 2025)
+### <a id="tda"> <span style="color:blue;"> Topological Data Analysis Working Group </span> (May-June 2025)
 
 co-organized with:
 - Ruben MARTOS, Postdoc LaMME
