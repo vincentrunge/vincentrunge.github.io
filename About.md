@@ -12,7 +12,7 @@ Organization of recent conferences
 - [Change-Point Paris-Saclay conference (January 2023)](#chpt) (2023)
 
 
-## <span style="color:blue;"> 1. Recent conferences and workshop  </span> 
+## <span style="color:teal;"> 1. Recent conferences and workshop  </span> 
 
 ### <a id="tda"> Topological Data Analysis Working Group (May-June 2025)
 
@@ -86,7 +86,7 @@ The Paris-Saclay Change-Point workshop is a **2-day meeting** (January 16th and 
 
 
 
-## <span style="color:Magenta;"> 2. Student supervision </span> 
+## <span style="color:teal;"> 2. Student supervision </span> 
 
 + PhD student: Nicolas Cecchi (2025 - ...)
  (Co-direction with Charles Truong and Nicolas Oudre)
@@ -99,7 +99,7 @@ multivariate extensions of change point detection algorithms in online (MdFOCuS)
   2021: Liudmila Pishchagina (M2), Saâd Qriouet (M1), Pauline Spinga (L3). 2020: Nicolas Deschamps de Boishebert (M1). Jawad Boulafha (M1). 2018: Alexandre Schulz (M1)
   
 
-## <span style="color:Magenta;"> 3. Past Responsabilities </span> 
+## <span style="color:teal;"> 3. Past Responsabilities </span> 
 
 **1) Paris-Saclay M2 "Data Science: health insurance and finance"** [More information here](https://www.universite-paris-saclay.fr/en/education/master/mathematics-and-applications/m2-data-science-health-insurance-and-finance)
 
@@ -112,7 +112,7 @@ Co-direction with Agathe Guilloux (2020-2022)
 Co-organizers of the Evry stat-math seminar [MathForGenomics](https://mathforgenomics.github.io/)
 
 
-## <span style="color:Magenta;"> 4. Presentations to conferences and workshops </span> 
+## <span style="color:teal;"> 4. Presentations to conferences and workshops </span> 
 
 - 2023 February (Paris IHP) Séminaire parisien de statistiques
 - 2022 December (Brighton, UK) StateScale meeting
@@ -122,8 +122,7 @@ Co-organizers of the Evry stat-math seminar [MathForGenomics](https://mathforgen
 - 2019 December (London, UK) CMStatistics
 - 2019 November (Paris) Paris-Lancaster change-points workshop
 
-
-## Current work
+## <span style="color:teal;"> 5. Current job </span> 
 
 Assistant Professor in statistics *since September 2019* at the University of Evry (near Paris) in the laboratory [LaMME](http://www.math-evry.cnrs.fr/doku.php). My current research is about *changepoint detection* using pruned dynamic programming algorithm with a focus on the multivariate framework and application to genomics.
 
