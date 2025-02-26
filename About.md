@@ -4,8 +4,6 @@ title: About
 permalink: /About/
 ---
 
-## <span style="color:blue;"> Table of Contents </span> 
-
 Organization of recent conferences
 
 - [TDA working group](#tda) (2025)
@@ -14,9 +12,9 @@ Organization of recent conferences
 - [Change-Point Paris-Saclay conference (January 2023)](#chpt) (2023)
 
 
-## Recent conferences and workshop 
+## <span style="color:blue;"> 1. Recent conferences and workshop  </span> 
 
-### <a id="tda"> <span style="color:blue;"> Topological Data Analysis Working Group </span> (May-June 2025)
+### <a id="tda"> Topological Data Analysis Working Group (May-June 2025)
 
 co-organized with:
 - Ruben MARTOS, Postdoc LaMME
@@ -88,8 +86,7 @@ The Paris-Saclay Change-Point workshop is a **2-day meeting** (January 16th and 
 
 
 
-
-## Student supervision
+## <span style="color:Magenta;"> 2. Student supervision </span> 
 
 + PhD student: Nicolas Cecchi (2025 - ...)
  (Co-direction with Charles Truong and Nicolas Oudre)
@@ -102,7 +99,7 @@ multivariate extensions of change point detection algorithms in online (MdFOCuS)
   2021: Liudmila Pishchagina (M2), Saâd Qriouet (M1), Pauline Spinga (L3). 2020: Nicolas Deschamps de Boishebert (M1). Jawad Boulafha (M1). 2018: Alexandre Schulz (M1)
   
 
-## Past Responsabilities
+## <span style="color:Magenta;"> 3. Past Responsabilities </span> 
 
 **1) Paris-Saclay M2 "Data Science: health insurance and finance"** [More information here](https://www.universite-paris-saclay.fr/en/education/master/mathematics-and-applications/m2-data-science-health-insurance-and-finance)
 
@@ -114,7 +111,8 @@ Co-direction with Agathe Guilloux (2020-2022)
 
 Co-organizers of the Evry stat-math seminar [MathForGenomics](https://mathforgenomics.github.io/)
 
-## Recent presentations to conferences and workshops
+
+## <span style="color:Magenta;"> 4. Presentations to conferences and workshops </span> 
 
 - 2023 February (Paris IHP) Séminaire parisien de statistiques
 - 2022 December (Brighton, UK) StateScale meeting
