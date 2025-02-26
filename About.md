@@ -116,6 +116,7 @@ Co-organizers of the Evry stat-math seminar [MathForGenomics](https://mathforgen
 
 ## Recent presentations to conferences and workshops
 
+- 2023 February (Paris IHP) Séminaire parisien de statistiques
 - 2022 December (Brighton, UK) StateScale meeting
 - 2022 July (London, UK) IMS
 - 2021 March (Northern Arizona Univeristy. USA). Research seminar online
