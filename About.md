@@ -4,7 +4,16 @@ title: About
 permalink: /About/
 ---
 
-## Topological Data Analysis Working Group (May-June 2025)
+
+## Table of Contents
+
+- [Organization of recent conferences](#Recent_conferences)
+
+[TDA working group](#tda) (2025)
+[Ukrainian math day] (2025)
+[Impact IA] (2025)
+
+## <a id="tda"> Topological Data Analysis Working Group (May-June 2025)
 
 co-organized with:
 - Ruben MARTOS, Postdoc LaMME
@@ -48,16 +57,16 @@ A universal null-distribution for topological data analysis. Bobrowski Omer and 
 Scientific Reports. Nature Publishing Group UK London 2023
 
 
-
 ## Student supervision
 
-+ PhD student: Liudmila Pishchagina / Shabarshova: 
++ PhD student: Nicolas Cecchi (2025 - ...)
+ (Co-direction with Charles Truong and Nicolas Oudre)
+
++ PhD student: Liudmila Pishchagina / Shabarshova (2021 - 2024)
 multivariate extensions of change point detection algorithms in online (MdFOCuS) and offline settings(FeomFPOP) 2021-2024 (Co-direction with Guillem Rigaill)
 
-+ Engineer (2024-2025): Nicolas Cecchi (with Charles Truong and Nicolas Oudre)
-
 + internships:
-  2024: Simon Querné (M2). 2023: Olha Pomomarenko (L3). 2022: Antonina Bondarchuk (L3), Marko Kachaikin (L2), Kader HOUSSEIN (L2)
+  2025: Emmeline Bourget (M2). 2024: Simon Querné (M2). 2023: Olha Pomomarenko (L3). 2022: Antonina Bondarchuk (L3), Marko Kachaikin (L2), Kader HOUSSEIN (L2)
   2021: Liudmila Pishchagina (M2), Saâd Qriouet (M1), Pauline Spinga (L3). 2020: Nicolas Deschamps de Boishebert (M1). Jawad Boulafha (M1). 2018: Alexandre Schulz (M1)
   
 
