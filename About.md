@@ -63,10 +63,21 @@ Scientific Reports. Nature Publishing Group UK London 2023
 
 ### <a id="ukraine"> Ukrainian Math Day in Evry Paris-Saclay
 
+"Ukrainian Math Day in Évry Paris-Saclay #1" is a special event where Ukrainian mathematicians share their ongoing research in mathematics with a diverse audience.
 
+Hosted at the University of Évry Paris-Saclay, this event brings together mathematicians, researchers, and students — from undergraduate to PhD level — to explore topics in pure and applied mathematics.
+
+Through insightful lectures, engaging discussions, and valuable networking opportunities, the event seeks to promote knowledge exchange and support the Ukrainian mathematical community, which has been dispersed across Europe and beyond due to the ongoing war.
+
+[website of the conference day](https://indico.math.cnrs.fr/event/13784/)
 
 ### <a id="impact"> Impact IA for master student
 
+Cet événement est conçu pour échanger "au delà des mathématiques" sur les conséquences écologiques, économiques, éthiques ou juridiques de l'utilisation des modèles d'IA.
+ 
+Co-financée par la FMJH et DATAIA, la journée ImpAct s'adresse en priorité aux étudiants de master de Paris-Saclay, plus particulièrement aux étudiants en mathématiques (Data Science, IA...). Un public plus large est bienvenu dans la limite des places disponibles.
+
+[website of the conference](https://indico.math.cnrs.fr/event/13759/)
 
 ### <a id="chpt"> Change-Point Paris-Saclay conference (January 2023)
 
