@@ -20,42 +20,24 @@ co-organized with:
 - Ruben MARTOS, Postdoc LaMME
 - Anica KOSTIC, London School of Economics
 
-**1.	Topology for data analysis**. 
-Homology groups and Simplicial complexes
-(15 May. 2pm – 4pm)
-  	
-**2.	TDA toolbox**.
-Euler Curve, Persistance diagram, bar codes
-(22 May. 2pm – 4pm)
-  	
-**3.	Theoretical fundaments of TDA**.
-Convergence and stability
-(29 May. 2pm – 4pm)
-  	
-**4.	TDA applications to statistics and machine learning**.
-(5 June. 2pm – 4pm)
-
-**5.	Computational challenges in TDA**.
-(12 June. 2pm – 4pm)
-
-**6.	Research seminar (TBA)**.
-(19 June. 2pm – 4pm)
+Programm in PDF here
 
 **Bibliography:**
-Computational topology: an introduction. Edelsbrunner Herbert and Harer John L
-American Mathematical Society. 2022
 
-An introduction to topological data analysis: fundamental and practical aspects for data scientists. Chazal, Frédéric and Michel Bertrand
-Frontiers in artificial intelligence. 2021
+1. Bobrowski Omer and Skraba Primoz. A universal null-distribution for topological data
+analysis. Scientific Reports, 13, 12274 (2023).
 
-Euler characteristic tools for topological data analysis. Hacquard Olympio and Lebovici Vadim
-Journal of Machine Learning Research. 2024
+2. Chazal, Frédéric and Michel Bertrand. An introduction to topological data analysis:
+fundamental and practical aspects for data scientists. Frontiers in artificial intelligence, 4 (2021).
 
-Topological data analysis. Wasserman Larry
-Annual Review of Statistics and Its Application 2018
+3. Edelsbrunner Herbert and Harer John L. Computational topology: An introduction.
+American Mathematical Society (2010).
 
-A universal null-distribution for topological data analysis. Bobrowski Omer and Skraba Primoz
-Scientific Reports. Nature Publishing Group UK London 2023
+4. Hacquard Olympio and Lebovici Vadim. Euler characteristic tools for topological data
+analysis. Journal of Machine Learning Research, 25:1-39, (2024).
+
+5. Wasserman Larry. Topological data analysis. Annual Review of Statistics and its Application,
+5:501-532 (2017).
 
 
 ### <a id="ukraine"> Ukrainian Math Day in Evry Paris-Saclay
