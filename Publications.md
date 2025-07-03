@@ -6,7 +6,7 @@ permalink: /Publications/
 
 
 * *(In preparation)* <u>DUST: A Duality-Based Pruning Method For Exact Multiple Change-Point Detection </u>   
-*Vincent Runge, Charles Truong, Simon Querné, 2025*   
+*Vincent Runge, Charles Truong, Simon Querné, 2025* [pdf arxiv draft](./Publications/arxiv_DUST.pdf)   
 
 _ _ _ 
 
