@@ -5,7 +5,7 @@ permalink: /Publications/
 ---
 
 
-* *(In preparation)* <u>Duality-Based Pruning Methods For Exact Multiple Change-Point Detection</u>   
+* *(In preparation)* <u>DUST: A Duality-Based Pruning Method For Exact Multiple Change-Point Detection </u>   
 *Vincent Runge, Charles Truong, Simon Querné, 2025*   
 
 _ _ _ 
