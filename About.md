@@ -121,16 +121,14 @@ Co-organizers of the Evry stat-math seminar [MathForGenomics](https://mathforgen
 Assistant Professor in statistics *since September 2019* at the University of Evry (near Paris) in the laboratory [LaMME](http://www.math-evry.cnrs.fr/doku.php). My current research is about *change-point detection* using pruned dynamic programming algorithm with a focus on the multivariate framework and application to genomics.
 
 
-As an Applied Mathematician, I like to work at the interface of different fields. My current and past interests are 
+As an Applied Mathematician, I like to work at the interface of different fields. My current and past interests are:
 
 **Statistics** : Change-point detection (by dynamic programming)
 
-**Optimization** : Convex optimization, Computational geometry, Quadratic and linear programming.
+**Optimization** : Constrained Optimization, Convex optimization, Computational geometry, Quadratic and linear programming.
 
 **Numercial analysis** : Quasi-Newton algorithm
 
 **Package development** : gfpop, dust (see github)
 
-In particular, problems involving *optimization tools* are among my favorites.. 
-
-
+In particular, I have a strong interest in problems that require the use of optimization techniques.
