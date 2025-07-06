@@ -5,13 +5,11 @@ permalink: /Publications/
 ---
 
 
-* *(In preparation)* <u>DUST: A Duality-Based Pruning Method For Exact Multiple Change-Point Detection </u>   
-*Vincent Runge, Charles Truong, Simon Querné, 2025* [pdf arxiv draft](./Publications/arxiv_DUST.pdf)   
-
-_ _ _ 
+* <u>DUST: A Duality-Based Pruning Method For Exact Multiple Change-Point Detection </u>   
+*Vincent Runge, Charles Truong, Simon Querné, 2025* arXiv. [link](https://arxiv.org/abs/2507.02467)
 
 * <u>Online Multivariate Changepoint Detection: Leveraging Links With Computational Geometry</u>   
-arxiv. [link](https://arxiv.org/abs/2311.01174)
+arXiv. [link](https://arxiv.org/abs/2311.01174). Accepted JRSSB
 accepted JRSS serie B. *Liudmila Pishchagina, Gaetano Romano, Paul Fearnhead, Vincent Runge, Guillem Rigaill, 2025*
 
 * <u>Change Point Detection in Hadamard Spaces by Alternating Minimization</u>   
