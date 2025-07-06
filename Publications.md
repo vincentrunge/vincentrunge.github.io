@@ -9,7 +9,7 @@ permalink: /Publications/
 *Vincent Runge, Charles Truong, Simon Querné, 2025* arXiv. [link](https://arxiv.org/abs/2507.02467)
 
 * <u>Online Multivariate Changepoint Detection: Leveraging Links With Computational Geometry</u>   
-arXiv. [link](https://arxiv.org/abs/2311.01174). Accepted JRSSB
+arXiv. [link](https://arxiv.org/abs/2311.01174). 
 accepted JRSS serie B. *Liudmila Pishchagina, Gaetano Romano, Paul Fearnhead, Vincent Runge, Guillem Rigaill, 2025*
 
 * <u>Change Point Detection in Hadamard Spaces by Alternating Minimization</u>   
