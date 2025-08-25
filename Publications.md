@@ -10,7 +10,7 @@ permalink: /Publications/
 
 * <u>Online Multivariate Changepoint Detection: Leveraging Links With Computational Geometry</u>   
 [link arXiv](https://arxiv.org/abs/2311.01174). 
-and [JRSS serie B. link](https://academic.oup.com/jrsssb/advance-article-abstract/doi/10.1093/jrsssb/qkaf046/8223216?redirectedFrom=fulltext) *Liudmila Pishchagina, Gaetano Romano, Paul Fearnhead, Vincent Runge, Guillem Rigaill, 2025*
+and [link JRSS serie B](https://academic.oup.com/jrsssb/advance-article-abstract/doi/10.1093/jrsssb/qkaf046/8223216?redirectedFrom=fulltext) *Liudmila Pishchagina, Gaetano Romano, Paul Fearnhead, Vincent Runge, Guillem Rigaill, 2025*
 
 * <u>Change Point Detection in Hadamard Spaces by Alternating Minimization</u>   
 stats. [link AISTATS](https://openreview.net/forum?id=Leyh3mDyof)
