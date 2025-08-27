@@ -109,6 +109,7 @@ Co-organizers of the Evry stat-math seminar [MathForGenomics](https://mathforgen
 
 ## <span style="color:teal;"> 4. Presentations to conferences and workshops </span> 
 
+- 2025 Sept (Fréjus) StatMathAppli (poster)
 - 2025 July (Dauphine University) Change-point meeting
 - 2025 June (Marseille) Journées de statistiques
 - 2025 january (Evry LaMME) HCERES scientific presentation
