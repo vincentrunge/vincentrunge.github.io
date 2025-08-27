@@ -86,6 +86,7 @@ ___
 multivariate extensions of change point detection algorithms in online (MdFOCuS) and offline settings(FeomFPOP) 2021-2024 (Co-direction with Guillem Rigaill)
 
 + internships:
+  **2025:** Alexandre Combeau (M2). Emmeline Bourget (M2).
   **2024:** Simon Querné (M2).
  **2023:** Olha Pomomarenko (L3).
   **2022:** Antonina Bondarchuk (L3), Marko Kachaikin (L2), Kader HOUSSEIN (L2)
