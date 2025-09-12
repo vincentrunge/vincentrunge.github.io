@@ -4,7 +4,7 @@ title: About
 permalink: /About/
 ---
 
-Organization of recent conferences
+Organization of recent conferences and events
 
 - [TDA working group](#tda) (2025)
 - [Ukrainian math day](#ukraine) (2025)
@@ -12,7 +12,7 @@ Organization of recent conferences
 - [Change-Point Paris-Saclay conference (January 2023)](#chpt) (2023)
 
 
-## <span style="color:teal;"> 1. Recent conferences and workshop  </span> 
+## <span style="color:teal;"> 1. Recent conferences and events  </span> 
 
 ### <a id="tda"> Topological Data Analysis Working Group (May-June 2025)
 
