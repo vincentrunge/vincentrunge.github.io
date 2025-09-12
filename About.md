@@ -124,8 +124,7 @@ Co-organizers of the Evry stat-math seminar [MathForGenomics](https://mathforgen
 
 ## <span style="color:teal;"> 5. Current job </span> 
 
-Assistant Professor in statistics *since September 2019* at the University of Evry (near Paris) in the laboratory [LaMME](http://www.math-evry.cnrs.fr/doku.php). My current research is about *change-point detection* using pruned dynamic programming algorithm with a focus on the multivariate framework and application to genomics.
-
+Assistant Professor in statistics *since September 2019* at the University of Evry Paris-Saclay in the laboratory [LaMME](http://www.math-evry.cnrs.fr/doku.php). My current research is about *change-point detection* using pruned dynamic programming algorithm with a focus on the multivariate framework and application to genomics.
 
 As an Applied Mathematician, I like to work at the interface of different fields. My current and past interests are:
 
@@ -137,4 +136,4 @@ As an Applied Mathematician, I like to work at the interface of different fields
 
 **Package development** : gfpop, dust (see github)
 
-In particular, I have a strong interest in problems that require the use of optimization techniques.
+In particular, I have a strong interest in problems that require the development of new optimization tools.
