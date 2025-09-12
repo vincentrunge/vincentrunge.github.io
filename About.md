@@ -41,7 +41,7 @@ analysis. Journal of Machine Learning Research, 25:1-39, (2024).
 5:501-532 (2017).
 
 
-### <a id="ukraine"> Ukrainian Math Day in Evry Paris-Saclay
+### <a id="ukraine"> Ukrainian Math Day in Evry Paris-Saclay (February 2025)
 
 "Ukrainian Math Day in Évry Paris-Saclay #1" is a special event where Ukrainian mathematicians share their ongoing research in mathematics with a diverse audience.
 
@@ -51,7 +51,7 @@ Through insightful lectures, engaging discussions, and valuable networking oppor
 
 [website of the conference day](https://indico.math.cnrs.fr/event/13784/)
 
-### <a id="impact"> Impact IA for master student
+### <a id="impact"> Impact IA for master student (February 2025)
 
 Cet événement est conçu pour échanger "au delà des mathématiques" sur les conséquences écologiques, économiques, éthiques ou juridiques de l'utilisation des modèles d'IA.
  
@@ -71,7 +71,7 @@ The Paris-Saclay Change-Point workshop is a **2-day meeting** (January 16th and 
 
 ## <span style="color:teal;"> 2. Student supervision </span> 
 
-+ Postdoc: Hugo Henneuse (**July 2025** - ...)
++ Postdoc: Hugo Henneuse (**July 2025** - **July 2027**)
  (with Charles Truong and Nicolas Oudre)
 
 + PhD student: Nicolas Cecchi (**February 2025** - ...)
