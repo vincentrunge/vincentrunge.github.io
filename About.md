@@ -122,6 +122,7 @@ Co-organizers of the Evry stat-math seminar [MathForGenomics](https://mathforgen
 
 ## <span style="color:teal;"> 4. Presentations to conferences and workshops </span> 
 
+- 2025 Oct (Paris) SAMM. Sorbonne Université (Séminaire)
 - 2025 Sept (Fréjus) StatMathAppli (poster)
 - 2025 July (Dauphine University) Change-point meeting
 - 2025 June (Marseille) Journées de statistiques
@@ -136,7 +137,7 @@ Co-organizers of the Evry stat-math seminar [MathForGenomics](https://mathforgen
 
 ## <span style="color:teal;"> 5. Current job </span> 
 
-Assistant Professor in statistics *since September 2019* at the University of Evry Paris-Saclay in the laboratory [LaMME](http://www.math-evry.cnrs.fr/doku.php). My current research is about *change-point detection* using pruned dynamic programming algorithm with a focus on the multivariate framework and application to genomics.
+Assistant Professor in statistics *since September 2019* at the University of Evry Paris-Saclay in the laboratory [LaMME](http://www.math-evry.cnrs.fr/doku.php). My current research is about *change-point detection* using functional dynamic programming algorithm with a focus on the multivariate framework and the extention to complex data (non-Euclidean spaces, Fréchet mean...)
 
 As an Applied Mathematician, I like to work at the interface of different fields. My current and past interests are:
 
