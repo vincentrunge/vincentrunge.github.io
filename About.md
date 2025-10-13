@@ -7,8 +7,8 @@ permalink: /About/
 Organization of recent conferences and events
 
 - [TDA working group](#tda) (2025)
-- [Ukrainian math day](#ukraine) (2025)
-- [Impact IA](#impact) (2025)
+- [Ukrainian math day](#ukraine) (2025-2026)
+- [Impact IA](#impact) (2025-2026)
 - [Change-Point Paris-Saclay conference (January 2023)](#chpt) (2023)
 
 
