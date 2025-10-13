@@ -6,8 +6,7 @@ permalink: /Publications/
 
 
 * <u>SPOP: Time Series Compression With Quadratic Splines </u>
-[link](https://www.laurentoudre.fr/publis/EUSIPCO2025.pdf)
-Nicolas Enrique Cecchi, Vincent Runge, Charles Truong and Laurent Oudre 2025*
+[link](https://www.laurentoudre.fr/publis/EUSIPCO2025.pdf) *Nicolas Enrique Cecchi, Vincent Runge, Charles Truong and Laurent Oudre 2025*
 
 * <u>Online Multivariate Changepoint Detection: Leveraging Links With Computational Geometry</u>   
 [link arXiv](https://arxiv.org/abs/2311.01174). 
