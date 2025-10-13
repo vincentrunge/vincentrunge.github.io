@@ -51,6 +51,19 @@ Through insightful lectures, engaging discussions, and valuable networking oppor
 
 [website of the conference day](https://indico.math.cnrs.fr/event/13784/)
 
+### UMD 2026 (4-5 June 2026). Henri Poincaré Institute
+
+We organize a two-day conference called **Ukrainian Mathematics Days 2026**, following the success of the previous (smaller) event. Organizing commitee: 
+
+- Anna Bahrii (Evry Paris-Saclay University, LaMME)
+- Maryna Kachanovska (POEMS team, Inria)
+- Illia Karabash (Universität Bonn)
+- Kostyantyn Krutoy (Paris-Cité University, IMJ-PRG)
+- Ruben Martos (Sorbonne Université, SAMM lab)
+- Vincent Runge (Evry Paris-Saclay University, LaMME)
+
+
+
 ### <a id="impact"> Impact IA for master student (February 2025)
 
 Cet événement est conçu pour échanger "au delà des mathématiques" sur les conséquences écologiques, économiques, éthiques ou juridiques de l'utilisation des modèles d'IA.
@@ -72,13 +85,13 @@ The Paris-Saclay Change-Point workshop is a **2-day meeting** (January 16th and 
 ## <span style="color:teal;"> 2. Student supervision </span> 
 
 + Postdoc: Hugo Henneuse (**July 2025** - **July 2027**)
- (with Charles Truong and Nicolas Oudre)
+ (with Charles Truong and Laurent Oudre)
 
 + PhD student: Nicolas Cecchi (**February 2025** - ...)
- (Co-direction with Charles Truong and Nicolas Oudre)
+ (Co-direction with Charles Truong and Laurent Oudre)
 
 + internships:
-  **2025:** Emmeline Bourget (M2). Alexandre Combeau (M2). Séréna Pandzou (L2)
+  **2025:** Emmeline Bourget (M2) (DataIA funding). Alexandre Combeau (M2). Séréna Pandzou (L2)
 
 ___
 
@@ -86,12 +99,12 @@ ___
 multivariate extensions of change point detection algorithms in online (MdFOCuS) and offline settings(FeomFPOP) 2021-2024 (Co-direction with Guillem Rigaill)
 
 + internships:
-  **2025:** Alexandre Combeau (M2). Emmeline Bourget (M2).
+  **2025:** Alexandre Combeau (M2). Emmeline Bourget (M2). Séréna Pandzou (L2)
   **2024:** Simon Querné (M2).
- **2023:** Olha Pomomarenko (L3).
+  **2023:** Olha Pomomarenko (L3).
   **2022:** Antonina Bondarchuk (L3), Marko Kachaikin (L2), Kader HOUSSEIN (L2)
   **2021:** Liudmila Pishchagina (M2), Saâd Qriouet (M1), Pauline Spinga (L3).
- **2020:** Nicolas Deschamps de Boishebert (M1). Jawad Boulafha (M1).
+  **2020:** Nicolas Deschamps de Boishebert (M1). Jawad Boulafha (M1).
   **2018:** Alexandre Schulz (M1)
   
 
@@ -101,7 +114,6 @@ multivariate extensions of change point detection algorithms in online (MdFOCuS)
 
 Head of the Master 2 (2022-2023)
 Co-direction with Agathe Guilloux (2020-2022)
-
 
 **2) Séminaire scientifique *Math For genomics***
 
