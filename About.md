@@ -122,18 +122,19 @@ Co-organizers of the Evry stat-math seminar [MathForGenomics](https://mathforgen
 
 ## <span style="color:teal;"> 4. Presentations to conferences and workshops </span> 
 
+- 2025 Dec (One week) (Lancaster University, UK) Academic research visit
 - 2025 Oct (Paris) SAMM. Sorbonne Université (Séminaire)
 - 2025 Sept (Fréjus) StatMathAppli (poster)
 - 2025 July (Dauphine University) Change-point meeting
 - 2025 June (Marseille) Journées de statistiques
-- 2025 january (Evry LaMME) HCERES scientific presentation
-- 2023 February (Paris IHP) Séminaire parisien de statistiques
-- 2022 December (Brighton, UK) StateScale meeting
+- 2025 Jan (Evry LaMME) HCERES scientific presentation
+- 2023 Feb (Paris IHP) Séminaire parisien de statistiques
+- 2022 Dec (Brighton, UK) StateScale meeting
 - 2022 July (London, UK) IMS
 - 2021 March (Northern Arizona Univeristy. USA). Research seminar online
-- 2020 Septebmer (Paris) Séminaire de Statistiques MAP5
-- 2019 December (London, UK) CMStatistics
-- 2019 November (Paris) Paris-Lancaster change-points workshop
+- 2020 Sept (Paris) Séminaire de Statistiques MAP5
+- 2019 Dec (London, UK) CMStatistics
+- 2019 Nov (Paris) Paris-Lancaster change-points workshop
 
 ## <span style="color:teal;"> 5. Current job </span> 
 
