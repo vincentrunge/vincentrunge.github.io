@@ -5,8 +5,8 @@ permalink: /Publications/
 ---
 
 
-* <u>DUST: A Duality-Based Pruning Method For Exact Multiple Change-Point Detection </u>   
-*Vincent Runge, Charles Truong, Simon Querné, 2025* [link arXiv](https://arxiv.org/abs/2507.02467)
+* <u>SPOP: Time Series Compression With Quadratic Splines </u>   
+* Nicolas Enrique Cecchi, Vincent Runge, Charles Truong and Laurent Oudre 2025*
 
 * <u>Online Multivariate Changepoint Detection: Leveraging Links With Computational Geometry</u>   
 [link arXiv](https://arxiv.org/abs/2311.01174). 
