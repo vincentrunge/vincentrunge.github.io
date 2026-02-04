@@ -7,8 +7,6 @@ permalink: /Events/
 I particularly enjoy initiating and organizing new events. Here is a list of the conferences and events I have recently organized.
 
 
-## <span style="color:teal;"> Recent conferences and events  </span> 
-
 - [Ukrainian Mathematics Days](#umd) (2026)
 - [Ukrainian math day](#ukraine) (2025)
 - [Impact IA](#impact) (2025-2026)
