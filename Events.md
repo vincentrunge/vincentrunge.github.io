@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Events
-permalink: /About/
+permalink: /Events/
 ---
 
 I take a greate pleasure at creating new events. Here is the list of event I 
