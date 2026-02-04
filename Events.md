@@ -16,6 +16,8 @@ I particularly enjoy initiating and organizing new events. Here is a list of the
 
 ### <a id="umd"> Ukrainian Mathematics Days (Institut Henri Poincaré 2026)
 
+[website of the conference UMD 2026](https://ukrmathday2026.sciencesconf.org/?lang=en)
+
 We organize a two-day conference called **Ukrainian Mathematics Days 2026**, following the success of the previous (smaller) event. 
 Organizing commitee: 
 
@@ -35,7 +37,6 @@ The theme covered by this edition is broad, reflecting the scientific expertise 
 
 We envision this event as the first meeting of a biennial series, where Ukrainian and Western European mathematicians showcase their collaborative work and strengthen the integration of the Ukrainian math community into the European research landscape.
 
-[website of the conference](https://ukrmathday2026.sciencesconf.org/?lang=en)
 
 
 ### <a id="ukraine"> Ukrainian Math Day in Evry Paris-Saclay (February 2025)
