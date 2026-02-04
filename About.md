@@ -66,7 +66,7 @@ Co-organizers of the Evry stat-math seminar [MathForGenomics](https://mathforgen
 
 Assistant Professor in statistics *since September 2019* at the University of Evry Paris-Saclay in the laboratory [LaMME](http://www.math-evry.cnrs.fr/doku.php). My current research focuses about *change-point detection*. With my collaborators, I develop the following research directions:
 - Algorithmic efficiency: dynamic programming methods (functional pruning; DUST and FOcUS algorithms);
-- Extensions to complex data lying in non-Euclidean spaces (Fréchet means in Hadamard and CAT(k) spaces;
+- Extensions to complex data lying in non-Euclidean spaces (Fréchet means in Hadamard and CAT(k) spaces);
 - Computational geometry (convex hulls; shape coverings and intersections).
 
 As an Applied Mathematician, I like to work at the interface of different fields. My current and past interests are:
