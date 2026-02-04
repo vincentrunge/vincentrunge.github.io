@@ -6,6 +6,7 @@ permalink: /About/
 
 Organization of recent conferences and events
 
+- [Ukrainian Mathematics Days](#umd) (2026)
 - [TDA working group](#tda) (2025)
 - [Ukrainian math day](#ukraine) (2025-2026)
 - [Impact IA](#impact) (2025-2026)
@@ -13,6 +14,20 @@ Organization of recent conferences and events
 
 
 ## <span style="color:teal;"> 1. Recent conferences and events  </span> 
+
+### <a id="umd"> Ukrainian Mathematics Days (Institut Henri Poincaré 2026)
+
+I delighted to organize in collaboration with 5 colleagues the first conference of Ukrainian mathematics in France.
+
+UMD 2026 is a conference that offers a unique opportunity to exchange ideas and foster collaborations with and within the Ukrainian mathematical community in Europe. It brings together early-career researchers and senior mathematicians, with a particular focus on mentoring younger Ukrainian students based in Europe, particularly in the Paris Region.
+
+The first edition of the conference takes place on the 4th-5th of June 2026 at the Institut Henri Poincaré, Paris, Amphithéâtre Yvonne Choquet-Bruhat.
+The theme covered by this edition is broad, reflecting the scientific expertise of Ukrainian mathematics. It has a particular focus on PDEs, SDEs, operator algebras, and machine learning.
+
+We envision this event as the first meeting of a biennial series, where Ukrainian and Western European mathematicians showcase their collaborative work and strengthen the integration of the Ukrainian math community into the European research landscape.
+
+[website of the conference](https://ukrmathday2026.sciencesconf.org/?lang=en)
+
 
 ### <a id="tda"> Topological Data Analysis Working Group (May-June 2025)
 
