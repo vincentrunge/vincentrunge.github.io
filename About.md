@@ -14,12 +14,12 @@ permalink: /About/
  (Co-direction with Charles Truong and Laurent Oudre)
 
 + internships:
-  **2026:** Yaroslav Kudrevytch Bourget (M1) (DataIA funding).
+  **2026:** Yaroslav Kudrevytch (M1 Orsay) (DataIA funding). Supervised with Hugo Henneuse.
   
 ___
 
 + PhD student: Liudmila Pishchagina / Shabarshova (**2021 - 2024**)
-multivariate extensions of change point detection algorithms in online (MdFOCuS) and offline settings(FeomFPOP) 2021-2024 (Co-direction with Guillem Rigaill)
+multivariate extensions of change point detection algorithms in online (MdFOCuS) and offline settings(FGeomFPOP) 2021-2024 (Co-direction with Guillem Rigaill)
 
 + internships:
   **2025:** Alexandre Combeau (M2). Emmeline Bourget (M2). Séréna Pandzou (L2)
@@ -33,7 +33,7 @@ multivariate extensions of change point detection algorithms in online (MdFOCuS)
 
 ## <span style="color:teal;"> Presentations to conferences and workshops </span> 
 
-- 2026 April (Lancaster). Contemporary Challenges in Changepoint Detection Workshop.
+- 2026 April (UK). Contemporary Challenges in Changepoint Detection Workshop
 - 2026 Fev (Nice). Séminaire de Probabilités et Statistique. (Université Côte d'Azur) 
 - 2025 Dec (One week) (Lancaster University, UK) Academic research visit
 - 2025 Oct (Paris) SAMM. Sorbonne Université (Séminaire)
@@ -64,11 +64,17 @@ Co-organizers of the Evry stat-math seminar [MathForGenomics](https://mathforgen
 
 ## <span style="color:teal;"> Current job </span> 
 
-Assistant Professor in statistics *since September 2019* at the University of Evry Paris-Saclay in the laboratory [LaMME](http://www.math-evry.cnrs.fr/doku.php). My current research is about *change-point detection* using functional dynamic programming algorithm with a focus on the multivariate framework and the extention to complex data (non-Euclidean spaces, Fréchet mean...)
+Assistant Professor in Statistics (since September 2019) at Université d’Évry Paris-Saclay, in the LaMME laboratory (website). My current research focuses on change-point detection. 
+
+
+Assistant Professor in statistics *since September 2019* at the University of Evry Paris-Saclay in the laboratory [LaMME](http://www.math-evry.cnrs.fr/doku.php). My current research focuses about *change-point detection*. With my collaborators, I develop the following research directions:
+- Algorithmic efficiency: dynamic programming methods (functional pruning; DUST and FOcUS algorithms);
+- Extensions to complex data lying in non-Euclidean spaces (Fréchet means in Hadamard and CAT(k) spaces;
+- Computational geometry (convex hulls; shape coverings and intersections).
 
 As an Applied Mathematician, I like to work at the interface of different fields. My current and past interests are:
 
-**Statistics** : Change-point detection (by dynamic programming)
+**Statistics** : Change-point detection 
 
 **Optimization** : Constrained Optimization, Convex optimization, Computational geometry, Quadratic and linear programming.
 
