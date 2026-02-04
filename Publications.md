@@ -8,6 +8,9 @@ permalink: /Publications/
 * <u>Exact Multiple Change-Point Detection Via Smallest Valid Partitioning </u>
 [link HAL](https://hal.science/hal-05491126) *Vincent Runge, Anica Kostic, Alexandre Combeau, Gaetano Romano 2026*
 
+* <u>DUST: A Duality-Based Pruning Method For Exact Multiple Change-Point Detection </u>
+[link arXiv](https://arxiv.org/abs/2507.02467) *Vincent Runge, Charles Truong, Simon Querné 2025*
+
 * <u>SPOP: Time Series Compression With Quadratic Splines </u>
 [link](https://www.laurentoudre.fr/publis/EUSIPCO2025.pdf) *Nicolas Enrique Cecchi, Vincent Runge, Charles Truong and Laurent Oudre 2025*
 
