@@ -4,8 +4,8 @@ title: Events
 permalink: /Events/
 ---
 
-I take a greate pleasure at creating new events. Here is the list of event I 
-Organization of recent conferences and events
+I particularly enjoy initiating and organizing new events. Here is a list of the conferences and events I have recently organized.
+
 
 ## <span style="color:teal;"> Recent conferences and events  </span> 
 
