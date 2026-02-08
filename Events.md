@@ -7,7 +7,7 @@ permalink: /Events/
 I particularly enjoy initiating and organizing new events. 
 
 My ultimate goal is **the Math Night-Train Conference**: a two-week conference on a special night train crossing Europe. 
-A €1 million initiative to change what a scientific conference can be -- forever.
+A €1 million initiative to change what a scientific conference can be - forever!
 
 Here is a list of the conferences and events I have recently organized.
 
