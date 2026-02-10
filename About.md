@@ -34,6 +34,7 @@ multivariate extensions of change point detection algorithms in online (MdFOCuS)
 ## <span style="color:teal;"> Presentations to conferences and workshops </span> 
 
 - 2026 April (UK). Contemporary Challenges in Changepoint Detection Workshop
+- 2026 Feb. online (UK) [virtual seminar](https://www.dass-programme.org/virtual-seminar-series) change-point meeting
 - 2026 Fev (Nice). Séminaire de Probabilités et Statistique. (Université Côte d'Azur) 
 - 2025 Dec (One week) (Lancaster University, UK) Academic research visit
 - 2025 Oct (Paris) SAMM. Sorbonne Université (Séminaire)
