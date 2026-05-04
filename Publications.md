@@ -5,6 +5,9 @@ permalink: /Publications/
 ---
 
 
+* <u>Efficient Multiple Change-Point Detection on CAT Spaces </u>
+[link HAL](https://hal.science/hal-05535310/) *Hugo Henneuse, Vincent Runge, Charles Truong, Tung Lam Nguyen 2026*
+
 * <u>Exact Multiple Change-Point Detection Via Smallest Valid Partitioning </u>
 [link HAL](https://hal.science/hal-05491126) *Vincent Runge, Anica Kostic, Alexandre Combeau, Gaetano Romano 2026*
 
