@@ -4,6 +4,8 @@ title: Publications
 permalink: /Publications/
 ---
 
+* <u>SplineOP: A dynamic programming knot selection algorithm for time-series compression with quadratic splines</u>
+Signal Processing [link]([https://hal.science/hal-05535310/](https://www.sciencedirect.com/science/article/pii/S0165168426003142)) *Nicolás Enrique Cecchi, Vincent Runge, Charles Truong, Laurent Oudre. 2027*
 
 * <u>Efficient Multiple Change-Point Detection on CAT Spaces </u>
 [link HAL](https://hal.science/hal-05535310/) *Hugo Henneuse, Vincent Runge, Charles Truong, Tung Lam Nguyen 2026*
@@ -15,7 +17,7 @@ permalink: /Publications/
 [link arXiv](https://arxiv.org/abs/2507.02467) *Vincent Runge, Charles Truong, Simon Querné 2025*
 
 * <u>SPOP: Time Series Compression With Quadratic Splines </u>
-[link](https://www.laurentoudre.fr/publis/EUSIPCO2025.pdf) *Nicolas Enrique Cecchi, Vincent Runge, Charles Truong and Laurent Oudre 2025*
+[link]([https://www.laurentoudre.fr/publis/EUSIPCO2025.pdf](https://eusipco2025.org/wp-content/uploads/pdfs/0002687.pdf)) *Nicolas Enrique Cecchi, Vincent Runge, Charles Truong and Laurent Oudre 2025* (EUSIPCO conf 2025)
 
 * <u>Online Multivariate Changepoint Detection: Leveraging Links With Computational Geometry</u>   
 [link arXiv](https://arxiv.org/abs/2311.01174). 
