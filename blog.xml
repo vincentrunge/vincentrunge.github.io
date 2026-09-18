@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Vincent Runge</title>
+<link>https://vincentrunge.github.io/blog.html</link>
+<atom:link href="https://vincentrunge.github.io/blog.xml" rel="self" type="application/rss+xml"/>
+<description>“Can we survive technology?” ― John von Neumann</description>
+<generator>quarto-1.9.38</generator>
+<lastBuildDate>Thu, 17 Sep 2026 22:00:00 GMT</lastBuildDate>
+<item>
+  <title>Welcome to my research blog</title>
+  <dc:creator>Vincent Runge</dc:creator>
+  <link>https://vincentrunge.github.io/posts/2026-09-site-redesign/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>This blog accompanies my work as a mathematician. I will write about <strong>the ongoing AI revolution in mathematics</strong>, the profound changes in <strong>teaching and research</strong> that it entails. I will also write about <strong>my research in statistics</strong>, change-point detection, and <strong>the use of my software packages</strong>. I will also share <strong>open questions in mathematics</strong> and share my passion for the history of mathematics and science. All of this, en français 😊</p>
+
+
+
+ ]]></description>
+  <category>blog info</category>
+  <guid>https://vincentrunge.github.io/posts/2026-09-site-redesign/</guid>
+  <pubDate>Thu, 17 Sep 2026 22:00:00 GMT</pubDate>
+</item>
+</channel>
+</rss>

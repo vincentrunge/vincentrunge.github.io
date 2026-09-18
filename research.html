@@ -6,9 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="Vincent Runge, Assistant Professor of Statistics at Université d’Évry Paris-Saclay.">
+<meta name="description" content="Overview">
 
-<title>About – Vincent Runge</title>
+<title>Research – Vincent Runge</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -94,7 +94,7 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="./index.html"> 
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item dropdown ">
@@ -155,12 +155,11 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#current-position" id="toc-current-position" class="nav-link active" data-scroll-target="#current-position">Current position</a></li>
-  <li><a href="#research-interests" id="toc-research-interests" class="nav-link" data-scroll-target="#research-interests">Research interests</a></li>
-  <li><a href="#supervision" id="toc-supervision" class="nav-link" data-scroll-target="#supervision">Supervision</a></li>
-  <li><a href="#selected-talks-and-visits" id="toc-selected-talks-and-visits" class="nav-link" data-scroll-target="#selected-talks-and-visits">Selected talks and visits</a></li>
-  <li><a href="#supporting-ukrainian-mathematics-students" id="toc-supporting-ukrainian-mathematics-students" class="nav-link" data-scroll-target="#supporting-ukrainian-mathematics-students">Supporting Ukrainian Mathematics Students</a></li>
-  <li><a href="#past-responsibilities" id="toc-past-responsibilities" class="nav-link" data-scroll-target="#past-responsibilities">Past responsibilities</a></li>
+  <li><a href="#current-work-efficient-change-point-detection" id="toc-current-work-efficient-change-point-detection" class="nav-link active" data-scroll-target="#current-work-efficient-change-point-detection">Current work: efficient change-point detection</a></li>
+  <li><a href="#applied-statistics-projects" id="toc-applied-statistics-projects" class="nav-link" data-scroll-target="#applied-statistics-projects">Applied statistics projects</a>
+  <ul class="collapse">
+  <li><a href="#ongoing-projects-outside-of-change-point-detection" id="toc-ongoing-projects-outside-of-change-point-detection" class="nav-link" data-scroll-target="#ongoing-projects-outside-of-change-point-detection">Ongoing projects outside of change-point detection</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -169,12 +168,12 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">About</h1>
+<h1 class="title">Research</h1>
 </div>
 
 <div>
   <div class="description">
-    Vincent Runge, Assistant Professor of Statistics at Université d’Évry Paris-Saclay.
+    Overview
   </div>
 </div>
 
@@ -191,101 +190,104 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<div class="columns about-hero">
-<div class="column" style="width:30%;">
-<p><img src="images/portrait2022.png" class="profile-photo img-fluid" alt="Portrait of Vincent Runge"></p>
-</div><div class="column" style="width:70%;">
-<section id="vincent-runge" class="level1">
-<h1>Vincent Runge</h1>
-<p><strong>Assistant Professor of Statistics</strong> · Université d’Évry Paris-Saclay · LaMME (CNRS UMR 8071)</p>
-<p>My research focuses on change-point detection and efficient algorithms for structured data. I work on dynamic programming and pruning methods, extensions to non-Euclidean spaces, and computational geometry for time-series analysis.</p>
-<div class="profile-links">
-<p><a href="https://github.com/vrunge">GitHub</a> · <a href="https://scholar.google.com/citations?user=YzxaQlsAAAAJ&amp;hl=fr">Google Scholar</a> · <a href="mailto:vincent.runge@univ-evry.fr">Email</a></p>
+<p>My current research focuses on developing <strong>efficient algorithms</strong> for change-point detection in time series, with particular emphasis on exact methods, structured observations, and geometric ideas.</p>
+<section id="current-work-efficient-change-point-detection" class="level2">
+<h2 class="anchored" data-anchor-id="current-work-efficient-change-point-detection">Current work: efficient change-point detection</h2>
+<p>My current research focuses on <strong>multiple change-point detection</strong> and <strong>dynamic programming</strong>. I draw on ideas from <em>computational geometry</em> and <em>duality theory</em> to improve the computational efficiency of <em>exact</em> change-point detection algorithms. This acceleration technique, commonly known as <strong>pruning</strong>, reduces the search space while preserving exactness.</p>
+<p>Alongside my work on dynamic programming, I study <strong>statistical guarantees</strong> for change-point detection. <em>Consistency</em> and <em>convergence rates</em> for change-point estimators provide fundamental guarantees on the reliability of our algorithm. These questions are linked to the <strong>calibration of hyperparameters</strong>, and are crucial for the practical use of change-point detection methods.</p>
+<div class="columns research-figures">
+<div class="column" style="width:33%;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/research/hop-emg-figure-3.png" class="img-fluid figure-img" alt="Six red and blue EMG traces, green crosses at true footstep boundaries, a black learned state sequence, and a table of precision, recall, and F-score."></p>
+<figcaption>HOP segmentation of an eight-second EMG recording, with true footstep boundaries and detection scores.</figcaption>
+</figure>
+</div>
+<p>Figure 3 from <a href="https://proceedings.mlr.press/v258/kostic25a.html">HOP article</a>.</p>
+</div><div class="column" style="width:33%;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/research/svp-well-log-segmentations.png" class="img-fluid figure-img" alt="Four segmented views of oil well-log data, with detected change-points shown as vertical dashed lines."></p>
+<figcaption>Oil well-log segmentations from our SVP study.</figcaption>
+</figure>
+</div>
+<p>From <a href="https://hal.science/hal-05491126">SVP article</a>.</p>
+</div><div class="column" style="width:33%;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/research/gfpop-ecg-changepoints.png" class="img-fluid figure-img" alt="Electrocardiogram trace with Q, R, and S wave labels, detected changepoints, and a piecewise-constant fit."></p>
+<figcaption>A cardiogram changepoint example from our gfpop work.</figcaption>
+</figure>
+</div>
+<p>From <a href="https://www.jstatsoft.org/article/view/v106i06">gfpop article</a>.</p>
+</div>
 </div>
 </section>
+<div class="section-heading-row">
+<section id="beyond-euclidean-data" class="level2 section-heading-title">
+<h2 class="anchored" data-anchor-id="beyond-euclidean-data">Beyond Euclidean data</h2>
+</section>
+<div class="section-heading-logo">
+<p><img src="images/research/Hyperbolic_triangle.png" alt="Hyperbolic triangle illustration" width="100"></p>
 </div>
 </div>
-<section id="current-position" class="level2">
-<h2 class="anchored" data-anchor-id="current-position">Current position</h2>
-<p>I have been an Assistant Professor in Statistics at Université d’Évry Paris-Saclay since September 2019. I am a member of the <a href="http://www.math-evry.cnrs.fr">LaMME laboratory</a>.</p>
+<p>we extend change-point methods from ordinary Euclidean spaces to more complex, non-Euclidean data structures. This includes work with Hadamard spaces and CAT spaces, where notion of means and segment cost has to be extended. See <a href="https://proceedings.mlr.press/v258/kostic25a.html">HOP publication</a> and the <a href="https://hal.science/hal-05535310/">CAT spaces preprint</a>.</p>
+<div class="section-heading-row">
+<section id="mathematical-background" class="level2 section-heading-title">
+<h2 class="anchored" data-anchor-id="mathematical-background">Mathematical background</h2>
 </section>
-<section id="research-interests" class="level2">
-<h2 class="anchored" data-anchor-id="research-interests">Research interests</h2>
-<ul>
-<li>Change-point detection, dynamic programming and functional pruning</li>
-<li>Methods for complex data in Hadamard and CAT spaces</li>
-<li>Computational geometry and time-series compression</li>
-<li>Constrained and convex optimization</li>
-<li>Topological Data Analysis</li>
-</ul>
-<p>See the <a href="./research.html">research overview</a> and <a href="./publications.html">publications</a>.</p>
-</section>
-<section id="supervision" class="level2">
-<h2 class="anchored" data-anchor-id="supervision">Supervision</h2>
-<ul>
-<li><strong>Postdoc:</strong> <a href="http://www.math-evry.cnrs.fr/doku.php?id=users:hugo.henneuse">Hugo Henneuse</a> (July 2025–August 2026), with <a href="https://charles.doffy.net">Charles Truong</a> and <a href="https://www.laurentoudre.fr">Laurent Oudre</a>. He is now an Assistant Professor at LaMME.</li>
-<li><strong>PhD:</strong> Nicolas Cecchi (since February 2025), co-directed with <a href="https://charles.doffy.net">Charles Truong</a> and <a href="https://www.laurentoudre.fr">Laurent Oudre</a>.</li>
-<li><strong>PhD:</strong> Liudmila Pishchagina / Shabarshova (2021–2024), co-directed with <a href="https://scholar.google.com/citations?user=Ve7EEQgAAAAJ&amp;hl=en">Guillem Rigaill</a>.</li>
-<li><strong>Internships:</strong>
-<ul>
-<li><strong>2026:</strong> Ikram Niari (L3 Bio-Info; 2-month), supervised with <a href="https://ear.cnrs.fr/welcome-to-lorenzo-dubois/">Lorenzo Dubois</a> (PhD at MNHN); Yaroslav Kudrevytch (M1, 5-month), supervised with Hugo Henneuse (<a href="https://www.dataia.eu">DATAIA</a> scholarship).</li>
-<li><strong>2025:</strong> Alexandre Combeau (M2, 6-month), Emmeline Bourget (M2, <a href="https://www.dataia.eu">DATAIA</a> scholarship, 6-month) and Séréna Pandzou (L2 SDV, 2-month), supervised with Doctor <a href="https://lemedecin.fr/roubaix/hopital-victor-provo/nephrologue/docteur-boudali-julie/ebca5c15525490fe30b4835a251de0dd/pro/">Julie Boudali</a>.</li>
-<li><strong>2024:</strong> Simon Querné (M2, 6-month).</li>
-<li><strong>2023:</strong> Olha Pomomarenko (L3, 3-month).</li>
-<li><strong>2022:</strong> Antonina Bondarchuk (L3, 4-month), Marko Kachaikin (L2, 2-month) and Kader Houssein (L2 SDV, 2-month,).</li>
-<li><strong>2021:</strong> Liudmila Pishchagina (M2, 6-month), Saâd Qriouet (M1, 5-month) and Pauline Spinga (L3 Bio-Info, 2-month).</li>
-<li><strong>2020:</strong> Nicolas Deschamps de Boishebert (M1, 4-month), Jawad Boulafha (M1, 4-month), Mohammed Seddik (Master’s thesis)</li>
-<li><strong>2018:</strong> Alexandre Schulz (M1, 4-month).</li>
-</ul></li>
-</ul>
-</section>
-<section id="selected-talks-and-visits" class="level2">
-<h2 class="anchored" data-anchor-id="selected-talks-and-visits">Selected talks and visits</h2>
-<ul>
-<li>Contemporary Challenges in Changepoint Detection <a href="https://www.lancaster.ac.uk/data-science-and-artificial-intelligence/about-us/events/workshop-contemporary-challenges-in-changepoint-detection/">Workshop</a>, United Kingdom (April 2026).</li>
-<li>Séminaire de Probabilités et Statistique, Université Côte d’Azur (February 2026).</li>
-<li>Academic research visit, Lancaster University (December 2025).</li>
-<li>Journées de Statistique, Marseille (June 2025).</li>
-</ul>
-<p>I often take part in organizing events for the mathematics community; they are listed on the <a href="./events.html">Events page</a>.</p>
-<p>Other recent talks and visits include SAMM at Sorbonne Université (October 2025), StatMathAppli (September 2025), a change-point meeting at Dauphine (July 2025), and the HCERES scientific presentation at LaMME (January 2025). Earlier presentations include the Paris seminar in statistics (2023), IMS (2022), a seminar at Northern Arizona University (2021), and seminars at MAP5 and CMStatistics (2019–2020).</p>
-</section>
-<section id="supporting-ukrainian-mathematics-students" class="level2">
-<h2 class="anchored" data-anchor-id="supporting-ukrainian-mathematics-students">Supporting Ukrainian Mathematics Students</h2>
-<p>Since 2022, I have dedicated a significant part of my time to supporting Ukrainian mathematics students in obtaining scholarships, in collaboration with the FMJH through the <a href="https://www.fondation-hadamard.fr/fr/programmes/les-programmes-transverses/fmjh-care/">FMJHcare program</a> and the <a href="https://sciencesmaths-paris.fr">FSMP</a>. So far, we have helped more than 30 students with different programs. I also advise them on finding internships, improving their CVs and motivation letters, and navigating the complex French higher-education system.</p>
-<p><span class="danger-sign" aria-label="Announcement">🎺</span> The <a href="https://ukrmathday2026.sciencesconf.org">UMD 2026 conference at IHP</a> and the <a href="https://indico.math.cnrs.fr/event/13784/">UMD 2025 day in Évry</a> are examples of this ongoing effort.</p>
-<div class="exhibition-highlight">
-<p><strong>Mathematics in Ukraine: continuing traditions</strong></p>
-<p>As a side event of the UMD 2026 conference, I proposed and coordinated an exhibition created by my colleagues in Ukraine. It was displayed in the entrance hall of the <strong>Henri Poincaré Institute</strong> from May to October 2026.</p>
-<p>The contributors are:</p>
-<ul>
-<li><strong>Iryna Banakh</strong>, Institute for Applied Problems of Mechanics and Mathematics (Lviv), National Academy of Sciences of Ukraine.</li>
-<li><strong>Taras Banakh, Viktoriia Brydun, Olena Hryniv, Yaroslav Prytula, and Mykhailo Zarichnyi</strong>, Ivan Franko National University of Lviv.</li>
-</ul>
-<p><strong>Conception &amp; Graphic Design:</strong> <a href="https://www.linkedin.com/in/wonjin-park-b800a1224/?locale=en">Wonjin Park</a></p>
-<p>The exhibition panels are available online in this <a href="FINAL version UKR.pdf">PDF file</a>. The Poincaré Institute can send the panels to other institutions in France or abroad upon request.</p>
+<div class="section-heading-logo">
+<p><img src="images/research/HeleShaw.png" alt="Hele-Shaw flow illustration" width="100"></p>
 </div>
-<p><span class="danger-sign" aria-label="Warning">⚠️</span> <strong>Ukrainian students in mathematics are welcome to contact me for advice and support</strong> (one easy task is to connect them with other Ukrainian students in a similar situation).</p>
-<p>It’s a great achievement to see that many of these students I welcomed in 2022 are now pursuing a PhD in France or are pursuing a successful career in the industry. Here is a list of some of the PhDs:</p>
-<ul>
-<li><a href="https://www.linkedin.com/in/antonina-bondarchuk-87a275371/">Antonina Bondarchuk</a> — PhD started in 2023 at CEA LIST, Université Paris-Saclay; cryptography and fully homomorphic encryption (FHE).</li>
-<li><a href="https://sites.google.com/view/annabahrii/">Anna Bahrii</a> — PhD started in 2024 at LaMME, Université Paris-Saclay; probability and stochastic analysis.</li>
-<li><a href="https://krutoy.pages.math.cnrs.fr/">Kostyantyn Krutoy</a> — PhD started in 2024 at IMJ-PRG, Université Paris Cité; coarse geometry, ample groupoids, and C*-algebras/operator algebras.</li>
-<li><a href="https://idrissi.eu/misc/">Filipp Buryak</a> — PhD started in 2024 at IMJ-PRG, Université Paris Cité; algebraic topology, operads, and representation stability.</li>
-<li><a href="https://www.linkedin.com/in/dmytro-husan/">Dmytro Husan</a> — PhD started in 2026 at LaMME, Université Paris-Saclay; stochastic analysis.</li>
-<li><a href="https://www.linkedin.com/in/hvorobiov/">Heorhii Vorobiov</a> — PhD started in 2026 at LaMME, Université Paris-Saclay; PDEs and the Navier–Stokes equations.</li>
-<li><a href="https://fr.linkedin.com/in/olena-verbytska">Olena Verbytska</a> — PhD started in 2026 at the PhyMedExp Institute in Montpellier; machine learning and AI.</li>
-<li><a href="https://www.linkedin.com/in/marko-kachaikin-459161289/">Marko Kachaikin</a> — PhD started in 2026 in Marseille; random geometry and PDEs.</li>
-</ul>
+</div>
+<p>My background as a PhD student is in partial differential equations and mathematical analysis. The topic was motivated by the free boundary Hele-Shaw problem. I worked with tools from complex analysis and control theory and developed C++ code for numerical simulations in fluid dynamics. This earlier work is documented in the <a href="./publications.html#earlier-mathematical-publications">earlier mathematical publications</a> listed on my <a href="./publications.html">Publications page</a>.</p>
+<div class="section-heading-row">
+<section id="broader-interests-in-applied-mathematics" class="level2 section-heading-title">
+<h2 class="anchored" data-anchor-id="broader-interests-in-applied-mathematics">Broader interests in applied mathematics</h2>
 </section>
-<section id="past-responsibilities" class="level2">
-<h2 class="anchored" data-anchor-id="past-responsibilities">Past responsibilities</h2>
+<div class="section-heading-logo">
+<p><img src="images/research/neuralNetwork.png" alt="Neural network illustration" width="100"></p>
+</div>
+</div>
+<p>More broadly, I am interested in <strong>applied mathematics</strong> and in developing my research and teaching toward advanced <strong>natural language processing</strong>, <strong>deep learning</strong> and <strong>supervised machine learning</strong>. I am particularly interested in questions of fairness and differential privacy, as these notions are fundamental to the responsible use of machine learning in society.</p>
+<div class="section-heading-row">
+<section id="ai-assisted-mathematics" class="level2 section-heading-title">
+<h2 class="anchored" data-anchor-id="ai-assisted-mathematics">AI-assisted mathematics</h2>
+</section>
+<div class="section-heading-logo">
+<p><img src="images/research/NavierStokes.jpg" alt="Navier-Stokes flow illustration" width="100"></p>
+</div>
+</div>
+<p>I see AI-assisted mathematics as both a thread and an opportunity. As many of my colleagues, I try to <strong>follow and test</strong> recent developments. However, <strong>I am strongly opposed to using AI to automate the production of reports, publications or peer reviews</strong>. At the same time, I consider AI assistance an inevitable part of contemporary mathematical work, for example, as a tool for exploring ideas, polishing proofs, or searching for the key argument when I get stuck. I use it also for improving my written English (as done on this website).</p>
+<p>I support the <a href="https://www.ahmath.org/home">Human Mathematics Association</a> and its efforts to promote the responsible use of AI and prevent its misuse in mathematics.</p>
+<div class="section-heading-row">
+<section id="software" class="level2 section-heading-title">
+<h2 class="anchored" data-anchor-id="software">Software</h2>
+</section>
+<div class="section-heading-logo">
+<p><a href="https://github.com/RcppCore"><img src="images/research/rcpp-logo.png" alt="Rcpp logo" width="100"></a></p>
+</div>
+</div>
+<p>An important part of my time is dedicated to developing softwares for change-point detection, even in this new world of code automation.</p>
+<p>I develop R packages for change-point detection, including [svpChange](<a href="https://github.com/vrunge/svpChange">svpChange</a>, <a href="https://github.com/vrunge/dust">DUST</a>, <a href="https://github.com/vrunge/gfpop">gfpop</a> and <a href="https://github.com/vrunge/slopeOP">slopeOP</a>. A complete list of papers, preprints and software is available on the <a href="./publications.html">Publications page</a> and the <a href="./software.html">Software page</a>.</p>
+<section id="applied-statistics-projects" class="level2">
+<h2 class="anchored" data-anchor-id="applied-statistics-projects">Applied statistics projects</h2>
+<p><em>Keeping a connection with the application</em> of our research in statistics and mathematics is <strong>fundamental</strong> in our work. (2) <em>Listening to the needs of the practitioners</em> is equally important and is a constant source for us of new ideas and research questions.</p>
 <ul>
-<li>I headed the <a href="https://www.universite-paris-saclay.fr/en/education/masters-degree/mathematics-and-applications/m2-data-science-health-insurance-and-finance">Paris-Saclay M2 Data Science programme (M2 Data Science : Santé, Assurance, Finance)</a> in 2022–2023 and co-directed it with <a href="https://sites.google.com/view/agatheguilloux-personalwebsite/accueil">Agathe Guilloux</a> in 2020–2022. From 2023 to 2026, I continued to take an active part in the programme’s organization, particularly in student selection as well as in internship defense.</li>
-<li>I created and co-organized the <a href="https://mathforgenomics.github.io/">Math For Genomics seminar</a>.</li>
+<li><p><strong>Mouse monitoring:</strong> DUST detects variance changes in force-platform recordings to divide mouse activity into active and resting periods in a study of muscle fatigue (<a href="https://arxiv.org/abs/2507.02467">DUST preprint</a>).</p></li>
+<li><p><strong>Antibiogram images:</strong> The SWITCH change-point algorithm measures inhibition-zone diameters from disk-diffusion antibiograms in a smartphone application (<a href="https://doi.org/10.1038/s41467-021-21187-3">study</a>).</p></li>
+<li><p><strong>ECG analysis:</strong> A constrained change-point model in gfpop locates QRS complexes in electrocardiogram waveforms (<a href="https://www.jstatsoft.org/article/view/v106i06">gfpop article</a>).</p></li>
+<li><p><strong>Bacterial gene expression:</strong> DeCAFS was applied to detect abrupt changes in gene-expression levels in <em>Bacillus subtilis</em> (<a href="https://doi.org/10.1080/01621459.2021.1909598">DeCAFS article</a>). Change-point detection is a well-known tool in bioinformatics, e.g.&nbsp;for RNAseq data (see the work of <a href="https://academic.oup.com/nargab/article/5/4/lqad098/7369456">Arnaud Liehrmann</a>).</p></li>
+</ul>
+<section id="ongoing-projects-outside-of-change-point-detection" class="level3">
+<h3 class="anchored" data-anchor-id="ongoing-projects-outside-of-change-point-detection">Ongoing projects outside of change-point detection</h3>
+<ul>
+<li><p><strong>Anticolinergic prescriptions</strong> Descriptive statistics and dose–effect study. Most supervised machine learning tools have been tested. This project is still ongoing and is in collaboration with <a href="https://www.researchgate.net/profile/Herve-Javelot">Hervé Javelot</a> from the Etablissement Public de Santé Alsace Nord, Brumath (EPSAN). Already two math master students worked with us on this project.</p></li>
+<li><p><strong>Bird vocalization:</strong> In collaboration with <a href="https://ear.cnrs.fr/welcome-to-lorenzo-dubois/">Lorenzo Dubois</a> at the Muséum National d’Histoire Naturelle (MNHN), Ikram Niari’s 2026 internship analyzed BirdNET detections from the Risoux forest over 2018–2024. The study modeled log-transformed daily detection counts for the European robin (<em>Erithacus rubecula</em>) and coal tit (<em>Periparus ater</em>) using linear regression with seasonal and weather effects. We identify a long-term trend in vocal activity that could be linked to climate change.</p></li>
 </ul>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->

@@ -1,0 +1,60 @@
+project:
+  type: website
+  output-dir: _site
+  post-render: cp -R _site/. .
+  render:
+    - index.qmd
+    - research.qmd
+    - publications.qmd
+    - software.qmd
+    - events.qmd
+    - teaching.qmd
+    - blog.qmd
+    - contacts.qmd
+    - "posts/**/*.qmd"
+  resources:
+    - "Papers/focus-jss/**"
+
+website:
+  title: "Vincent Runge"
+  description: "Research, publications, teaching and events of Vincent Runge."
+  site-url: "https://vincentrunge.github.io/"
+  navbar:
+    title: "Vincent Runge"
+    pinned: true
+    search: true
+    left:
+      - text: "About"
+        href: index.qmd
+      - text: "Research"
+        menu:
+          - text: "Overview"
+            href: research.qmd
+          - text: "Publications"
+            href: publications.qmd
+          - text: "Software"
+            href: software.qmd
+      - events.qmd
+      - teaching.qmd
+      - text: "Blog"
+        href: blog.qmd
+      - contacts.qmd
+    right:
+      - icon: github
+        href: https://github.com/vrunge
+        aria-label: GitHub
+  page-footer:
+    left: "Vincent Runge · Université d’Évry Paris-Saclay · LaMME"
+    right:
+      - text: "Email"
+        href: mailto:vincent.runge@univ-evry.fr
+      - text: "Google Scholar"
+        href: https://scholar.google.com/citations?user=YzxaQlsAAAAJ&hl=fr
+
+format:
+  html:
+    theme: flatly
+    css: styles.css
+    toc: true
+    toc-depth: 3
+    smooth-scroll: true

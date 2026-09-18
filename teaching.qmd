@@ -1,0 +1,14 @@
+---
+title: "Teaching"
+toc: true
+---
+
+My teaching covers basic statistics, probability theory, statistical learning, R/Rcpp and Python programming, algorithm, and machine learning. Course materials are available through the relevant university e-learning platforms (ecampus).
+
+## Courses
+
+- **M2 Data Science — Algorithms:** complexity, recursion, dynamic programming and heuristics for NP-class problems.
+
+- **M1 Mathematics MINT — Introduction to supervised machine learning:** Classification LDA, QDA, logistic regression, SVM, decision trees, random forests, gradient boosting, neural networks. Code and theory.
+
+Updated course materials for both courses will be made available on this website soon.

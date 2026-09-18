@@ -1,0 +1,9 @@
+---
+title: "Welcome to my research blog"
+description: "Faisons connaissance !"
+date: 2026-09-18
+categories:
+  - blog info
+---
+
+This blog accompanies my work as a mathematician. I will write about **the ongoing AI revolution in mathematics**, the profound changes in **teaching and research** that it entails. I will also write about **my research in statistics**, change-point detection, and **the use of my software packages**. I will also share **open questions in mathematics** and share my passion for the history of mathematics and science. All of this, en français &#128522;

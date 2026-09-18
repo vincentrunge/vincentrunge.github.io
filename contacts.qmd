@@ -1,0 +1,32 @@
+---
+title: Contacts
+description: Contact details and professional profiles
+---
+
+## Vincent Runge
+
+Assistant Professor of Statistics  
+Université d’Évry Paris-Saclay  
+LaMME – CNRS UMR 8071  
+Bâtiment IBGBI, 4ème étage
+
+**Email:** [vincent.runge@univ-evry.fr](mailto:vincent.runge@univ-evry.fr)
+
+<iframe
+  src="https://www.google.com/maps/embed?pb=%211m18%211m12%211m3%211d5274.339951990712%212d2.437261276641105%213d48.625729317051196%212m3%211f0%212f0%213f0%213m2%211i1024%212i768%214f13.1%213m3%211m2%211s0x47e5e0a7aabd1a59%3A0xfccc517630a1f424%212s23+Bd+de+France-Georges+Pompidou%2C+91000+%C3%89vry-Courcouronnes%215e0%213m2%211sen%212sfr%214v1768222283903%215m2%211sen%212sfr"
+  width="100%"
+  height="450"
+  style="border: 0"
+  allowfullscreen=""
+  loading="lazy"
+  referrerpolicy="no-referrer-when-downgrade"
+  title="Map to the IBGBI building in Évry">
+</iframe>
+
+## Profiles
+
+- [GitHub](https://github.com/vrunge)
+- [Google Scholar](https://scholar.google.com/citations?user=YzxaQlsAAAAJ&hl=fr)
+- [ResearchGate](https://www.researchgate.net/profile/Vincent_Runge2)
+- [arXiv author search](https://arxiv.org/search/stat?searchtype=author&query=Runge%2C+V)
+- [LinkedIn](https://www.linkedin.com/in/vincent-runge-5b9350ab/)

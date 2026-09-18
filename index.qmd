@@ -1,0 +1,106 @@
+---
+title: About
+description: Vincent Runge, Assistant Professor of Statistics at Université d’Évry Paris-Saclay.
+image: images/portrait2022.png
+---
+
+::: {.columns .about-hero}
+
+::: {.column width="30%"}
+![](images/portrait2022.png){.profile-photo fig-alt="Portrait of Vincent Runge"}
+:::
+
+::: {.column width="70%"}
+
+# Vincent Runge
+
+**Assistant Professor of Statistics** · Université d’Évry Paris-Saclay · LaMME (CNRS UMR 8071)
+
+My research focuses on change-point detection and efficient algorithms for structured data. I work on dynamic programming and pruning methods, extensions to non-Euclidean spaces, and computational geometry for time-series analysis.
+
+::: {.profile-links}
+[GitHub](https://github.com/vrunge) · [Google Scholar](https://scholar.google.com/citations?user=YzxaQlsAAAAJ&hl=fr) · [Email](mailto:vincent.runge@univ-evry.fr)
+:::
+:::
+:::
+
+## Current position
+
+I have been an Assistant Professor in Statistics at Université d’Évry Paris-Saclay since September 2019. I am a member of the [LaMME laboratory](http://www.math-evry.cnrs.fr).
+
+## Research interests
+
+- Change-point detection, dynamic programming and functional pruning
+- Methods for complex data in Hadamard and CAT spaces
+- Computational geometry and time-series compression
+- Constrained and convex optimization
+- Topological Data Analysis
+
+See the [research overview](research.qmd) and [publications](publications.qmd).
+
+## Supervision
+
+- **Postdoc:** [Hugo Henneuse](http://www.math-evry.cnrs.fr/doku.php?id=users:hugo.henneuse) (July 2025–August 2026), with [Charles Truong](https://charles.doffy.net) and [Laurent Oudre](https://www.laurentoudre.fr). He is now an Assistant Professor at LaMME.
+- **PhD:** Nicolas Cecchi (since February 2025), co-directed with [Charles Truong](https://charles.doffy.net) and [Laurent Oudre](https://www.laurentoudre.fr).
+- **PhD:** Liudmila Pishchagina / Shabarshova (2021–2024), co-directed with [Guillem Rigaill](https://scholar.google.com/citations?user=Ve7EEQgAAAAJ&hl=en).
+- **Internships:**
+  - **2026:** Ikram Niari (L3 Bio-Info; 2-month), supervised with [Lorenzo Dubois](https://ear.cnrs.fr/welcome-to-lorenzo-dubois/) (PhD at MNHN); Yaroslav Kudrevytch (M1, 5-month), supervised with Hugo Henneuse ([DATAIA](https://www.dataia.eu) scholarship).
+  - **2025:** Alexandre Combeau (M2, 6-month), Emmeline Bourget (M2, [DATAIA](https://www.dataia.eu) scholarship, 6-month) and Séréna Pandzou (L2 SDV, 2-month), supervised with Doctor [Julie Boudali](https://lemedecin.fr/roubaix/hopital-victor-provo/nephrologue/docteur-boudali-julie/ebca5c15525490fe30b4835a251de0dd/pro/).
+  - **2024:** Simon Querné (M2, 6-month).
+  - **2023:** Olha Pomomarenko (L3, 3-month).
+  - **2022:** Antonina Bondarchuk (L3, 4-month), Marko Kachaikin (L2, 2-month) and Kader Houssein (L2 SDV, 2-month,).
+  - **2021:** Liudmila Pishchagina (M2, 6-month), Saâd Qriouet (M1, 5-month) and Pauline Spinga (L3 Bio-Info, 2-month).
+  - **2020:** Nicolas Deschamps de Boishebert (M1, 4-month), Jawad Boulafha (M1, 4-month), Mohammed Seddik (Master’s thesis)
+  - **2018:** Alexandre Schulz (M1, 4-month).
+
+## Selected talks and visits
+
+- Contemporary Challenges in Changepoint Detection [Workshop](https://www.lancaster.ac.uk/data-science-and-artificial-intelligence/about-us/events/workshop-contemporary-challenges-in-changepoint-detection/), United Kingdom (April 2026).
+- Séminaire de Probabilités et Statistique, Université Côte d’Azur (February 2026).
+- Academic research visit, Lancaster University (December 2025).
+- Journées de Statistique, Marseille (June 2025).
+
+I often take part in organizing events for the mathematics community; they are listed on the [Events page](events.qmd).
+
+Other recent talks and visits include SAMM at Sorbonne Université (October 2025), StatMathAppli (September 2025), a change-point meeting at Dauphine (July 2025), and the HCERES scientific presentation at LaMME (January 2025). Earlier presentations include the Paris seminar in statistics (2023), IMS (2022), a seminar at Northern Arizona University (2021), and seminars at MAP5 and CMStatistics (2019–2020).
+
+## Supporting Ukrainian Mathematics Students
+
+Since 2022, I have dedicated a significant part of my time to supporting Ukrainian mathematics students in obtaining scholarships, in collaboration with the FMJH through the [FMJHcare program](https://www.fondation-hadamard.fr/fr/programmes/les-programmes-transverses/fmjh-care/) and the [FSMP](https://sciencesmaths-paris.fr). So far, we have helped more than 30 students with different programs. I also advise them on finding internships, improving their CVs and motivation letters, and navigating the complex French higher-education system. 
+
+<span class="danger-sign" aria-label="Announcement">🎺</span> The [UMD 2026 conference at IHP](https://ukrmathday2026.sciencesconf.org) and the [UMD 2025 day in Évry](https://indico.math.cnrs.fr/event/13784/) are examples of this ongoing effort. 
+
+::: {.exhibition-highlight}
+**Mathematics in Ukraine: continuing traditions**
+
+As a side event of the UMD 2026 conference, I proposed and coordinated an exhibition created by my colleagues in Ukraine. It was displayed in the entrance hall of the **Henri Poincaré Institute** from May to October 2026.
+
+The contributors are:
+
+- **Iryna Banakh**, Institute for Applied Problems of Mechanics and Mathematics (Lviv), National Academy of Sciences of Ukraine.
+- **Taras Banakh, Viktoriia Brydun, Olena Hryniv, Yaroslav Prytula, and Mykhailo Zarichnyi**, Ivan Franko National University of Lviv.
+
+**Conception & Graphic Design:** [Wonjin Park](https://www.linkedin.com/in/wonjin-park-b800a1224/?locale=en)
+
+The exhibition panels are available online in this [PDF file](FINAL%20version%20UKR.pdf). The Poincaré Institute can send the panels to other institutions in France or abroad upon request. 
+:::
+
+
+<span class="danger-sign" aria-label="Warning">⚠️</span> **Ukrainian students in mathematics are welcome to contact me for advice and support** (one easy task is to connect them with other Ukrainian students in a similar situation).
+
+It's a great achievement to see that many of these students I welcomed in 2022 are now pursuing a PhD in France or are pursuing a successful career in the industry. Here is a list of some of the PhDs:
+
+- [Antonina Bondarchuk](https://www.linkedin.com/in/antonina-bondarchuk-87a275371/) — PhD started in 2023 at CEA LIST, Université Paris-Saclay; cryptography and fully homomorphic encryption (FHE).
+- [Anna Bahrii](https://sites.google.com/view/annabahrii/)  — PhD started in 2024 at LaMME, Université Paris-Saclay; probability and stochastic analysis.
+- [Kostyantyn Krutoy](https://krutoy.pages.math.cnrs.fr/) — PhD started in 2024 at IMJ-PRG, Université Paris Cité; coarse geometry, ample groupoids, and C\*-algebras/operator algebras.
+- [Filipp Buryak](https://idrissi.eu/misc/) — PhD started in 2024 at IMJ-PRG, Université Paris Cité; algebraic topology, operads, and representation stability.
+- [Dmytro Husan](https://www.linkedin.com/in/dmytro-husan/) — PhD started in 2026 at LaMME, Université Paris-Saclay; stochastic analysis.
+- [Heorhii Vorobiov](https://www.linkedin.com/in/hvorobiov/) — PhD started in 2026 at LaMME, Université Paris-Saclay; PDEs and the Navier–Stokes equations.
+- [Olena Verbytska](https://fr.linkedin.com/in/olena-verbytska) — PhD started in 2026 at the PhyMedExp Institute in Montpellier; machine learning and AI.
+- [Marko Kachaikin](https://www.linkedin.com/in/marko-kachaikin-459161289/) — PhD started in 2026 in Marseille; random geometry and PDEs.
+
+
+## Past responsibilities
+
+- I headed the [Paris-Saclay M2 Data Science programme (M2 Data Science : Santé, Assurance, Finance)](https://www.universite-paris-saclay.fr/en/education/masters-degree/mathematics-and-applications/m2-data-science-health-insurance-and-finance) in 2022–2023 and co-directed it with [Agathe Guilloux](https://sites.google.com/view/agatheguilloux-personalwebsite/accueil) in 2020–2022. From 2023 to 2026, I continued to take an active part in the programme’s organization, particularly in student selection as well as in internship defense.
+- I created and co-organized the [Math For Genomics seminar](https://mathforgenomics.github.io/).

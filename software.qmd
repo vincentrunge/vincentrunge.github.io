@@ -1,0 +1,58 @@
+---
+title: Software
+description: Software and code related to Vincent Runge’s research.
+---
+
+## My Rcpp packages 
+
+### svpChange
+
+An implementation of smallest valid partitioning for multiple change-point detection.
+
+[GitHub repository](https://github.com/vrunge/svpChange) · [SVP preprint](https://hal.science/hal-05491126)
+
+### DUST
+
+A duality-based pruning method for exact multiple change-point detection.
+
+[GitHub repository](https://github.com/vrunge/dust) · [DUST preprint](https://arxiv.org/abs/2507.02467)
+
+### slopeOP
+
+An R package for change-in-slope optimal partitioning in a finite-size parameter space.
+
+[GitHub repository](https://github.com/vrunge/slopeOP) · [CRAN](https://cran.r-project.org/package=slopeOP) · [Preprint](https://arxiv.org/abs/2012.11573)
+
+
+
+## gfpop
+
+An R package for univariate graph-constrained change-point detection.
+
+[GitHub repository](https://github.com/vrunge/gfpop) · [CRAN](https://cran.r-project.org/package=gfpop) · [Publication](https://www.jstatsoft.org/article/view/v106i06)
+
+## Participation to other packages
+
+### focus and focus-cpt
+
+R and Python packages for fast online changepoint detection, created and mainly contributed to by [Gaetano Romano](https://www.lancaster.ac.uk/~romano/).
+
+[GitHub repository](https://github.com/gtromano/unified_focus)
+
+### splineOP
+
+Quadratic-spline time-series compression software, with Nicolas Cecchi as the main contributor.
+
+[GitHub repository](https://github.com/vrunge/splineOP) · [Publication](https://www.sciencedirect.com/science/article/pii/S0165168426003142)
+
+### HOP
+
+Hadamard Optimal Partitioning for change-point detection in Hadamard spaces, with Charles Truong as the main contributor.
+
+[GitHub repository](https://github.com/deepcharles/hop) · [Publication](https://proceedings.mlr.press/v258/kostic25a.html)
+
+### GeomFPOP
+
+Code for geometric functional pruning optimal partitioning, with Liudmila Pishchagina as the main contributor.
+
+[GitHub repository](https://github.com/lpishchagina/GeomFPOP) · [Computo publication](https://openreview.net/pdf/e64991a58e37bf3171dd9b03a4248dfc1f283167.pdf)

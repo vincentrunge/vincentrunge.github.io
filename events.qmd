@@ -1,0 +1,91 @@
+---
+title: "Events"
+toc: true
+---
+
+I particularly enjoy initiating and organizing new events. 
+
+My ultimate goal is **the Math Night-Train Conference**: a two-week conference on a special night train crossing Europe. This would be a €1 million initiative to change what a scientific conference can be—forever! For the moment, I organize a bit smaller events, but still hopefully impactful &#128522;
+
+Here is a list of the conferences and events I have recently organized.
+
+- [Ukrainian Mathematics Days](#umd) (2026)
+- [Impact IA](#impact) (2025 and 2026)
+- [TDA working group](#tda) (2025)
+- [Change-Point Paris-Saclay conference (January 2023)](#chpt) (2023)
+
+
+### <a id="umd"> Ukrainian Mathematics Days (Institut Henri Poincaré 2026)
+
+[Website of Ukrainian Mathematics Days 2026](https://ukrmathday2026.sciencesconf.org)
+
+I was delighted to co-organize **Ukrainian Mathematics Days 2026** with five colleagues. It was a two-day conference and the first conference of Ukrainian mathematics in France, following the smaller Ukrainian Math Day held in Évry in 2025.
+The organizing committee included:
+
+- [Anna Bahrii](https://sites.google.com/view/annabahrii/) (Evry Paris-Saclay University, LaMME)
+- [Maryna Kachanovska](https://sites.google.com/site/mkachanovska/) (POEMS team, Inria)
+- [Illia Karabash](https://www.iam.uni-bonn.de/users/karabash/home) (Universität Bonn)
+- [Kostyantyn Krutoy](https://krutoy.pages.math.cnrs.fr/) (Paris-Cité University, IMJ-PRG)
+- [Ruben Martos](https://rmartosprieto.github.io/) (Sorbonne Université, SAMM lab)
+- Vincent Runge (Evry Paris-Saclay University, LaMME)
+
+The conference offered an opportunity to exchange ideas and build collaborations across the Ukrainian mathematical community in Europe. It brought together early-career researchers and senior mathematicians, with **a particular focus on mentoring younger Ukrainian students** based in Europe, particularly in the Paris Region.
+
+The first edition took place **on 4–5 June 2026 at the Institut Henri Poincaré** in Paris, in the Amphithéâtre Yvonne Choquet-Bruhat. Its broad programme reflected the range of Ukrainian mathematical research, with a particular focus on PDEs, SDEs, operator algebras, and machine learning.
+
+The organizers intended the conference to launch a biennial series in which Ukrainian and Western European mathematicians could present collaborative work and strengthen the integration of the Ukrainian mathematical community into the European research landscape. Discussions about hosting a 2027 edition in Marseille are underway.
+
+
+*Ukrainian Math Day in Evry Paris-Saclay (February 2025)*
+
+"Ukrainian Math Day in Évry Paris-Saclay" was hosted at the University of Évry Paris-Saclay. It aimed to promote knowledge exchange and support the Ukrainian mathematical community, which had been dispersed across Europe and beyond by the ongoing war. **Ukrainian PhD students based in Paris** were invited to present their research and share their experiences.
+
+[Website of the conference day](https://indico.math.cnrs.fr/event/13784/)
+
+### <a id="impact"> ImpAct IA for Master's Students (Orsay, February 2025 and 2026)
+
+Cette journée a été conçue comme un espace d’échange « au-delà des mathématiques » sur les conséquences écologiques, économiques, éthiques ou juridiques de l’utilisation des modèles d’IA.
+ 
+Co-financée par la FMJH et DATAIA, la journée ImpAct s’adressait **en priorité aux étudiants de master de Paris-Saclay**, notamment en mathématiques, science des données et intelligence artificielle. Un public plus large était bienvenu dans la limite des places disponibles.
+L’événement a été organisé en collaboration avec [Gilles Blanchard](https://www.imo.universite-paris-saclay.fr/~gilles-blanchard/) (LMO, Paris-Saclay).
+
+[website of the conference 2025](https://indico.math.cnrs.fr/event/13759/)
+
+[website of the conference 2026](https://www.imo.universite-paris-saclay.fr/fr/conf/impact-enjeux-societaux-ia/)
+
+Les vidéos des interventions des deux éditions sont disponibles sur [la chaîne YouTube de dataIA](https://www.youtube.com/playlist?list=PLVRKHcmC2fB4eaFYhz-BB0qmRGDIPLkfm).
+
+
+### <a id="tda"> Topological Data Analysis Working Group (Evry, May-June 2025)
+
+The working group was co-organized with:
+- Ruben MARTOS, Postdoc LaMME
+- Anica KOSTIC, London School of Economics
+
+[Programme (PDF)](programme.pdf)
+
+**Bibliography:**
+
+1. Bobrowski Omer and Skraba Primoz. A universal null-distribution for topological data
+analysis. Scientific Reports, 13, 12274 (2023).
+
+2. Chazal, Frédéric and Michel Bertrand. An introduction to topological data analysis:
+fundamental and practical aspects for data scientists. Frontiers in artificial intelligence, 4 (2021).
+
+3. Edelsbrunner Herbert and Harer John L. Computational topology: An introduction.
+American Mathematical Society (2010).
+
+4. Hacquard Olympio and Lebovici Vadim. Euler characteristic tools for topological data
+analysis. Journal of Machine Learning Research, 25:1-39, (2024).
+
+5. Wasserman Larry. Topological data analysis. Annual Review of Statistics and its Application,
+5:501-532 (2017).
+
+
+### <a id="chpt"> Change-Point Paris-Saclay conference (ENS Paris-Saclay, January 2023)
+
+Co-organized with [Charles Truong](https://charles.doffy.net).
+
+The Paris-Saclay Change-Point workshop was a **two-day meeting**, held on 16–17 January 2023, dedicated to **theoretical and applied methods for change-point detection**. Its main goal was to encourage new interactions in the European change-point research community. The workshop was **free of charge** and open to anyone interested in contributing to the field, including Master’s and PhD students, early-career researchers, and senior researchers.
+
+[Website of the Paris-Saclay Changepoint Workshop](https://parissaclaychangepoint.github.io)
