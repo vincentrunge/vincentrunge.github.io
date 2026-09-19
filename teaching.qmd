@@ -3,12 +3,30 @@ title: "Teaching"
 toc: true
 ---
 
-My teaching covers basic statistics, probability theory, statistical learning, R/Rcpp and Python programming, algorithm, and machine learning. Course materials are available through the relevant university e-learning platforms (ecampus).
+My teaching covers basic statistics, probability theory, statistical learning, R/Rcpp and Python programming, algorithms, and machine learning. Course materials are available through the relevant university e-learning platforms (ecampus).
 
 ## Courses
 
-- **M2 Data Science — Algorithms:** complexity, recursion, dynamic programming and heuristics for NP-class problems.
+<div class="course-grid" role="list">
+<div class="course-card" role="listitem">
+<a class="course-card-image-link" href="teaching/algorithms/index.html" aria-label="Open Algorithms course page">
+<img class="course-card-image" src="images/teaching/algorithms-cover.png" alt="Abstract network of nodes and paths illustrating algorithms and dynamic programming.">
+</a>
+<div class="course-card-body">
+<p class="course-card-kicker">M2 Data Science</p>
+<h3 class="course-card-title"><a class="course-card-title-link" href="teaching/algorithms/index.html">Algorithms</a></h3>
+<p class="course-card-summary">Complexity, recursion, dynamic programming, and heuristics for NP-class problems.</p>
+</div>
+</div>
 
-- **M1 Mathematics MINT — Introduction to supervised machine learning:** Classification LDA, QDA, logistic regression, SVM, decision trees, random forests, gradient boosting, neural networks. Code and theory.
-
-Updated course materials for both courses will be made available on this website soon.
+<div class="course-card" role="listitem">
+<a class="course-card-image-link" href="teaching/supervised-machine-learning/index.html" aria-label="Open supervised machine learning course page">
+<img class="course-card-image" src="images/teaching/supervised-ml-cover.png" alt="Abstract classification boundary with two clusters of points and a neural-network pattern.">
+</a>
+<div class="course-card-body">
+<p class="course-card-kicker">M1 Mathematics MINT</p>
+<h3 class="course-card-title"><a class="course-card-title-link" href="teaching/supervised-machine-learning/index.html">Introduction to supervised machine learning</a></h3>
+<p class="course-card-summary">Classification methods, tree-based models, neural networks, and practical coding.</p>
+</div>
+</div>
+</div>

@@ -1,39 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://vincentrunge.github.io/posts/2026-09-site-redesign/index.html</loc>
-    <lastmod>2026-09-18T21:40:40.356Z</lastmod>
-  </url>
-  <url>
-    <loc>https://vincentrunge.github.io/blog.html</loc>
-    <lastmod>2026-09-18T22:02:53.173Z</lastmod>
-  </url>
-  <url>
-    <loc>https://vincentrunge.github.io/events.html</loc>
-    <lastmod>2026-09-18T21:34:41.029Z</lastmod>
-  </url>
-  <url>
-    <loc>https://vincentrunge.github.io/publications.html</loc>
-    <lastmod>2026-09-18T19:31:31.362Z</lastmod>
-  </url>
-  <url>
-    <loc>https://vincentrunge.github.io/index.html</loc>
-    <lastmod>2026-09-19T06:09:30.390Z</lastmod>
-  </url>
-  <url>
-    <loc>https://vincentrunge.github.io/research.html</loc>
-    <lastmod>2026-09-19T06:24:27.665Z</lastmod>
-  </url>
-  <url>
-    <loc>https://vincentrunge.github.io/software.html</loc>
-    <lastmod>2026-09-18T13:56:09.044Z</lastmod>
-  </url>
-  <url>
-    <loc>https://vincentrunge.github.io/teaching.html</loc>
-    <lastmod>2026-09-18T21:29:25.628Z</lastmod>
-  </url>
-  <url>
-    <loc>https://vincentrunge.github.io/contacts.html</loc>
-    <lastmod>2026-09-18T12:47:56.328Z</lastmod>
+    <loc>https://vincentrunge.github.io/teaching/supervised-machine-learning/index.html</loc>
+    <lastmod>2026-09-19T07:43:34.293Z</lastmod>
   </url>
 </urlset>

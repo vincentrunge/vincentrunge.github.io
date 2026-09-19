@@ -1,0 +1,6 @@
+---
+title: "Algorithms"
+description: "M2 Data Science"
+---
+
+Updated course materials for both courses will be made available on this website soon.

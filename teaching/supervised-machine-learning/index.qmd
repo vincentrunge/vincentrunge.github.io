@@ -1,0 +1,6 @@
+---
+title: "Introduction to supervised machine learning"
+description: "M1 Mathematics MINT"
+---
+
+Updated course materials for both courses will be made available on this website soon.
