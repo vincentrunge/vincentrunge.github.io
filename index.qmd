@@ -48,7 +48,7 @@ See the [research overview](research.qmd) and [publications](publications.qmd).
   - **2025:** Alexandre Combeau (M2, 6-month), Emmeline Bourget (M2, [DATAIA](https://www.dataia.eu) scholarship, 6-month) and Séréna Pandzou (L2 SDV, 2-month), supervised with Doctor [Julie Boudali](https://lemedecin.fr/roubaix/hopital-victor-provo/nephrologue/docteur-boudali-julie/ebca5c15525490fe30b4835a251de0dd/pro/).
   - **2024:** Simon Querné (M2, 6-month).
   - **2023:** Olha Pomomarenko (L3, 3-month).
-  - **2022:** Antonina Bondarchuk (L3, 4-month), Marko Kachaikin (L2, 2-month) and Kader Houssein (L2 SDV, 2-month,).
+  - **2022:** Antonina Bondarchuk (L3, 4-month), Marko Kachaikin (L2, 2-month) and Kader Houssein (L2 SDV, 2-month).
   - **2021:** Liudmila Pishchagina (M2, 6-month), Saâd Qriouet (M1, 5-month) and Pauline Spinga (L3 Bio-Info, 2-month).
   - **2020:** Nicolas Deschamps de Boishebert (M1, 4-month), Jawad Boulafha (M1, 4-month), Mohammed Seddik (Master’s thesis)
   - **2018:** Alexandre Schulz (M1, 4-month).
@@ -57,16 +57,16 @@ See the [research overview](research.qmd) and [publications](publications.qmd).
 
 - Contemporary Challenges in Changepoint Detection [Workshop](https://www.lancaster.ac.uk/data-science-and-artificial-intelligence/about-us/events/workshop-contemporary-challenges-in-changepoint-detection/), United Kingdom (April 2026).
 - Séminaire de Probabilités et Statistique, Université Côte d’Azur (February 2026).
-- Academic research visit, Lancaster University (December 2025).
+- Research visit and statistics Seminar, Lancaster University (December 2025).
 - Journées de Statistique, Marseille (June 2025).
 
 I often take part in organizing events for the mathematics community; they are listed on the [Events page](events.qmd).
 
-Other recent talks and visits include SAMM at Sorbonne Université (October 2025), StatMathAppli (September 2025), a change-point meeting at Dauphine (July 2025), and the HCERES scientific presentation at LaMME (January 2025). Earlier presentations include the Paris seminar in statistics (2023), IMS (2022), a seminar at Northern Arizona University (2021), and seminars at MAP5 and CMStatistics (2019–2020).
+Other recent talks and visits include SAMM at Sorbonne Université (October 2025), StatMathAppli (September 2025), a change-point meeting at Dauphine (July 2025), and the HCERES scientific presentation at LaMME (January 2025). Earlier presentations include the Paris seminar in statistics (2023), IMS (2022), an online seminar at Northern Arizona University (2021), and seminars at MAP5 and CMStatistics (2019–2020).
 
 ## Supporting Ukrainian Mathematics Students
 
-Since 2022, I have dedicated a significant part of my time to supporting Ukrainian mathematics students in obtaining scholarships, in collaboration with the FMJH through the [FMJHcare program](https://www.fondation-hadamard.fr/fr/programmes/les-programmes-transverses/fmjh-care/) and the [FSMP](https://sciencesmaths-paris.fr). So far, we have helped more than 30 students with different programs. I also advise them on finding internships, improving their CVs and motivation letters, and navigating the complex French higher-education system. 
+Since 2022, I have dedicated a significant part of my time to supporting Ukrainian mathematics students in obtaining scholarships, in collaboration with the FMJH through the [FMJHcare program](https://www.fondation-hadamard.fr/fr/programmes/les-programmes-transverses/fmjh-care/) and the [FSMP](https://sciencesmaths-paris.fr). So far, we have helped about 40 students with different programs. I also advise them on finding internships, improving their CVs and motivation letters, and navigating the complex French higher-education system. 
 
 <span class="danger-sign" aria-label="Announcement">🎺</span> The [UMD 2026 conference at IHP](https://ukrmathday2026.sciencesconf.org) and the [UMD 2025 day in Évry](https://indico.math.cnrs.fr/event/13784/) are examples of this ongoing effort. 
 

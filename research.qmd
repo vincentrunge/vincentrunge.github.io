@@ -13,7 +13,7 @@ Alongside my work on dynamic programming, I study **statistical guarantees** for
 
 ::: {.columns .research-figures}
 ::: {.column width="33%"}
-![HOP segmentation of an eight-second EMG recording, with true footstep boundaries and detection scores.](images/research/hop-emg-figure-3.png){fig-alt="Six red and blue EMG traces, green crosses at true footstep boundaries, a black learned state sequence, and a table of precision, recall, and F-score."}
+![HOP segmentation of an eight-second EMG recording, with true footstep boundaries.](images/research/hop-emg-figure-3-no-scores.png){fig-alt="Six red and blue EMG traces, green crosses at true footstep boundaries, and a black learned state sequence."}
 
 Figure 3 from [HOP article](https://proceedings.mlr.press/v258/kostic25a.html).
 :::
@@ -41,7 +41,7 @@ From [gfpop article](https://www.jstatsoft.org/article/view/v106i06).
 :::
 :::
 
-we extend change-point methods from ordinary Euclidean spaces to more complex, non-Euclidean data structures. This includes work with Hadamard spaces and CAT spaces, where notion of means and segment cost has to be extended. See [HOP publication](https://proceedings.mlr.press/v258/kostic25a.html) and the [CAT spaces preprint](https://hal.science/hal-05535310/).
+We extend change-point methods from ordinary Euclidean spaces to more complex, non-Euclidean data structures. This includes work with Hadamard spaces and CAT spaces, where notions of means and segment cost have to be extended. See [HOP publication](https://proceedings.mlr.press/v258/kostic25a.html) and the [CAT spaces preprint](https://hal.science/hal-05535310/).
 
 ::: {.section-heading-row}
 ::: {.section-heading-title}
@@ -53,7 +53,7 @@ we extend change-point methods from ordinary Euclidean spaces to more complex, n
 :::
 :::
 
-My background as a PhD student is in partial differential equations and mathematical analysis. The topic was motivated by the free boundary Hele-Shaw problem. I worked with tools from complex analysis and control theory and developed C++ code for numerical simulations in fluid dynamics. This earlier work is documented in the [earlier mathematical publications](publications.qmd#earlier-mathematical-publications) listed on my [Publications page](publications.qmd).
+My background as a PhD student is in partial differential equations and mathematical analysis. The topic was motivated by the 2D free boundary Hele-Shaw problem. I worked with tools from complex analysis and control theory and developed C++ code for numerical simulations in fluid dynamics. This earlier work is documented in the [earlier mathematical publications](publications.qmd#earlier-mathematical-publications) listed on my [Publications page](publications.qmd).
 
 ::: {.section-heading-row}
 ::: {.section-heading-title}
@@ -77,7 +77,7 @@ More broadly, I am interested in **applied mathematics** and in developing my re
 :::
 :::
 
-I see AI-assisted mathematics as both a thread and an opportunity. As many of my colleagues, I try to **follow and test** recent developments. However, **I am strongly opposed to using AI to automate the production of reports, publications or peer reviews**. At the same time, I consider AI assistance an inevitable part of contemporary mathematical work, for example, as a tool for exploring ideas, polishing proofs, or searching for the key argument when I get stuck. I use it also for improving my written English (as done on this website).
+I see AI-assisted mathematics as both a thread and an opportunity. As many of my colleagues, I try to **follow and test** recent developments. However, **I am strongly opposed to using AI to automate the production of reports, publications or peer reviews**. At the same time, I consider AI assistance an inevitable part of mathematical work, for example, as a tool for exploring ideas, polishing proofs, or searching for the key argument when I get stuck. I use it also for improving my written English (as done on this website).
 
 I support the [Human Mathematics Association](https://www.ahmath.org/home) and its efforts to promote the responsible use of AI and prevent its misuse in mathematics.
 
@@ -91,26 +91,27 @@ I support the [Human Mathematics Association](https://www.ahmath.org/home) and i
 :::
 :::
 
-An important part of my time is dedicated to developing softwares for change-point detection, even in this new world of code automation. 
+An important part of my time is dedicated to **developing software for change-point detection**, even in this new area of code automation. A task that will become increasingly important in the future is the **standardization** of the many change-point detection software packages.
 
-I develop R packages for change-point detection, including [svpChange]([svpChange](https://github.com/vrunge/svpChange), [DUST](https://github.com/vrunge/dust), [gfpop](https://github.com/vrunge/gfpop) and [slopeOP](https://github.com/vrunge/slopeOP). A complete list of papers, preprints and software is available on the [Publications page](publications.qmd) and the [Software page](software.qmd).
+I develop R packages for change-point detection, including [svpChange](https://github.com/vrunge/svpChange), [DUST](https://github.com/vrunge/dust), [gfpop](https://github.com/vrunge/gfpop) and [slopeOP](https://github.com/vrunge/slopeOP). A complete list of papers, preprints and software is available on the [Publications page](publications.qmd) and the [Software page](software.qmd).
 
 
-## Applied statistics projects 
+## Applied statistics projects
 
-*Keeping a connection with the application* of our research in statistics and mathematics is **fundamental** in our work. (2) *Listening to the needs of the practitioners* is equally important and is a constant source for us of new ideas and research questions.
+*Keeping a connection with the application* of our research in statistics and mathematics is **fundamental** in our work. *Listening to the needs of the practitioners* is equally important and is a constant source for us of new ideas and research questions.
 
-- **Mouse monitoring:** DUST detects variance changes in force-platform recordings to divide mouse activity into active and resting periods in a study of muscle fatigue ([DUST preprint](https://arxiv.org/abs/2507.02467)).
+- **Antibiogram images:** The SWITCH change-point algorithm measures inhibition-zone diameters from disk-diffusion antibiograms for use in a smartphone application ([study](https://doi.org/10.1038/s41467-021-21187-3)).
 
-- **Antibiogram images:** The SWITCH change-point algorithm measures inhibition-zone diameters from disk-diffusion antibiograms in a smartphone application ([study](https://doi.org/10.1038/s41467-021-21187-3)).
+- **Mouse behaviour ethogram:** The HOP algorithm represents action syllables from mouse-monitoring data in a tree-structured Hadamard space, compressing 50 syllables into 7 interpretable meta-syllables, including exploration and grooming ([HOP article](https://proceedings.mlr.press/v258/kostic25a.html)).
+
+- **Mouse muscle fatigue:** DUST detects variance changes in force-platform recordings to distinguish active and resting periods ([DUST preprint](https://arxiv.org/abs/2507.02467)).
 
 - **ECG analysis:** A constrained change-point model in gfpop locates QRS complexes in electrocardiogram waveforms ([gfpop article](https://www.jstatsoft.org/article/view/v106i06)).
 
-- **Bacterial gene expression:** DeCAFS was applied to detect abrupt changes in gene-expression levels in *Bacillus subtilis* ([DeCAFS article](https://doi.org/10.1080/01621459.2021.1909598)). 
-Change-point detection is a well-known tool in bioinformatics, e.g. for RNAseq data (see the work of [Arnaud Liehrmann](https://academic.oup.com/nargab/article/5/4/lqad098/7369456)).
+- **Bacterial gene expression:** DeCAFS detects abrupt changes in gene-expression levels in *Bacillus subtilis*. More generally, change-point detection is useful for identifying shifts in RNA-seq data ([DeCAFS article](https://doi.org/10.1080/01621459.2021.1909598); [related work](https://academic.oup.com/nargab/article/5/4/lqad098/7369456)).
 
 ### Ongoing projects outside of change-point detection
 
-- **Anticolinergic prescriptions** Descriptive statistics and dose–effect study. Most supervised machine learning tools have been tested. This project is still ongoing and is in collaboration with [Hervé Javelot](https://www.researchgate.net/profile/Herve-Javelot) from the Etablissement Public de Santé Alsace Nord, Brumath (EPSAN). Already two math master students worked with us on this project. 
+- **Anticholinergic prescriptions:** Descriptive statistics and dose–effect study. Most supervised machine learning tools have been tested. This project is still ongoing and is in collaboration with [Hervé Javelot](https://www.researchgate.net/profile/Herve-Javelot) from the Etablissement Public de Santé Alsace Nord, Brumath (EPSAN). Two mathematics master’s students have already worked with us on this project.
 
 - **Bird vocalization:** In collaboration with [Lorenzo Dubois](https://ear.cnrs.fr/welcome-to-lorenzo-dubois/) at the Muséum National d’Histoire Naturelle (MNHN), Ikram Niari’s 2026 internship analyzed BirdNET detections from the Risoux forest over 2018–2024. The study modeled log-transformed daily detection counts for the European robin (*Erithacus rubecula*) and coal tit (*Periparus ater*) using linear regression with seasonal and weather effects. We identify a long-term trend in vocal activity that could be linked to climate change.
