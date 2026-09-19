@@ -104,7 +104,7 @@ I develop R packages for change-point detection, including [svpChange](https://g
 
 - **Mouse behaviour ethogram:** The HOP algorithm represents action syllables from mouse-monitoring data in a tree-structured Hadamard space, compressing 50 syllables into 7 interpretable meta-syllables, including exploration and grooming ([HOP article](https://proceedings.mlr.press/v258/kostic25a.html)).
 
-- **Mouse muscle fatigue:** DUST detects variance changes in force-platform recordings to distinguish active and resting periods ([DUST preprint](https://arxiv.org/abs/2507.02467)).
+- **Mouse muscle fatigue:** The fast DUST algorithm detects variance changes in force-platform recordings to distinguish active and resting periods ([DUST preprint](https://arxiv.org/abs/2507.02467)).
 
 - **ECG analysis:** A constrained change-point model in gfpop locates QRS complexes in electrocardiogram waveforms ([gfpop article](https://www.jstatsoft.org/article/view/v106i06)).
 
