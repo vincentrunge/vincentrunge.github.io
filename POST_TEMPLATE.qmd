@@ -1,0 +1,17 @@
+---
+title: "Post title"
+description: "One short sentence describing the post."
+date: 2026-09-20
+categories:
+  - research
+---
+
+Write the introduction here.
+
+## First section
+
+Write the main content here.
+
+## Conclusion
+
+Summarise the main idea and add any useful links.

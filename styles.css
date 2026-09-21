@@ -192,3 +192,37 @@ a {
   height: 15rem;
   object-fit: contain;
 }
+
+.citation {
+  background-color: #f4fbfd;
+  border: 1px solid #c8e3ec;
+  border-radius: 0.35rem;
+  margin: 1.5rem auto;
+  padding: 1rem 1.25rem;
+  text-align: center;
+  font-style: italic;
+}
+
+.section-image-right {
+  float: right;
+  margin: 0.25rem 0 1rem 1.5rem;
+  width: min(36%, 22rem);
+}
+
+.section-image-right img {
+  display: block;
+  height: auto;
+  width: 100%;
+}
+
+#quarto-document-content h2 {
+  clear: both;
+}
+
+@media (max-width: 767.98px) {
+  .section-image-right {
+    float: none;
+    margin: 1rem auto;
+    width: min(100%, 32rem);
+  }
+}

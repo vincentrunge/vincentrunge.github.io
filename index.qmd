@@ -104,3 +104,12 @@ It's a great achievement to see that many of these students I welcomed in 2022 a
 
 - I headed the [Paris-Saclay M2 Data Science programme (M2 Data Science : Santé, Assurance, Finance)](https://www.universite-paris-saclay.fr/en/education/masters-degree/mathematics-and-applications/m2-data-science-health-insurance-and-finance) in 2022–2023 and co-directed it with [Agathe Guilloux](https://sites.google.com/view/agatheguilloux-personalwebsite/accueil) in 2020–2022. From 2023 to 2026, I continued to take an active part in the programme’s organization, particularly in student selection as well as in internship defense.
 - I created and co-organized the [Math For Genomics seminar](https://mathforgenomics.github.io/).
+
+<!-- Reusable citation template:
+
+::: {.citation}
+
+Your citation goes here.
+
+:::
+-->
