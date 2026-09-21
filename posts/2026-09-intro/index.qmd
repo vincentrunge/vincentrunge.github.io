@@ -1,6 +1,6 @@
 ---
 title: "En guise d'introduction"
-description: "nuclear power"
+description: '"For progress there is no cure"'
 date: 2026-09-21
 categories:
   - intro
@@ -8,7 +8,7 @@ categories:
 
 Ce blog est pensé comme un journal intime. J'y rassemblerai de façon structurée les différents questionnements qui jalonnent mes journées de travail. Les sujets traités intersectent le contenu des discussions informelles qui animent les pauses café des laboratoires de mathématiques.
 
-Avant toute chose, c'est un projet "de développement personnel", dont le but principal sera ma progression dans la compréhension des sujets abordés. Le format du blog et son aspect public sont le moyen pour arriver à cette fin: ils me forceront à la rigueur et à la régularité de l'effort. 
+Avant toute chose, c'est un projet "de développement personnel", dont le but principal sera ma progression dans la compréhension des sujets abordés. Le format du blog et son aspect public sont le moyen pour arriver à cette fin : ils me forceront à la rigueur et à la régularité de l'effort. 
 
 Si quelques-uns de mes amis, collègues ou étudiants parcourent ce blog et prennent du plaisir et de l'intérêt à le lire, j'en serai très honoré. Je n'ouvre pas d'espace pour les commentaires dans ce projet. Mais des retours par email ou encore mieux, en personne, seront appréciés, quelle que soit leur teneur.  
 
@@ -21,7 +21,7 @@ Si quelques-uns de mes amis, collègues ou étudiants parcourent ce blog et pren
 
 Pour qui suit l'actualité mathématique récente (septembre 2026) cet intitulé de blog n'est pas si obscur. Je prends un exemple. 
 
-J'ai encadré en stage ou en mémoire de master une 20aine d'étudiants en mathématiques appliquées. Cette année, mes deux stagiaires ne m'ont pas parlé. Ils ne sont pas venus me poser des questions, ils ne m'ont pas demandé de conseils, ou si peu. À certaines suggestions, ils ont opposé une résistance, parfois un refus à avancer dans la direction proposée. L'explication est pour nous toute simple: ils parlent avec la Machine (c'est-à-dire une IA). Et je les comprends, cette conversation est fascinante ! Moi aussi je lui parle. Sa fiabilité, sa rapidité, son aplomb ne semblent pas avoir de limite. Mais il m'a fallu l'aide de deux collègues pour convaincre un étudiant que sa solution était incomplète, la Machine répondait juste, mais à côté de la vraie question. Une autre fois, je n'ai pas réussi à convaincre un stagiaire que ma question avait de l'intérêt, la Machine lui ayant sans doute expliqué l'inutilité ou l'impossibilité de la question. Comme le résume un collègue, "notre stagiaire est l'intermédiaire entre nous et l'IA". On espère qu'il paye pour un abonnement de qualité... On se demande si sa gratification de stage n'aurait pas été mieux employée par nous dans une souscription au meilleur système d'IA...
+J'ai encadré en stage ou en mémoire de master une 20aine d'étudiants en mathématiques appliquées. Cette année, mes deux stagiaires ne m'ont pas parlé. Ils ne sont pas venus me poser des questions, ils ne m'ont pas demandé de conseils, ou si peu. À certaines suggestions, ils ont opposé une résistance, parfois un refus à avancer dans la direction proposée. L'explication est pour nous toute simple : ils parlent avec la Machine (c'est-à-dire une IA). Et je les comprends, cette conversation est fascinante ! Moi aussi je lui parle. Sa fiabilité, sa rapidité, son aplomb ne semblent pas avoir de limite. Mais il m'a fallu l'aide de deux collègues pour convaincre un étudiant que sa solution était incomplète, la Machine répondait juste, mais à côté de la vraie question. Une autre fois, je n'ai pas réussi à convaincre un stagiaire que ma question avait de l'intérêt, la Machine lui ayant sans doute expliqué l'inutilité ou l'impossibilité de la question. Comme le résume un collègue, "notre stagiaire est l'intermédiaire entre nous et l'IA". On espère qu'il paye pour un abonnement de qualité... On se demande si sa gratification de stage n'aurait pas été mieux employée par nous dans une souscription au meilleur système d'IA...
 
 **Le vertige**, c'est ce mathématicien talentueux, ce génie de la lampe, cette Machine qui nous dépasse, qui nous fait douter de nos choix mathématiques, qui brise nos intuitions et risque, si nous n'y prenons garde, d'assécher notre créativité. Il est dans notre smartphone, dans notre ordinateur, à portée de main et de clic. En un instant, il nous contredit, nous guide, mais aussi nous décourage à poursuivre notre petite voie.
 
@@ -73,7 +73,11 @@ All experience shows that even smaller technological changes than those now in t
 
 :::
 
+Le sous-titre de ce billet, "For progress there is no cure", est aussi un extrait du même article de John !
+
 [1] von Neumann, J. (1955). Can we survive technology? Fortune, 51(6), 106–108.
+
+
 
 
 ## Le Turc mécanique, le joueur d'échecs
@@ -84,9 +88,9 @@ All experience shows that even smaller technological changes than those now in t
 
 Le [Turc mécanique](https://fr.wikipedia.org/wiki/Turc_m%C3%A9canique) est un automate joueur d'échecs présenté pour la première fois en 1770 par Wolfgang von Kempelen. Il semblait jouer de manière autonome, mais un joueur humain caché dans le meuble déplaçait réellement les pièces. Cette célèbre mystification a circulé en Europe et en Amérique pendant plusieurs décennies.
 
-La création d'algorithmes plus fort au jeu d'échecs que l'humain n'a pas arrêté le plaisir de jouer aux échecs. De même que la Machine ne remplacera pas le plaisir de faire des mathématiques. Ainsi, ce blog partagera avant tout mon plaisir des mathématiques, de la recherche et de l'enseignement. 
+La création d'algorithmes plus fort au jeu d'échecs que l'humain n'a pas arrêté le plaisir de jouer aux échecs. De même que la Machine ne remplacera pas le plaisir de faire des mathématiques. Ainsi, ce blog partagera avant tout mon plaisir des mathématiques, de la recherche à l'enseignement. 
 
-Enfin, faire des mathématiques est pour moi l'exercice ultime de la créativité. C'est mon espoir que la Machine, bien qu'infiniment plus forte à l'interpolation mathématique que je ne le suis, restera limitée par la force de l'imagination humaine qui borne son action. Je me risque à cette prédiction hasardeuse, que je propose de tempérer par cette citation attibuée à Niels Bohr:  
+Enfin, faire des mathématiques est pour moi l'exercice ultime de la créativité. C'est mon espoir que la Machine, bien qu'infiniment plus forte à l'interpolation mathématique que je ne le suis, restera limitée par la force de l'imagination humaine qui borne son action. Je me risque à cette prédiction hasardeuse, que je propose de tempérer par cette citation attibuée à Niels Bohr :  
 
 ::: {.citation}
 
