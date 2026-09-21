@@ -1,7 +1,7 @@
 ---
 title: "En guise d'introduction"
 description: "nuclear power"
-date: 2026-09-25
+date: 2026-09-21
 categories:
   - intro
 ---

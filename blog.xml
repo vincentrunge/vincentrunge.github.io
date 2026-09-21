@@ -10,7 +10,7 @@
 <atom:link href="https://vincentrunge.github.io/blog.xml" rel="self" type="application/rss+xml"/>
 <description>“Can we survive technology?” ― John von Neumann</description>
 <generator>quarto-1.9.38</generator>
-<lastBuildDate>Thu, 24 Sep 2026 22:00:00 GMT</lastBuildDate>
+<lastBuildDate>Sun, 20 Sep 2026 22:00:00 GMT</lastBuildDate>
 <item>
   <title>En guise d’introduction</title>
   <dc:creator>Vincent Runge</dc:creator>
@@ -75,7 +75,7 @@
  ]]></description>
   <category>intro</category>
   <guid>https://vincentrunge.github.io/posts/2026-09-intro/</guid>
-  <pubDate>Thu, 24 Sep 2026 22:00:00 GMT</pubDate>
+  <pubDate>Sun, 20 Sep 2026 22:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Welcome to my research blog</title>
