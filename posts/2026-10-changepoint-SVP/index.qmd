@@ -1,0 +1,24 @@
+---
+title: "Une segmentation, s'il vous plaît"
+description: "À bas l'ordre bourgeois, vive l'ordre lexicographique !"
+date: 2026-10-15
+categories:
+  - détection de ruptures
+---
+
+Cet billet de blog présente le contenu d'un travail en cours en détection de ruptures. Cette thématique est actuellement mon domaine de recherche le plus actif. Pour les plus motivés, tous les détails sont disponibles dans cette pré-publication : \url{https://hal.science/hal-05491126}
+
+# L'art de saucissonner les séries temporelles
+
+
+
+# La méthode globale 
+
+
+# La méthode syllabique
+
+# SVP, pourquoi cette galère? 
+
+
+
+
