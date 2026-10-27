@@ -1,23 +1,22 @@
 ---
 title: "Une segmentation, s'il vous plaît"
 description: "À bas l'ordre bourgeois, vive l'ordre lexicographique !"
-date: 2026-10-15
+date: 2027-10-15
 categories:
   - détection de ruptures
 ---
 
-Cet billet de blog présente le contenu d'un travail en cours en détection de ruptures. Cette thématique est actuellement mon domaine de recherche le plus actif. Pour les plus motivés, tous les détails sont disponibles dans cette pré-publication : \url{https://hal.science/hal-05491126}
+Cet billet de blog présente le contenu d'un travail en cours en détection de ruptures. Cette thématique est actuellement mon domaine de recherche le plus actif. Pour les plus motivés, tous les détails sont disponibles dans cette pré-publication : \url{https://hal.science/hal-05491126}. 
 
-# L'art de saucissonner les séries temporelles
+Je peux dire en préambule que je suis plutôt enthousiasmé par cette méthode nouvelle que je considère comme un point de départ pour des travaux plus aboutis dans cette direction. J'en ai pour prendre également l'intérêt des autres spécialistes du domaine. Certains travaux scientifiques répondent à des questions qui ferment des portes,  
 
-
-
-# La méthode globale 
+# Segmenter les séries temporelles
 
 
-# La méthode syllabique
+# Méthode globale ou méthode syllabique ?
 
-# SVP, pourquoi cette galère? 
+
+# SVP, pourquoi cette galère ? 
 
 
 

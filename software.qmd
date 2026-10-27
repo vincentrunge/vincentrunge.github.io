@@ -31,6 +31,8 @@ An R package for univariate graph-constrained change-point detection.
 
 [GitHub repository](https://github.com/vrunge/gfpop) · [CRAN](https://cran.r-project.org/package=gfpop) · [Publication](https://www.jstatsoft.org/article/view/v106i06)
 
+https://cran.r-project.org/web/packages/gfpop/index.html
+
 ## Participation to other packages
 
 ### focus and focus-cpt

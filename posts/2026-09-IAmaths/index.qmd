@@ -1,12 +1,12 @@
 ---
 title: "La Machine produit des maths"
 description: "Résultat d'une expérimentation en séminaire"
-date: 2026-09-30
+date: 2027-09-30
 categories:
   - L'IA fait des maths
 ---
 
-Ce mardi 29 septembre 2026, au sein de mon laboratoire, le [LaMME](http://www.math-evry.cnrs.fr), un doctorant très talentueux, [Félix Laplante](https://felixlaplante0.github.io), nous a proposé une séance de séminaire sobrement intitulée "atelier LLM". En langage humain, cela signifie qu'il nous a partagé sa connaissance et sa pratique des outils d'IA pour la recherche en mathématiques. 
+Ce mardi 29 septembre 2026, au sein de mon laboratoire, le [LaMME](http://www.math-evry.cnrs.fr), un doctorant très talentueux, [Félix Laplante](https://felixlaplante0.github.io), nous a proposé une séance de séminaire sobrement intitulée ["atelier LLM"](https://atelier-llm.pages.dev). En langage humain, cela signifie qu'il nous a partagé sa connaissance et sa pratique des outils d'IA pour la recherche en mathématiques. 
 
 En amont de ce séminaire, j'ai partagé avec lui un problème ouvert de mon domaine de recherche. Il concerne la découverte d'une borne théorique sur complexité de l'algorithm FPOP. J'en dirai plus un peu plus loin.
 

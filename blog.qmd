@@ -2,7 +2,7 @@
 title: Vertiges et hallucinations mathématiques
 description: “Can we survive technology?” ― John von Neumann
 listing:
-  contents: posts
+  contents: blog-listing.yml
   sort: "date desc"
   type: default
   categories: true

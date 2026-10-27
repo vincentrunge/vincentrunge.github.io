@@ -1,0 +1,8 @@
+---
+title: "La Machine Mathématique Universelle"
+description: "Ou de la mesure du progrès en mathématiques"
+date: 2026-11-01
+categories:
+  - L'IA fait des maths
+---
+

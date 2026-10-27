@@ -1,6 +1,7 @@
 project:
   type: website
   output-dir: _site
+  pre-render: filter-blog-listing.ts
   post-render: cp -R _site/. .
   render:
     - index.qmd

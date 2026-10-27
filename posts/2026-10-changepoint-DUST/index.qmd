@@ -1,7 +1,7 @@
 ---
 title: "Quand les algorithmes font la course"
 description: "Pas pressé, mais quand même un peu"
-date: 2026-10-15
+date: 2027-10-15
 categories:
   - détection de ruptures
 ---
