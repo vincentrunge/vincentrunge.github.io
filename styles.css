@@ -216,7 +216,7 @@ a {
 }
 
 .section-image-right.image-third,
-.section-image-right.image-fifth {
+.section-image-right.image-small {
   float: right;
   margin: 0.25rem 0 1rem 1.5rem;
 }
@@ -225,8 +225,8 @@ a {
   width: calc(100% / 3 - 1.5rem);
 }
 
-.section-image-right.image-fifth {
-  width: 20%;
+.section-image-right.image-small {
+  width: 14%;
 }
 
 .section-image-right .image-caption {
@@ -263,9 +263,16 @@ a {
 
 @media (max-width: 575.98px) {
   .section-image-right.image-third,
-  .section-image-right.image-fifth {
+  .section-image-right.image-small {
     float: none;
     margin: 1rem auto;
+  }
+
+  .section-image-right.image-third {
     width: min(70%, 14rem);
+  }
+
+  .section-image-right.image-small {
+    width: min(49%, 9.8rem);
   }
 }
