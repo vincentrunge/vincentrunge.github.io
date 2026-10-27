@@ -1,7 +1,7 @@
 ---
 title: "Le futur des mathématiques"
 description: "Quelle attitude adopter face à l'IA?"
-date: 2026-10-27
+date: 2026-10-20
 categories:
   - L'IA fait des maths
 ---

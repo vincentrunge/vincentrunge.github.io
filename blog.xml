@@ -12,6 +12,95 @@
 <generator>quarto-1.9.38</generator>
 <lastBuildDate>Mon, 26 Oct 2026 23:00:00 GMT</lastBuildDate>
 <item>
+  <title>La Machine Mathématique Universelle</title>
+  <dc:creator>Vincent Runge</dc:creator>
+  <link>https://vincentrunge.github.io/posts/2026-11-IA_MUM/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p><em>Ce billet présente certaines des idées de l’article <a href="https://arxiv.org/abs/2610.35263">On AI and Progress in Mathematics: Dreaming a Mathematical Universal Machine</a> (arXiv:2610.35263). C’est une réflexion personnelle sur l’avenir des mathématiques face à l’IA.</em></p>
+<p>Dans <a href="../../posts/2026-10-IAchanges/index.html">le billet précédent</a>, j’évoquais l’idée d’une machine mathématique universelle. Voici de quoi il s’agit.</p>
+<p>Je pars d’un constat : les systèmes d’IA prouvent et vérifient désormais des résultats mathématiques mieux que les meilleurs mathématiciens. Ma proposition est de <strong>découpler en partie l’avancement de la compréhension humaine de la mesure du progrès mathématique</strong> : protéger la première, et se doter de nouveaux outils pour mesurer et organiser le second. Les publications serviraient avant tout à aider les humains à comprendre les mathématiques ; la mesure du progrès serait confiée à une <strong>Machine Mathématique Universelle</strong> (MUM), une infrastructure d’IA partagée par toute la communauté.</p>
+<section id="de-la-montagne-à-la-mine" class="level2">
+<h2 class="anchored" data-anchor-id="de-la-montagne-à-la-mine">De la montagne à la mine</h2>
+<p>Les mathématiciens décrivent volontiers leur recherche par la métaphore de l’ascension d’une montagne : au prix d’un immense effort solitaire, on atteint un sommet d’où l’on contemple un vaste paysage de vérités inexplorées. Comme l’a suggéré récemment Terence Tao, nous assistons peut-être à la fin de l’ère romantique des mathématiques, celle des héros solitaires.</p>
+<p><strong>De la montagne, nous descendons dans la mine</strong> : un paysage industriel, peuplé de machines, de découvertes inattendues et d’innovations disruptives. Ce n’est qu’une métaphore, mais elle permet de poser clairement le problème.</p>
+</section>
+<section id="la-mine-et-le-mineur" class="level2">
+<h2 class="anchored" data-anchor-id="la-mine-et-le-mineur">La mine et le mineur</h2>
+<p>Dans ce nouveau monde, <strong>la mine est l’espace des vérités mathématiques</strong>. Les résultats sont des diamants cachés dans la roche, et les preuves sont les galeries qui y mènent. Le système d’IA mathématique est le <strong>mineur</strong> : il navigue dans cet espace en prenant ses propres décisions, avec une certaine autonomie, pour mener à bien la tâche qu’on lui confie.</p>
+<p>Le mineur est composé de trois éléments :</p>
+<ol type="1">
+<li><strong>Des cartes</strong> menant aux diamants déjà connus : articles de recherche, bases de résultats démontrés, définitions, concepts, graphes de dépendances entre théorèmes. Il peut s’y référer à tout moment pour améliorer sa recherche.</li>
+<li><strong>Des outils</strong> externes : Lean pour la vérification formelle, Python et le calcul formel pour l’expérimentation. Ils l’aident à explorer, vérifier, tester et s’orienter.</li>
+<li><strong>Un cerveau</strong> : le cœur du système, un grand modèle de langage doté de trilliards de paramètres appris. Il incarne son intuition mathématique, ses représentations et ses heuristiques, et lui permet de décider où et comment creuser. Le mineur a aussi une mémoire : il se souvient de ses tentatives infructueuses et évite de reprendre les mêmes chemins.</li>
+</ol>
+<p>À ces trois éléments s’ajoute une limite extérieure à sa structure : un <strong>budget</strong> de calcul fini. La patience de la Machine est bornée, et ses ressources doivent être partagées entre tous les mathématiciens. Cette limite peut aussi être un choix délibéré : empêcher des explorations trop longues, ou même faire du rapport entre capacité mathématique et énergie consommée le nouvel objectif de la recherche.</p>
+<p>Laissée libre d’explorer, la Machine procède à ce que j’appelle une <strong>convexification de la mine</strong> : elle comble progressivement le territoire mathématique accessible à partir de ce qui est déjà connu. De nouveaux théorèmes sont démontrés, des preuves plus simples sont trouvées, des liens apparaissent entre des régions jusque-là séparées.</p>
+<section id="deux-manières-de-faire-des-mathématiques" class="level3">
+<h3 class="anchored" data-anchor-id="deux-manières-de-faire-des-mathématiques">Deux manières de faire des mathématiques</h3>
+<p>Mon hypothèse est que <strong>l’intelligence et l’imagination humaines ne seront pas entièrement absorbées par la Machine</strong>. Certains travaux resteront hors de cette convexification : de nouvelles façons de présenter des mathématiques connues, des définitions ou des points de vue inattendus, des recherches réellement originales que la Machine n’aurait pas trouvées seule. Cela dessine deux modes de recherche complémentaires :</p>
+<ol type="1">
+<li><strong>Le mathématicien superviseur.</strong> Il explore les mathématiques <em>à travers</em> l’IA, dirige le mineur et lui propose des pistes selon sa propre expertise. La Machine apprend, au fil des échanges, à mieux employer ses cartes, ses outils et sa mémoire. En pratique, cela peut devenir un véritable art du <em>prompt</em>, fait d’instructions, de retours et de corrections successives.</li>
+<li><strong>Le mathématicien mineur.</strong> Il travaille <em>hors</em> de la Machine, explore la mine lui-même et cherche des mathématiques situées au-delà de ce qu’elle atteint. Ses articles constituent de nouvelles cartes qui, lors d’une <strong>mise à jour de la Machine</strong>, sont intégrées au cerveau du mineur et modifient sa façon d’explorer. Ce mode suppose de limiter volontairement sa dépendance à la Machine : la suivre de trop près, c’est rester dans un territoire qu’elle a déjà exploré.</li>
+</ol>
+<p>Pour soutenir ces deux modes, il faut de nouvelles métriques, capables d’évaluer la production mathématique et la contribution de chacun.</p>
+</section>
+</section>
+<section id="lhorizon-de-la-machine" class="level2">
+<h2 class="anchored" data-anchor-id="lhorizon-de-la-machine">L’horizon de la Machine</h2>
+<div class="section-image-right image-third">
+<p><img src="https://vincentrunge.github.io/posts/2026-11-IA_MUM/MUM.png" alt="Schéma de l'horizon de la Machine : connaissances préalables au centre, horizon de niveau p autour, pleine capacité (enveloppe convexe) à l'extérieur"> <span class="image-caption">Les connaissances préalables de la Machine, son horizon au niveau <img src="https://latex.codecogs.com/png.latex?p"> et sa pleine capacité (enveloppe convexe).</span></p>
+</div>
+<p>Formellement, le mineur est un triplet <img src="https://latex.codecogs.com/png.latex?M=(%5Ctheta,%5Cmathcal%20K,%5Cmathcal%20T)"> : <img src="https://latex.codecogs.com/png.latex?%5Ctheta"> désigne son cerveau, <img src="https://latex.codecogs.com/png.latex?%5Cmathcal%20K"> ses cartes et <img src="https://latex.codecogs.com/png.latex?%5Cmathcal%20T"> ses outils. Il travaille sous un budget de calcul <img src="https://latex.codecogs.com/png.latex?B">, mesuré en unités de calcul pour la recherche mathématique (une quantité qui reste à définir précisément). Pour un énoncé <img src="https://latex.codecogs.com/png.latex?T">, connu des humains mais exclu des connaissances préalables de la Machine, on définit la probabilité de succès</p>
+<p><img src="https://latex.codecogs.com/png.latex?%0Ap_M(T%5Cmid%20B)=%5CPr(M%20%5Ctext%7B%20d%C3%A9montre%20%7D%20T%20%5Ctext%7B%20avec%20le%20budget%20%7D%20B).%0A"></p>
+<p>Pour un niveau <img src="https://latex.codecogs.com/png.latex?p%5Cin(0,1)"> fixé, <strong>l’horizon de la Machine</strong> est l’ensemble des résultats qu’elle atteint dans la limite de son budget :</p>
+<p><img src="https://latex.codecogs.com/png.latex?%0A%5Cmathcal%20H_M(B;p)=%5Cleft%5C%7BT%20:%20p_M(T%5Cmid%20B)%5Cgeq%20p%5Cright%5C%7D.%0A"></p>
+<p>Au-delà de cet horizon se trouvent des vérités que le mineur ne peut pas découvrir de façon fiable avec son cerveau, ses cartes, ses outils et son budget actuels.</p>
+<div class="section-image-right image-fifth">
+<p><img src="https://vincentrunge.github.io/posts/2026-11-IA_MUM/Proofs_from_THE_BOOK.jpg" alt="Couverture de la première édition de Proofs from THE BOOK (1998)"></p>
+</div>
+<p>Étendre cet horizon rejoint la vision de Paul Erdős : <em>The Book</em>, un livre imaginaire où Dieu conserverait la plus belle preuve de chaque théorème. « Vous n’avez pas à croire en Dieu, mais vous devriez croire en The Book. » Cette idée a inspiré le recueil <em>Proofs from THE BOOK</em> de Martin Aigner et Günter Ziegler. L’objectif est ici voisin : plutôt que de chercher la plus belle preuve de chaque théorème, il s’agit de rendre les vérités mathématiques de plus en plus accessibles en améliorant la capacité du mineur à les découvrir. Comme une preuve de <em>The Book</em> révèle un chemin d’une élégance inattendue, une Machine plus capable pourrait ouvrir des voies plus courtes vers des régions entières de la mine.</p>
+</section>
+<section id="mesurer-le-progrès" class="level2">
+<h2 class="anchored" data-anchor-id="mesurer-le-progrès">Mesurer le progrès</h2>
+<p>Améliorer la Machine exige de nouvelles métriques. Aujourd’hui, le travail des mathématiciens est évalué par un long processus de relecture par les pairs. Dans le cadre proposé, la publication servirait à faire progresser la compréhension humaine, et la MUM fournirait des mesures quantitatives du progrès mathématique, ainsi qu’une méthode pour attribuer les contributions individuelles et collectives.</p>
+<p>La Machine serait mise à jour à intervalles fixes, en intégrant les nouvelles publications. Chaque <strong>mise à jour</strong> produit de nouvelles cartes mais aussi une évolution des paramètres du cerveau du mineur : <img src="https://latex.codecogs.com/png.latex?%5Ctheta_t%20%5Cto%20%5Ctheta_%7Bt+1%7D">. Après chaque mise à jour, ses capacités seraient réévaluées :</p>
+<ul>
+<li>la variation de la probabilité de démontrer un théorème, <img src="https://latex.codecogs.com/png.latex?p_%7BM_t%7D(T%5Cmid%20B)"> ;</li>
+<li>l’expansion de son horizon, <img src="https://latex.codecogs.com/png.latex?%5Cmathcal%20H_%7BM_t%7D(B;p)"> ;</li>
+<li>la réduction de l’effort de calcul nécessaire pour découvrir un résultat, qui estime dans quelle mesure une contribution améliore l’exploration de la mine.</li>
+</ul>
+<p><strong>Ces mesures pourraient fonder une nouvelle reconnaissance des contributions des mathématiciennes et des mathématiciens</strong>, qu’ils découvrent eux-mêmes de nouvelles mathématiques ou qu’ils améliorent l’exploration de la Machine en la supervisant. Cette vision, où coexistent travail industriel et travail artisanal, reste spéculative. Concevoir la Machine et mesurer son comportement est en soi une immense tâche mathématique.</p>
+</section>
+<section id="le-projet-politique" class="level2">
+<h2 class="anchored" data-anchor-id="le-projet-politique">Le projet politique</h2>
+<p>Les mathématiciens partagent souvent des convictions progressistes sur la société, la science et la technologie, et beaucoup se soucient d’écologie et de climat. La trajectoire actuelle de l’IA n’est pas celle dont nous rêvions. Elle consomme énormément d’énergie, d’eau, de terres et de ressources matérielles. Son usage soulève de graves questions éthiques lorsqu’il est associé à la surveillance, au contrôle social ou à la guerre. L’IA pour les mathématiques est concentrée entre les mains de quelques entreprises privées, pour la plupart américaines, dont les modèles les plus puissants ne sont accessibles qu’à quelques collaborateurs sélectionnés. Pendant ce temps, les impacts physiques de ces usages sont mal mesurés et mal documentés. La plupart des mathématiciens trouvent cet état de fait difficile à accepter.</p>
+<p>Il ne faut pas s’y résigner. Nous pouvons nous organiser, agir collectivement et proposer un meilleur modèle : <strong>construire une infrastructure d’IA universelle pour les mathématiques</strong>, développée en partenariat avec une institution internationale comme l’UNESCO et gouvernée par les mathématiciens au sein d’une organisation internationale dédiée (par exemple l’Union mathématique internationale). Soutenue par les États, les universités et des institutions philanthropiques, elle appartiendrait au bien commun, et non à une poignée d’acteurs privés. Elle serait construite autour des valeurs de la communauté mathématique. Comme point de départ, voici six principes :</p>
+<ol type="1">
+<li><strong>Responsabilité écologique.</strong> Sa consommation d’énergie, son impact environnemental et son empreinte matérielle seraient évalués de façon indépendante et publiés chaque année.</li>
+<li><strong>Architecture ouverte.</strong> L’architecture du modèle, ses poids et les composants essentiels du système seraient librement accessibles.</li>
+<li><strong>Accès universel et égal.</strong> L’accès serait ouvert à toute la communauté mathématique, étudiants compris, avec un même budget de calcul (ou de <em>tokens</em>) pour chaque utilisateur.</li>
+<li><strong>Confidentialité.</strong> Les utilisateurs garderaient le plein contrôle de leurs données. Les recherches privées, les résultats non publiés et les préprints soumis au système ne seraient jamais intégrés à la Machine partagée sans consentement explicite.</li>
+<li><strong>Mises à jour transparentes.</strong> Une fois par an, la base mathématique et le cerveau du mineur seraient mis à jour avec les mathématiques nouvellement publiées et les préprints éligibles. L’importance de chaque contribution, nouvelle ou ancienne, serait alors estimée.</li>
+<li><strong>Gouvernance scientifique internationale.</strong> Un laboratoire commun de mathématiques et d’informatique, créé au sein de l’UNESCO ou en partenariat avec elle, serait chargé des mises à jour, de la maintenance, de l’évaluation et de la communication.</li>
+</ol>
+</section>
+<section id="dans-la-boue-de-la-mine" class="level2">
+<h2 class="anchored" data-anchor-id="dans-la-boue-de-la-mine">Dans la boue de la mine</h2>
+<p>Selon une célèbre anecdote, à qui lui demandait quelle part des mathématiques on pouvait espérer comprendre, John von Neumann aurait répondu : « environ 28 % ». Avec la Machine, nous pourrions retrouver quelque chose de l’idéal du XIX<sup>e</sup> siècle : comprendre les mathématiques dans leur ensemble. Je ne veux pas paraître naïvement optimiste, ce texte adopte délibérément une posture positive. La réalité est plutôt déprimante. Mais dans la boue de la mine, nous avons encore le pouvoir d’organiser collectivement la recherche : s’adapter n’est pas facultatif (« For progress, there is no cure », écrivait von Neumann dans <a href="../../documents/von_Neumann_1955.pdf"><em>Can We Survive Technology?</em></a>), mais préserver nos valeurs, et certaines de nos habitudes de travail, reste possible.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>L&#39;IA fait des maths</category>
+  <guid>https://vincentrunge.github.io/posts/2026-11-IA_MUM/</guid>
+  <pubDate>Mon, 26 Oct 2026 23:00:00 GMT</pubDate>
+</item>
+<item>
   <title>Le futur des mathématiques</title>
   <dc:creator>Vincent Runge</dc:creator>
   <link>https://vincentrunge.github.io/posts/2026-10-IAchanges/</link>
@@ -66,7 +155,7 @@
  ]]></description>
   <category>L&#39;IA fait des maths</category>
   <guid>https://vincentrunge.github.io/posts/2026-10-IAchanges/</guid>
-  <pubDate>Mon, 26 Oct 2026 23:00:00 GMT</pubDate>
+  <pubDate>Mon, 19 Oct 2026 22:00:00 GMT</pubDate>
 </item>
 <item>
   <title>En guise d’introduction</title>
