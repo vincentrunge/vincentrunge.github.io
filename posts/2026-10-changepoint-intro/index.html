@@ -418,7 +418,7 @@ Y_t=\mu_t+\sigma\varepsilon_t,\qquad
 \qquad
 \bar y_{a..b}=\frac{1}{b-a}\sum_{t=a+1}^{b}y_t.
 \end{equation}\]</span></p>
-<p>Plus ce coût est petit, mieux une moyenne constante décrit le segment. Si l’on minimise uniquement la somme de ces coûts, on peut attribuer un segment à chaque observation et obtenir un coût nul. Pour éviter ce découpage excessif, on ajoute un prix <span class="math inline">\(\beta&gt;0\)</span> pour chaque segment. On cherche alors une segmentation qui minimise le critère avec prix, on l’appelle communément un <strong>critère pénalisé</strong> (<a href="#ref-yao1988estimating">Yao, 1988</a>) :</p>
+<p>Plus ce coût est petit, mieux une moyenne constante décrit le segment. Si l’on minimise uniquement la somme de ces coûts, on peut attribuer un segment à chaque observation et obtenir un coût nul. Pour éviter ce découpage excessif, on ajoute un prix <span class="math inline">\(\beta&gt;0\)</span> pour chaque segment. On cherche alors une segmentation qui minimise le critère avec prix, on l’appelle communément un <strong>critère pénalisé</strong> :</p>
 <p><span class="math display">\[\begin{equation}
 \min_{\tau}\left\{
 \sum_{k=1}^{K(\tau)}\mathcal C(y_{\tau_{k-1}..\tau_k})
@@ -490,7 +490,7 @@ Q_s+\mathcal C(y_{s..t})+\beta
 <li><p>La programmation dynamique est une méthode dite <strong>exacte</strong>, dans le sens où elle retourne la (ou l’une des) segmentation(s) optimale(s). Beaucoup d’autres approches sont approximatives, avec le bénéfice d’une vitesse améliorée (en <span class="math inline">\(O(n \log(n))\)</span> généralement);</p></li>
 <li><p>La programmation dynamique permet d’incorporer facilement des <strong>contraintes supplémentaires</strong> sur les segments, comme la continuité.</p></li>
 </ul>
-<p>Je n’ai pas tout révélé ici… Le lecteur attentif comprendra qu’un point est resté en suspend, à savoir le choix de la pénalité <span class="math inline">\(\beta\)</span> dans le critère pénalisé !!! (on appelle cela aussi un hyperparamètre). Différent choix de <span class="math inline">\(\beta\)</span> conduisent à des segmentations différentes. Dans la figure ci-dessous avec les 9 exemples, j’ai en fait représenté le résultat optimal de l’algorithme pour 9 choix de beta. Un critère standard, appelé BIC, proppose de choisir: <span class="math display">\[ \beta=2\sigma^2\log(T)=2(0{,}28)^2\log(300)
+<p>Je n’ai pas tout révélé ici… Le lecteur attentif comprendra qu’un point est resté en suspend, à savoir le choix de la pénalité <span class="math inline">\(\beta\)</span> dans le critère pénalisé !!! (on appelle cela aussi un hyperparamètre). <strong>Différents choix de <span class="math inline">\(\beta\)</span> peuvent conduire à des segmentations différentes</strong>. Dans la figure ci-dessous avec les 9 exemples, j’ai en fait représenté le résultat optimal de l’algorithme pour 9 choix de beta. Un critère standard, appelé BIC (<a href="#ref-yao1988estimating">Yao, 1988</a>), propose de choisir : <span class="math display">\[ \beta=2\sigma^2\log(T)=2(0{,}28)^2\log(300)
 \approx 0{,}894.\]</span> Ce qui mène à la même segmentation que celle obtenue avec le choix <span class="math inline">\(\beta=0{,}8\)</span>, ligne 1, colonne 3. Heureusement, le résultat correspond au résultat attendu (notre exemple est ici excessivement simple).</p>
 </section>
 <section id="ce-nest-que-le-début-du-voyage" class="level2">

@@ -1,6 +1,6 @@
 ---
 title: About
-description: Vincent Runge, Assistant Professor of Statistics at Université d’Évry Paris-Saclay.
+description: Vincent Runge, Associate Professor of Statistics at Université d’Évry Paris-Saclay.
 image: images/portrait2022.png
 ---
 
@@ -14,7 +14,7 @@ image: images/portrait2022.png
 
 # Vincent Runge
 
-**Assistant Professor of Statistics** · Université d’Évry Paris-Saclay · LaMME (CNRS UMR 8071)
+**Associate Professor of Statistics** · Université d’Évry Paris-Saclay · LaMME (CNRS UMR 8071)
 
 My research focuses on change-point detection and efficient algorithms for structured data. I work on dynamic programming and pruning methods, extensions to non-Euclidean spaces, and computational geometry for time-series analysis.
 
@@ -26,7 +26,7 @@ My research focuses on change-point detection and efficient algorithms for struc
 
 ## Current position
 
-I have been an Assistant Professor in Statistics at Université d’Évry Paris-Saclay since September 2019. I am a member of the [LaMME laboratory](http://www.math-evry.cnrs.fr).
+I have been an Associate Professor in Statistics at Université d’Évry Paris-Saclay since September 2019. I am a member of the [LaMME laboratory](http://www.math-evry.cnrs.fr).
 
 ## Research interests
 

@@ -5,7 +5,7 @@ description: Contact details and professional profiles
 
 ## Vincent Runge
 
-Assistant Professor of Statistics  
+Associate Professor of Statistics  
 Université d’Évry Paris-Saclay  
 LaMME – CNRS UMR 8071  
 Bâtiment IBGBI, 4ème étage
