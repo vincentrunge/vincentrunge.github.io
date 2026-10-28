@@ -10,7 +10,280 @@
 <atom:link href="https://vincentrunge.github.io/blog.xml" rel="self" type="application/rss+xml"/>
 <description>“Can we survive technology?” ― John von Neumann</description>
 <generator>quarto-1.9.38</generator>
-<lastBuildDate>Mon, 26 Oct 2026 23:00:00 GMT</lastBuildDate>
+<lastBuildDate>Tue, 27 Oct 2026 23:00:00 GMT</lastBuildDate>
+<item>
+  <title>Détection de ruptures dans les séries temporelles</title>
+  <dc:creator>Vincent Runge</dc:creator>
+  <link>https://vincentrunge.github.io/posts/2026-10-changepoint-intro/</link>
+  <description><![CDATA[ 
+
+
+
+
+<div class="section-image-right">
+<p><img src="https://vincentrunge.github.io/posts/2026-10-changepoint-intro/serie-ruptures.png" alt="Série temporelle simulée avec quatre ruptures indiquées par des lignes verticales."></p>
+</div>
+<p>Cet billet de blog introduit mon activité de recherche principale depuis quelques années, à savoir <strong>l’analyse des séries temporelles par la détection de ruptures</strong>. Nous allons très progressivement motiver les enjeux, jusqu’à présenter la méthode par <strong>programmation dynamique</strong> que j’apprécie tout particulièrement. Et je vous dirais pourquoi!</p>
+<section id="des-exemples-à-foison" class="level2">
+<h2 class="anchored" data-anchor-id="des-exemples-à-foison">Des exemples à foison</h2>
+<p>Une série temporelle n’est rien de plus que des données ordonnées dans le temps, comme des mesures de température chaque jour, le nombre de visiteurs sur un site web chaque heure, ou encore le cours d’une action chaque minute. On considère un pas de temps régulier et rendons les unités de mesure implicites, comme il est d’usage en mathématiques. On obtient ainsi une suite de valeurs <img src="https://latex.codecogs.com/png.latex?y_1,%20y_2,%20%5Cdots,%20y_T">, où <img src="https://latex.codecogs.com/png.latex?T"> est la longueur de la série, et <img src="https://latex.codecogs.com/png.latex?y_t"> représente la valeur observée au temps <img src="https://latex.codecogs.com/png.latex?t">, ici un entier. C’est cette suite de <img src="https://latex.codecogs.com/png.latex?y"> que l’on nomme <strong>série temporelle</strong>.</p>
+<p>L’objectif de la détection de ruptures est d’<strong>identifier les moments</strong> où le comportement de la série <strong>change de manière significative</strong>.</p>
+<p>Ce type de comportement n’est pas universel. Il peut y avoir des séries temporelles au comportement plutôt régulier, par exemple les températures heures par heure sont moins adaptées à ce genre d’analyse. À l’inverse, le cours d’une action peut vivre un crack boursier et subir des changements brutaux que l’on cherche à détecter.</p>
+<p>Quelques exemples valent mieux que ce long discours. Les explications sont délibérément très succinctes. Le lecteur se concentrera sur <strong>l’aspect visuel</strong>. J’ai collecté une série d’exemples dans la littérature récente.</p>
+<div class="example-row">
+<div class="example-text">
+<p><strong>Réchauffement climatique.</strong> Quatre séries d’anomalies de température mondiale sont ajustées par des fonctions linéaires par morceaux, continues ou discontinues. Les ajustements montrent un changement du rythme de réchauffement autour des années 1970, mais aucun changement ultérieur ; la puissance limitée du test ne permet toutefois pas d’exclure une accélération récente (Beaulieu et al., 2024).</p>
+</div>
+<div class="example-image">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://vincentrunge.github.io/posts/2026-10-changepoint-intro/figures_0/climate_gmst_beaulieu2024.png" class="img-fluid figure-img" alt="Anomalies de température mondiale et ajustements linéaires par morceaux"></p>
+<figcaption>Anomalies de température mondiale et ajustements linéaires par morceaux</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<div class="example-row image-left">
+<div class="example-text">
+<p><strong>Activité et capteurs mobiles.</strong> Un smartphone peut aider à reconnaître une activité à partir de ses capteurs. La figure montre une composante de l’accéléromètre, les frontières estimées en pointillés et les activités annotées en couleur. La segmentation utilise conjointement les trois axes de l’accéléromètre et les trois axes du gyroscope (Li et al., 2019).</p>
+</div>
+<div class="example-image">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://vincentrunge.github.io/posts/2026-10-changepoint-intro/figures_0/sensor_smartphone.png" class="img-fluid figure-img" alt="Mesure d’accéléromètre, activités annotées et frontières estimées"></p>
+<figcaption>Mesure d’accéléromètre, activités annotées et frontières estimées</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<div class="example-row">
+<div class="example-text">
+<p><strong>Comportement animal.</strong> Le trajet d’un zèbre est découpé en phases à partir de sa vitesse et de ses changements de direction. Les segments sont ensuite regroupés en modes de comportement : la figure montre le trajet, le choix du nombre de segments et de groupes, puis leur répartition au cours du temps (Patin et al., 2019).</p>
+</div>
+<div class="example-image">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://vincentrunge.github.io/posts/2026-10-changepoint-intro/figures_0/animal_zebra_patin2020.png" class="img-fluid figure-img" alt="Trajet d’un zèbre et segmentation de sa vitesse et de ses changements de direction"></p>
+<figcaption>Trajet d’un zèbre et segmentation de sa vitesse et de ses changements de direction</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<div class="example-row image-left">
+<div class="example-text">
+<p><strong>Moteur flagellaire bactérien.</strong> La position angulaire du moteur est représentée en noir. Deux ajustements en rouge la décrivent par morceaux constants ou par morceaux linéaires continus. La méthode CPOP détecte les changements de pente à l’aide d’une pénalité sur leur nombre (Fearnhead et al., 2019).</p>
+</div>
+<div class="example-image">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://vincentrunge.github.io/posts/2026-10-changepoint-intro/figures_0/biophys_bacteria_maidstone2019.png" class="img-fluid figure-img" alt="Position angulaire du moteur et ajustements par morceaux"></p>
+<figcaption>Position angulaire du moteur et ajustements par morceaux</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<div class="example-row">
+<div class="example-text">
+<p><strong>Transit d’exoplanètes.</strong> La courbe de lumière de Kepler 1132 est repliée selon trois périodes candidates. La baisse de luminosité visible au centre, pour une période proche de 62,9 jours, est compatible avec un transit planétaire. La méthode CAPA détecte de courtes anomalies collectives tout en permettant des valeurs aberrantes isolées (Fisch et al., 2022).</p>
+</div>
+<div class="example-image">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://vincentrunge.github.io/posts/2026-10-changepoint-intro/figures_0/kepler.png" class="img-fluid figure-img" alt="Courbes de lumière de Kepler 1132 pour trois périodes candidates"></p>
+<figcaption>Courbes de lumière de Kepler 1132 pour trois périodes candidates</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<div class="example-row image-left">
+<div class="example-text">
+<p><strong>Séismes.</strong> Près de Parkfield, en Californie, plusieurs capteurs enregistrent les mouvements du sol. La ligne pleine indique l’heure du séisme et les pointillés les changements estimés. La méthode NP-MOJO détecte des changements de distribution et de dépendance temporelle dans ces signaux multivariés (McGonigle et Cho, 2025).</p>
+</div>
+<div class="example-image">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://vincentrunge.github.io/posts/2026-10-changepoint-intro/figures_0/geo_seismic_mcgonigle2025.png" class="img-fluid figure-img" alt="Mesures sismiques et changements estimés près de Parkfield"></p>
+<figcaption>Mesures sismiques et changements estimés près de Parkfield</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<div class="example-row">
+<div class="example-text">
+<p><strong>Acoustique sous-marine.</strong> Ce spectrogramme représente un enregistrement sous-marin ; les lignes verticales indiquent les ruptures estimées dans la puissance du signal par une segmentation binaire bayésienne (Hubert et al., 2019).</p>
+</div>
+<div class="example-image">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://vincentrunge.github.io/posts/2026-10-changepoint-intro/figures_0/eng_acoustic_hubert2019.png" class="img-fluid figure-img" alt="Spectrogramme sous-marin avec ruptures estimées"></p>
+<figcaption>Spectrogramme sous-marin avec ruptures estimées</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<div class="example-row image-left">
+<div class="example-text">
+<p><strong>Électrocardiogramme.</strong> Un électrocardiogramme peut être découpé en états correspondant aux différentes formes de l’onde. La segmentation en bleu respecte les successions d’états permises par un graphe ; les pics R détectés apparaissent en rouge (Fotoohinasab et al., 2020).</p>
+</div>
+<div class="example-image">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://vincentrunge.github.io/posts/2026-10-changepoint-intro/figures_0/ecg.png" class="img-fluid figure-img" alt="Électrocardiogramme segmenté et pics R détectés"></p>
+<figcaption>Électrocardiogramme segmenté et pics R détectés</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<div class="example-row">
+<div class="example-text">
+<p><strong>Génomique.</strong> Dans les données ChIP-seq, la couverture des lectures révèle des régions associées à des marques d’histones. Les niveaux ajustés sont en bleu et les ruptures en rouge. En bas, une contrainte d’alternance entre hausses et baisses permet d’identifier les pics (Liehrmann et al., 2021).</p>
+</div>
+<div class="example-image">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://vincentrunge.github.io/posts/2026-10-changepoint-intro/figures_0/genomics_chipseq_liehrmann2021.png" class="img-fluid figure-img" alt="Couverture ChIP-seq, niveaux ajustés et pics détectés"></p>
+<figcaption>Couverture ChIP-seq, niveaux ajustés et pics détectés</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<div class="example-row image-left">
+<div class="example-text">
+<p><strong>Volatilité financière.</strong> Les rendements quotidiens logarithmiques du S&amp;P 500 de juillet 2010 à octobre 2019 sont analysés à la recherche de changements de variance. Trois méthodes sont comparées : segmentation binaire avec CUSUM, segmentation binaire par rapport de vraisemblance et PELT. Les lignes rouges indiquent les changements significatifs au seuil de 5 % après correction pour les tests multiples ; les autres sont en gris (Carrington et Fearnhead, 2026).</p>
+</div>
+<div class="example-image">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://vincentrunge.github.io/posts/2026-10-changepoint-intro/figures_0/volatility.png" class="img-fluid figure-img" alt="Rendements du S&amp;P 500 et changements de variance estimés par trois méthodes"></p>
+<figcaption>Rendements du S&amp;P 500 et changements de variance estimés par trois méthodes</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="segmenter-les-séries-temporelles" class="level2">
+<h2 class="anchored" data-anchor-id="segmenter-les-séries-temporelles">Segmenter les séries temporelles</h2>
+<p>En termes simples, l’objectif de la détection de ruptures, aussi appelée segmentation, est de diviser la série temporelle en segments successifs homogènes <strong>de manière automatique</strong>. Les segments sont séparés par des ruptures, représentées par les lignes verticales dans la plupart des exemples ci-dessus. Mais que signifie « homogène » ? Cela dépendra du modèle choisi : nous allons commencer par un modèle dans lequel la moyenne reste constante à l’intérieur de chaque segment.</p>
+<p>Pour décrire une segmentation de <img src="https://latex.codecogs.com/png.latex?y_1,%5Cldots,y_T">, notons ses frontières :</p>
+<p><img src="https://latex.codecogs.com/png.latex?%5Cbegin%7Bequation%7D%0A0=%5Ctau_0%3C%5Ctau_1%3C%5Ccdots%3C%5Ctau_K=T.%0A%5Cend%7Bequation%7D"></p>
+<p>Il y a <img src="https://latex.codecogs.com/png.latex?K"> segments et <img src="https://latex.codecogs.com/png.latex?K-1"> ruptures internes, <img src="https://latex.codecogs.com/png.latex?%5Ctau_1,%5Cldots,%5Ctau_%7BK-1%7D">. La rupture <img src="https://latex.codecogs.com/png.latex?%5Ctau_k"> est le dernier indice du segment <img src="https://latex.codecogs.com/png.latex?k"> : le segment suivant commence donc à <img src="https://latex.codecogs.com/png.latex?%5Ctau_k+1">. Plus généralement, pour <img src="https://latex.codecogs.com/png.latex?0%5Cleq%20a%3Cb%5Cleq%20T">, nous noterons <img src="https://latex.codecogs.com/png.latex?y_%7Ba..b%7D=(y_%7Ba+1%7D,%5Cldots,y_b)">.</p>
+<p>Dans notre modèle, chaque observation est la somme d’une moyenne et d’un bruit :</p>
+<p><img src="https://latex.codecogs.com/png.latex?%5Cbegin%7Bequation%7D%0AY_t=%5Cmu_t+%5Csigma%5Cvarepsilon_t,%5Cqquad%0A%5Cvarepsilon_t%5Coverset%7B%5Cmathrm%7Bi.i.d.%7D%7D%7B%5Csim%7D%5Cmathcal%20N(0,1),%0A%5Cqquad%20t=1,%5Cldots,T.%0A%5Cend%7Bequation%7D"></p>
+<p>Ici, <img src="https://latex.codecogs.com/png.latex?Y_t"> désigne l’observation aléatoire dont <img src="https://latex.codecogs.com/png.latex?y_t"> est la valeur observée, <img src="https://latex.codecogs.com/png.latex?%5Csigma%3E0"> mesure l’amplitude du bruit et <img src="https://latex.codecogs.com/png.latex?%5Cmu_t=%5Ctheta_k"> pour <img src="https://latex.codecogs.com/png.latex?%5Ctau_%7Bk-1%7D%3Ct%5Cleq%5Ctau_k">. Autrement dit, la moyenne <img src="https://latex.codecogs.com/png.latex?%5Ctheta_k"> reste constante sur le segment <img src="https://latex.codecogs.com/png.latex?k">, mais change d’un segment à l’autre. Notre but est de <strong>déterminer à la fois</strong> le <strong>nombre</strong> de segments et <strong>leurs frontières</strong> à partir des données.</p>
+<p>Pour mesurer l’homogénéité d’un segment <img src="https://latex.codecogs.com/png.latex?y_%7Ba..b%7D">, on utilise la somme des carrés des écarts à sa moyenne :</p>
+<p><img src="https://latex.codecogs.com/png.latex?%5Cbegin%7Bequation%7D%0A%5Cmathcal%20C(y_%7Ba..b%7D)=%5Csum_%7Bt=a+1%7D%5E%7Bb%7D(y_t-%5Cbar%20y_%7Ba..b%7D)%5E2,%0A%5Cqquad%0A%5Cbar%20y_%7Ba..b%7D=%5Cfrac%7B1%7D%7Bb-a%7D%5Csum_%7Bt=a+1%7D%5E%7Bb%7Dy_t.%0A%5Cend%7Bequation%7D"></p>
+<p>Plus ce coût est petit, mieux une moyenne constante décrit le segment. Si l’on minimise uniquement la somme de ces coûts, on peut attribuer un segment à chaque observation et obtenir un coût nul. Pour éviter ce découpage excessif, on ajoute un prix <img src="https://latex.codecogs.com/png.latex?%5Cbeta%3E0"> pour chaque segment. On cherche alors une segmentation qui minimise le critère avec prix, on l’appelle communément un <strong>critère pénalisé</strong> (Yao, 1988) :</p>
+<p><img src="https://latex.codecogs.com/png.latex?%5Cbegin%7Bequation%7D%0A%5Cmin_%7B%5Ctau%7D%5Cleft%5C%7B%0A%5Csum_%7Bk=1%7D%5E%7BK(%5Ctau)%7D%5Cmathcal%20C(y_%7B%5Ctau_%7Bk-1%7D..%5Ctau_k%7D)%0A+%5Cbeta%20K(%5Ctau)%0A%5Cright%5C%7D.%0A%5Cend%7Bequation%7D"></p>
+<p>Le minimum porte sur toutes les segmentations de la série et <img src="https://latex.codecogs.com/png.latex?K(%5Ctau)"> est leur nombre de segments. Une pénalité plus forte rend les segments supplémentaires plus coûteux ; une pénalité plus faible favorise les sur-découpages.</p>
+<p>Il reste une difficulté : entre deux observations, on peut choisir de placer ou non une rupture. Pour <img src="https://latex.codecogs.com/png.latex?T"> observations, cela donne <img src="https://latex.codecogs.com/png.latex?2%5E%7BT-1%7D"> segmentations possibles ! Avec seulement <img src="https://latex.codecogs.com/png.latex?T=100">, il faudrait déjà en examiner plus de <img src="https://latex.codecogs.com/png.latex?6%5Ctimes%2010%5E%7B29%7D">. Une recherche exhaustive devient vite impossible : avec <img src="https://latex.codecogs.com/png.latex?T%20=%20100">, c’est à peu près autant que le nombre de molécules d’eau dans 18 tonnes d’eau…</p>
+<p>Voici neuf segmentations possible de la série simulée en début de billet. Les pointillés indiquent les ruptures estimées ; les panneaux sont disposés dans un ordre aléatoire. Cette série contient 300 observations, donc <img src="https://latex.codecogs.com/png.latex?2%5E%7B299%7D"> segmentations possibles.</p>
+<p><img src="https://vincentrunge.github.io/posts/2026-10-changepoint-intro/segmentations-candidates.png" class="img-fluid" alt="Grille de neuf graphiques montrant la même série temporelle et neuf ensembles de ruptures estimées par PELT."></p>
+</section>
+<section id="la-programmation-dynamique" class="level2">
+<h2 class="anchored" data-anchor-id="la-programmation-dynamique">La programmation dynamique</h2>
+<p>La <strong>programmation dynamique</strong> permet de résoudre exactement notre problème sans énumérer toutes les segmentations. C’est ici toute sa magie!</p>
+<p>Son principe itératif remonte aux travaux de Richard Bellman (Bellman, 1954) ; Walter D. Fisher l’a notamment appliqué à un problème de regroupement en segments homogènes (Fisher, 1958).</p>
+<p>L’idée est de faire plus que nécessaire… à savoir trouver non seulement le coût <img src="https://latex.codecogs.com/png.latex?Q_T">, mais aussi <img src="https://latex.codecogs.com/png.latex?Q_1">, <img src="https://latex.codecogs.com/png.latex?Q_2">, <img src="https://latex.codecogs.com/png.latex?%5Cldots">, <img src="https://latex.codecogs.com/png.latex?Q_%7BT-1%7D">. Ce travail supplémentaire permet en fait une réduction importante. Au lieu de trouver la segmentation correspondant pour chacun des coût optimaux précédents, nous allons <strong>seulement nous souvenir de la position de la dernière rupture du dernier segment</strong>, cela pour chacun des coûts <img src="https://latex.codecogs.com/png.latex?Q_1,%5Cldots,Q_T">. Tout cela est assemblé dans la séquence d’opération suivante.</p>
+<p>Pour <img src="https://latex.codecogs.com/png.latex?t%5Cgeq%201">, notons <img src="https://latex.codecogs.com/png.latex?%5Cmathcal%20S_t"> l’ensemble des segmentations de <img src="https://latex.codecogs.com/png.latex?y_%7B0..t%7D"> et <img src="https://latex.codecogs.com/png.latex?Q_t"> le coût optimal sur cet ensemble. En séparant le dernier segment, dont la frontière précédente est <img src="https://latex.codecogs.com/png.latex?s=%5Ctau_%7BK(%5Ctau)-1%7D">, on obtient :</p>
+<p><img src="https://latex.codecogs.com/png.latex?%5Cbegin%7Balign*%7D%0AQ_t%0A&amp;=%20%5Cmin_%7B%7B%5Ccolor%7Bred%7D%5Ctau%7D%5Cin%5Cmathcal%20S_t%7D%0A%20%20%20%5Cleft%5B%0A%20%20%20%5Csum_%7Bk=1%7D%5E%7BK(%7B%5Ccolor%7Bred%7D%5Ctau%7D)%7D%0A%20%20%20%5Cbigl%5C%7B%7B%5Ccolor%7Bblue%7D%5Cmathcal%20C%7D%0A%20%20%20(y_%7B%7B%5Ccolor%7Bred%7D%5Ctau_%7Bk-1%7D%7D..%7B%5Ccolor%7Bred%7D%5Ctau_k%7D%7D)+%5Cbeta%5Cbigr%5C%7D%0A%20%20%20%5Cright%5D%5C%5C%0A&amp;=%20%5Cmin_%7B%7B%5Ccolor%7Bred%7D%5Ctau%7D%5Cin%5Cmathcal%20S_t%7D%0A%20%20%20%5Cleft%5B%0A%20%20%20%5Csum_%7Bk=1%7D%5E%7BK(%7B%5Ccolor%7Bred%7D%5Ctau%7D)-1%7D%0A%20%20%20%5Cbigl%5C%7B%7B%5Ccolor%7Bblue%7D%5Cmathcal%20C%7D%0A%20%20%20(y_%7B%7B%5Ccolor%7Bred%7D%5Ctau_%7Bk-1%7D%7D..%7B%5Ccolor%7Bred%7D%5Ctau_k%7D%7D)+%5Cbeta%5Cbigr%5C%7D%0A%20%20%20+%7B%5Ccolor%7Bblue%7D%5Cmathcal%20C%7D%0A%20%20%20(y_%7B%7B%5Ccolor%7Borange%7D%5Ctau_%7BK(%7B%5Ccolor%7Bred%7D%5Ctau%7D)-1%7D%7D..%7B%5Ccolor%7Bred%7Dt%7D%7D)+%5Cbeta%0A%20%20%20%5Cright%5D%5C%5C%0A&amp;=%20%5Cmin_%7B%7B%5Ccolor%7Borange%7Ds%7D%5Cin%5C%7B0,%5Cldots,t-1%5C%7D%7D%0A%20%20%20%5CBigl%5C%7BQ_%7B%7B%5Ccolor%7Borange%7Ds%7D%7D%0A%20%20%20+%7B%5Ccolor%7Bblue%7D%5Cmathcal%20C%7D(y_%7B%7B%5Ccolor%7Borange%7Ds%7D..t%7D)+%5Cbeta%5CBigr%5C%7D.%0A%5Cend%7Balign*%7D"></p>
+<p>La dernière égalité utilise le meilleur coût <img src="https://latex.codecogs.com/png.latex?Q_s"> avant la dernière frontière <img src="https://latex.codecogs.com/png.latex?s">, avec <img src="https://latex.codecogs.com/png.latex?Q_0=0"> pour la série vide.</p>
+<p>Il suffit donc d’essayer chaque frontière possible <img src="https://latex.codecogs.com/png.latex?s"> pour le dernier segment:</p>
+<div class="equationbox">
+<p><img src="https://latex.codecogs.com/png.latex?%5Cbegin%7Bequation%7D%0A%5Clabel%7Beq:programmation-dynamique%7D%0AQ_t=%5Cmin_%7B0%5Cleq%20s%3Ct%7D%5Cleft%5C%7B%0AQ_s+%5Cmathcal%20C(y_%7Bs..t%7D)+%5Cbeta%0A%5Cright%5C%7D,%5Cqquad%20t=1,%5Cldots,T.%0A%5Cend%7Bequation%7D"></p>
+</div>
+<p>Pourquoi cela fonctionne-t-il ? Si une segmentation optimale jusqu’à <img src="https://latex.codecogs.com/png.latex?t"> utilise <img src="https://latex.codecogs.com/png.latex?s"> comme dernière frontière, alors sa partie jusqu’à <img src="https://latex.codecogs.com/png.latex?s"> doit elle aussi être optimale : sinon, on pourrait la remplacer par une meilleure segmentation et diminuer le coût total. On calcule ainsi successivement <img src="https://latex.codecogs.com/png.latex?Q_1,Q_2,%5Cldots,Q_T">. À chaque étape, seules les <img src="https://latex.codecogs.com/png.latex?t"> positions possibles de la dernière frontière sont examinées. Cette méthode est appelée <strong>Optimal Partitioning</strong>.</p>
+<p>La valeur <img src="https://latex.codecogs.com/png.latex?Q_T"> donne le meilleur coût, <strong>mais pas encore les positions</strong> des ruptures. Pour les retrouver, on enregistre à chaque étape une frontière <img src="https://latex.codecogs.com/png.latex?s_t%5E*"> qui atteint le minimum. On part ensuite de <img src="https://latex.codecogs.com/png.latex?t=T"> et on remonte : <img src="https://latex.codecogs.com/png.latex?s_T%5E*"> est la frontière qui précède le dernier segment, puis <img src="https://latex.codecogs.com/png.latex?s_%7Bs_T%5E*%7D%5E*"> celle qui précède le segment précédent, et ainsi de suite jusqu’à <img src="https://latex.codecogs.com/png.latex?0">. Notons que s’il y a plusieurs minima, en choisir un à chaque étape permet de reconstruire une segmentation optimale ; d’autres segmentations peuvent avoir le même coût. On appelle cette étape le <strong>backtracking</strong> en bon français.</p>
+<p>La programmation dynamique en repose sur ces principes :</p>
+<ul>
+<li>un problème est séquentiellement résolu en considérant ses sous-problèmes qui grandissent itérativement en ajoutant des données (c’est le passage <strong>forward</strong>);</li>
+<li>pendant ce processus, <strong>on enregistre une information</strong> plus simple (la dernière position de rupture et non pas toute la partition);</li>
+<li>une fois le calcul terminé, on peut reconstruire la solution optimale en remontant ces informations (c’est le passage <strong>backward</strong>).</li>
+</ul>
+<p>Combien de calculs faut-il ? La récurrence examine <img src="https://latex.codecogs.com/png.latex?1+2+%5Ccdots+T=T(T+1)/2"> frontières candidates : sa complexité est donc en <img src="https://latex.codecogs.com/png.latex?O(T%5E2)">, <strong>à condition de calculer chaque coût de segment en temps constant</strong>. Dans notre exemple gaussien, cela est possible grâce aux sommes cumulées des observations et de leurs carrés. En posant <img src="https://latex.codecogs.com/png.latex?S_t=%5Csum_%7Bi=1%7D%5E%7Bt%7Dy_i"> et <img src="https://latex.codecogs.com/png.latex?R_t=%5Csum_%7Bi=1%7D%5E%7Bt%7Dy_i%5E2">, avec <img src="https://latex.codecogs.com/png.latex?S_0=R_0=0">, on obtient :</p>
+<div class="equationbox">
+<p><img src="https://latex.codecogs.com/png.latex?%5Cbegin%7Bequation%7D%0A%5Cmathcal%20C(y_%7Ba..b%7D)=(R_b-R_a)-%5Cfrac%7B(S_b-S_a)%5E2%7D%7Bb-a%7D.%0A%5Cend%7Bequation%7D"></p>
+</div>
+<p>Après un calcul initial (linéaire) de ces sommes cumulées, chaque segment est évalué à partir de quelques opérations, quelle que soit sa longueur. La programmation dynamique transforme ainsi une recherche parmi un <strong>nombre exponentiel</strong> de segmentations en un <strong>calcul quadratique</strong>.</p>
+</section>
+<section id="pourquoi-on-est-content" class="level2">
+<h2 class="anchored" data-anchor-id="pourquoi-on-est-content">Pourquoi on est content ?</h2>
+<p>J’avais promis de révéler pourquoi la programmation dynamique est, à mon sens, si satisfaisante dans le contexte de la détection de ruptures.</p>
+<ul>
+<li><p>La programmation dynamique permet une analyse séquentielle des données. Une nouvelle donnée, <img src="https://latex.codecogs.com/png.latex?y_%7BT+1%7D">, s’intègre facilement, sans avoir à reprendre tous les calculs précédents. C’est une propriété <strong>séquentielle</strong> assez rare en machine learning;</p></li>
+<li><p>La programmation dynamique est une méthode dite <strong>exacte</strong>, dans le sens où elle retourne la (ou l’une des) segmentation(s) optimale(s). Beaucoup d’autres approches sont approximatives, avec le bénéfice d’une vitesse améliorée (en <img src="https://latex.codecogs.com/png.latex?O(n%20%5Clog(n))"> généralement);</p></li>
+<li><p>La programmation dynamique permet d’incorporer facilement des <strong>contraintes supplémentaires</strong> sur les segments, comme la continuité.</p></li>
+</ul>
+</section>
+<section id="ce-nest-que-le-début-du-voyage" class="level2">
+<h2 class="anchored" data-anchor-id="ce-nest-que-le-début-du-voyage">Ce n’est que le début du voyage…</h2>
+<p>Chacun des points suivants sera développé dans de futurs billets. Ils correspondent à des extensions ou améliorations de l’approche par programmation dynamique que je développe dans mon activité de recherche.</p>
+<ol type="1">
+<li><p>Des méthodes d’<strong>élagage</strong> peuvent accélérer le calcul de la meilleure segmentation en écartant certaines frontières candidates sans perdre l’optimalité. L’accélération des calculs est alors fulgurante!</p></li>
+<li><p>Certaines des figures présentées ci-dessus ne correspondent pas au modèle gaussien simple détaillé ici. Par exemple les cas du moteur flagellaire bactérien et du réchauffement climatique sont des cas où le modèle est linéaire par morceaux avec contrainte de continuité. On discutera donc de ces <strong>modèles avec contraintes</strong>;</p></li>
+<li><p>Les données elles-même peuvent habiter un espace particulier, par exemple être contraintes à des points sur une sphère. Dans ce cas, l’astuce du calcul des coûts <img src="https://latex.codecogs.com/png.latex?C(y_%7Ba..b%7D)"> en temps constant n’est plus possible. On adaptera nos stratégies de détection de ruptures à ces <strong>espaces non-Euclidiens</strong>;</p></li>
+<li><p>Enfin, nous remettrons en cause le choix du critère pénalisé lui-même. Une recherche de la meilleure segmentation peut être guidée par d’autres principes, par exemple en effectuant une recherche dans un <strong>ordre lexicographique</strong>.</p></li>
+</ol>
+<p>Je développerai ces quatres points initialement dans les semaines et mois qui viennent. Je me m’interdis pas d’autres digressions sur le sujet, soyez prêts ! 😊</p>
+</section>
+<section id="références" class="level2">
+<h2 class="anchored" data-anchor-id="références">Références</h2>
+<div id="refs" class="references csl-bib-body hanging-indent">
+<div id="ref-beaulieu2024surge" class="csl-entry">
+Beaulieu, Claudie, Colin Gallagher, Rebecca Killick, Robert Lund, et Xueheng Shi. 2024. <span>«&nbsp;A recent surge in global warming is not detectable yet&nbsp;»</span>. <em>Communications Earth &amp; Environment</em> 5 (1). <a href="https://doi.org/10.1038/s43247-024-01711-1">https://doi.org/10.1038/s43247-024-01711-1</a>.
+</div>
+<div id="ref-bellman1954some" class="csl-entry">
+Bellman, Richard. 1954. <span>«&nbsp;Some applications of the theory of dynamic programming—a review&nbsp;»</span>. <em>Journal of the Operations Research Society of America</em> 2 (3): 275‑88.
+</div>
+<div id="ref-carrington2026variance" class="csl-entry">
+Carrington, Rachel, et Paul Fearnhead. 2026. <span>«&nbsp;Post-selection inference for quantifying uncertainty in changes in variance&nbsp;»</span>. <em>Statistics and Computing</em> 36: 128. <a href="https://doi.org/10.1007/s11222-026-10881-1">https://doi.org/10.1007/s11222-026-10881-1</a>.
+</div>
+<div id="ref-fearnhead2019detecting" class="csl-entry">
+Fearnhead, Paul, Robert Maidstone, et Adam Letchford. 2019. <span>«&nbsp;Detecting changes in slope with an L0 penalty&nbsp;»</span>. <em>Journal of Computational and Graphical Statistics</em> 28 (2): 265‑75.
+</div>
+<div id="ref-fisch2022capa" class="csl-entry">
+Fisch, Alexander T. M., Idris A. Eckley, et Paul Fearnhead. 2022. <span>«&nbsp;A linear time method for the detection of collective and point anomalies&nbsp;»</span>. <em>Statistical Analysis and Data Mining: The ASA Data Science Journal</em> 15 (4): 494‑508. <a href="https://doi.org/10.1002/sam.11586">https://doi.org/10.1002/sam.11586</a>.
+</div>
+<div id="ref-fisher1958grouping" class="csl-entry">
+Fisher, Walter D. 1958. <span>«&nbsp;On grouping for maximum homogeneity&nbsp;»</span>. <em>Journal of the American statistical Association</em> 53 (284): 789‑98.
+</div>
+<div id="ref-fotoohinasab2020ecg" class="csl-entry">
+Fotoohinasab, Atiyeh, Toby Hocking, et Fatemeh Afghah. 2020. <span>«&nbsp;A Graph-constrained Changepoint Detection Approach for ECG Segmentation&nbsp;»</span>. <em>2020 42nd Annual International Conference of the IEEE Engineering in Medicine &amp; Biology Society (EMBC)</em>, 332‑36. <a href="https://doi.org/10.1109/embc44109.2020.9175333">https://doi.org/10.1109/embc44109.2020.9175333</a>.
+</div>
+<div id="ref-hubert2019acoustic" class="csl-entry">
+Hubert, Paulo, Rebecca Killick, Alexandra Chung, et Linilson R. Padovese. 2019. <span>«&nbsp;A Bayesian binary algorithm for root mean squared-based acoustic signal segmentation&nbsp;»</span>. <em>The Journal of the Acoustical Society of America</em> 146 (3): 1799‑807. <a href="https://doi.org/10.1121/1.5126522">https://doi.org/10.1121/1.5126522</a>.
+</div>
+<div id="ref-PELT" class="csl-entry">
+Killick, R., P. Fearnhead, et I. A. Eckley. 2012. <span>«&nbsp;Optimal Detection of Changepoints With a Linear Computational Cost&nbsp;»</span>. <em>Journal of the American Statistical Association</em> 107 (500): 1590‑98. <a href="https://doi.org/10.1080/01621459.2012.737745">https://doi.org/10.1080/01621459.2012.737745</a>.
+</div>
+<div id="ref-li2019wearable" class="csl-entry">
+Li, Kenan, Rima Habre, Huiyu Deng, et al. 2019. <span>«&nbsp;Applying Multivariate Segmentation Methods to Human Activity Recognition From Wearable Sensors’ Data&nbsp;»</span>. <em>JMIR mHealth and uHealth</em> 7 (2): e11201. <a href="https://doi.org/10.2196/11201">https://doi.org/10.2196/11201</a>.
+</div>
+<div id="ref-liehrmann2021chipseq" class="csl-entry">
+Liehrmann, Arnaud, Guillem Rigaill, et Toby Dylan Hocking. 2021. <span>«&nbsp;Increased peak detection accuracy in over-dispersed ChIP-seq data with supervised segmentation models&nbsp;»</span>. <em>BMC Bioinformatics</em> 22 (1). <a href="https://doi.org/10.1186/s12859-021-04221-5">https://doi.org/10.1186/s12859-021-04221-5</a>.
+</div>
+<div id="ref-Maidstone" class="csl-entry">
+Maidstone, Robert, Toby Hocking, Guillem Rigaill, et Paul Fearnhead. 2017. <span>«&nbsp;On optimal multiple changepoint algorithms for large data&nbsp;»</span>. <em>Statistics and Computing</em> 27 (2): 519‑33.
+</div>
+<div id="ref-mcgonigle2025npmojo" class="csl-entry">
+McGonigle, E. T., et H. Cho. 2025. <span>«&nbsp;Nonparametric data segmentation in multivariate time series via joint characteristic functions&nbsp;»</span>. <em>Biometrika</em> 112 (2). <a href="https://doi.org/10.1093/biomet/asaf024">https://doi.org/10.1093/biomet/asaf024</a>.
+</div>
+<div id="ref-patin2020animal" class="csl-entry">
+Patin, Rémi, Marie-Pierre Etienne, Emilie Lebarbier, Simon Chamaillé-Jammes, et Simon Benhamou. 2019. <span>«&nbsp;Identifying stationary phases in multivariate time series for highlighting behavioural modes and home range settlements&nbsp;»</span>. <em>Journal of Animal Ecology</em> 89 (1): 44‑56. <a href="https://doi.org/10.1111/1365-2656.13105">https://doi.org/10.1111/1365-2656.13105</a>.
+</div>
+<div id="ref-yao1988estimating" class="csl-entry">
+Yao, Yi-Ching. 1988. <span>«&nbsp;Estimating the number of change-points via Schwarz’s criterion&nbsp;»</span>. <em>Statistics &amp; Probability Letters</em> 6 (3): 181‑89.
+</div>
+</div>
+
+
+</section>
+
+ ]]></description>
+  <category>détection de ruptures</category>
+  <guid>https://vincentrunge.github.io/posts/2026-10-changepoint-intro/</guid>
+  <pubDate>Tue, 27 Oct 2026 23:00:00 GMT</pubDate>
+  <media:content url="https://vincentrunge.github.io/posts/2026-10-changepoint-intro/serie-ruptures.png" medium="image" type="image/png" height="72" width="144"/>
+</item>
 <item>
   <title>La Machine Mathématique Universelle</title>
   <dc:creator>Vincent Runge</dc:creator>

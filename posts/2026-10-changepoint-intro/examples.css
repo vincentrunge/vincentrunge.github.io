@@ -1,0 +1,29 @@
+.example-row {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  margin: 1.5rem 0;
+}
+.example-row.image-left { flex-direction: row-reverse; }
+.example-text, .example-image { flex: 1 1 0; min-width: 0; }
+.example-text p, .example-image p, .example-image figure { margin: 0; }
+.example-image img { display: block; width: 100%; height: auto; }
+.example-image figcaption { display: none; }
+@media (max-width: 700px) {
+  .example-row, .example-row.image-left { flex-direction: column; gap: 0.6rem; }
+  .example-text, .example-image { width: 100%; }
+}
+
+/* Reserve image space before loading so table-of-contents targets stay in place. */
+img[src$="serie-ruptures.png"] { aspect-ratio: 1440 / 720; }
+img[src$="animal_zebra_patin2020.png"] { aspect-ratio: 2101 / 1882; }
+img[src$="biophys_bacteria_maidstone2019.png"] { aspect-ratio: 1170 / 910; }
+img[src$="kepler.png"] { aspect-ratio: 871 / 306; }
+img[src$="geo_seismic_mcgonigle2025.png"] { aspect-ratio: 2080 / 757; }
+img[src$="eng_acoustic_hubert2019.png"] { aspect-ratio: 1440 / 720; }
+img[src$="ecg.png"] { aspect-ratio: 423 / 248; }
+img[src$="climate_gmst_beaulieu2024.png"] { aspect-ratio: 815 / 316; }
+img[src$="sensor_smartphone.png"] { aspect-ratio: 1200 / 612; }
+img[src$="genomics_chipseq_liehrmann2021.png"] { aspect-ratio: 1560 / 780; }
+img[src$="volatility.png"] { aspect-ratio: 893 / 533; }
+img[src$="segmentations-candidates.png"] { aspect-ratio: 1800 / 1244; }

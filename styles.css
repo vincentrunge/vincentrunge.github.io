@@ -276,3 +276,19 @@ a {
     width: min(49%, 9.8rem);
   }
 }
+
+/* Reusable framed display equations in Quarto documents. */
+.equationbox {
+  display: block;
+  box-sizing: border-box;
+  border: 2px solid #91a6d3;
+  border-radius: 4px;
+  background-color: #f8faff;
+  margin: 1.25rem 0;
+  padding: 0.5rem 1rem;
+  overflow-x: auto;
+}
+
+.equationbox > p {
+  margin: 0;
+}
