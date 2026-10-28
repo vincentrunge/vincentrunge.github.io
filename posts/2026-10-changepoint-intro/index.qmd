@@ -256,6 +256,13 @@ J'avais promis de révéler pourquoi la programmation dynamique est, à mon sens
 - La programmation dynamique permet d'incorporer facilement des **contraintes supplémentaires** sur les segments, comme la continuité. 
 
 
+Je n'ai pas tout révélé ici... Le lecteur attentif comprendra qu'un point est resté en suspend, à savoir le choix de la pénalité $\beta$ dans le critère pénalisé !!! (on appelle cela aussi un hyperparamètre). Différent choix de $\beta$ conduisent à des segmentations différentes. Dans la figure ci-dessous avec les 9 exemples, j'ai en fait représenté le résultat optimal de l'algorithme pour 9 choix de beta. Un critère standard, appelé BIC, proppose de choisir: 
+$$ \beta=2\sigma^2\log(T)=2(0{,}28)^2\log(300)
+\approx 0{,}894.$$
+Ce qui mène à la même segmentation que celle obtenue avec le choix $\beta=0{,}8$, ligne 1, colonne 3. Heureusement, le résultat correspond au résultat attendu (notre exemple est ici excessivement simple).
+
+
+
 ## Ce n'est que le début du voyage...
 
 Chacun des points suivants sera développé dans de futurs billets. Ils correspondent à des extensions ou améliorations de l'approche par programmation dynamique que je développe dans mon activité de recherche.
