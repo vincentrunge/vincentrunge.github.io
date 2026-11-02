@@ -7,8 +7,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Vincent Runge">
-<meta name="dcterms.date" content="2027-10-15">
-<meta name="description" content="Pas pressé, mais quand même un peu">
+<meta name="dcterms.date" content="2026-11-05">
+<meta name="description" content="Pas pressé, mais un peu quand même">
 
 <title>Quand les algorithmes font la course – Vincent Runge</title>
 <style>
@@ -152,8 +152,16 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#lélagage-par-inégalité" id="toc-lélagage-par-inégalité" class="nav-link active" data-scroll-target="#lélagage-par-inégalité">L’élagage par inégalité</a></li>
+  <li><a href="#lélagage-fonctionnel" id="toc-lélagage-fonctionnel" class="nav-link" data-scroll-target="#lélagage-fonctionnel">L’élagage fonctionnel</a></li>
+  <li><a href="#la-méthode-dust" id="toc-la-méthode-dust" class="nav-link" data-scroll-target="#la-méthode-dust">La méthode DUST</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -168,7 +176,7 @@ ul.task-list li input[type="checkbox"] {
 
 <div>
   <div class="description">
-    Pas pressé, mais quand même un peu
+    Pas pressé, mais un peu quand même
   </div>
 </div>
 
@@ -185,7 +193,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">October 15, 2027</p>
+      <p class="date">November 5, 2026</p>
     </div>
   </div>
   
@@ -197,8 +205,21 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<p>Dans le billet d’introduction à <a href="../../posts/2026-10-changepoint-intro/index.html">l’analyse des séries temporelles</a>, j’ai présenté le principe de la programmation dynamique. On a fini par découvrir cette stratégie <strong>capable de segmenter les données en un temps quadratique</strong> alors que l’espace des solutions est de taille exponentielle. C’est en soit déjà un beau résultat.</p>
+<p>On peut faire beaucoup mieux, et c’est ce que nous verrons avec la <strong>méthode DUST</strong>. C’est un travail en cours de publication, mais tous les détails sont présentés dans le preprint, <a href="https://arxiv.org/abs/2507.02467">DUST: A Duality-Based Pruning Method For Exact Multiple Change-Point Detection</a> (arXiv:2507.02467).</p>
+<p>Donner un exemple de temps.</p>
+<p>On va reprendre les bases</p>
+<section id="lélagage-par-inégalité" class="level2">
+<h2 class="anchored" data-anchor-id="lélagage-par-inégalité">L’élagage par inégalité</h2>
+</section>
+<section id="lélagage-fonctionnel" class="level2">
+<h2 class="anchored" data-anchor-id="lélagage-fonctionnel">L’élagage fonctionnel</h2>
+</section>
+<section id="la-méthode-dust" class="level2">
+<h2 class="anchored" data-anchor-id="la-méthode-dust">La méthode DUST</h2>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

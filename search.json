@@ -357,6 +357,34 @@
     "text": "This blog accompanies my work as a mathematician. I will write about the ongoing AI revolution in mathematics, the profound changes in teaching and research that it entails. I will also write about my research in statistics, change-point detection, and the use of my software packages. I will also share open questions in mathematics and share my passion for the history of mathematics and science. All of this, en français 😊"
   },
   {
+    "objectID": "posts/2026-10-changepoint-DUST/index.html",
+    "href": "posts/2026-10-changepoint-DUST/index.html",
+    "title": "Quand les algorithmes font la course",
+    "section": "",
+    "text": "Dans le billet d’introduction à l’analyse des séries temporelles, j’ai présenté le principe de la programmation dynamique. On a fini par découvrir cette stratégie capable de segmenter les données en un temps quadratique alors que l’espace des solutions est de taille exponentielle. C’est en soit déjà un beau résultat.\nOn peut faire beaucoup mieux, et c’est ce que nous verrons avec la méthode DUST. C’est un travail en cours de publication, mais tous les détails sont présentés dans le preprint, DUST: A Duality-Based Pruning Method For Exact Multiple Change-Point Detection (arXiv:2507.02467).\nDonner un exemple de temps.\nOn va reprendre les bases"
+  },
+  {
+    "objectID": "posts/2026-10-changepoint-DUST/index.html#lélagage-par-inégalité",
+    "href": "posts/2026-10-changepoint-DUST/index.html#lélagage-par-inégalité",
+    "title": "Quand les algorithmes font la course",
+    "section": "L’élagage par inégalité",
+    "text": "L’élagage par inégalité"
+  },
+  {
+    "objectID": "posts/2026-10-changepoint-DUST/index.html#lélagage-fonctionnel",
+    "href": "posts/2026-10-changepoint-DUST/index.html#lélagage-fonctionnel",
+    "title": "Quand les algorithmes font la course",
+    "section": "L’élagage fonctionnel",
+    "text": "L’élagage fonctionnel"
+  },
+  {
+    "objectID": "posts/2026-10-changepoint-DUST/index.html#la-méthode-dust",
+    "href": "posts/2026-10-changepoint-DUST/index.html#la-méthode-dust",
+    "title": "Quand les algorithmes font la course",
+    "section": "La méthode DUST",
+    "text": "La méthode DUST"
+  },
+  {
     "objectID": "posts/2026-10-changepoint-intro/index.html",
     "href": "posts/2026-10-changepoint-intro/index.html",
     "title": "Détection de ruptures dans les séries temporelles",

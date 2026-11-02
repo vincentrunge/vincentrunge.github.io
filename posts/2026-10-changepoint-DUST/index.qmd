@@ -1,11 +1,25 @@
 ---
 title: "Quand les algorithmes font la course"
-description: "Pas pressé, mais quand même un peu"
-date: 2027-10-15
+description: "Pas pressé, mais un peu quand même"
+date: 2026-11-05
 categories:
   - détection de ruptures
 ---
 
+Dans le billet d'introduction à [l'analyse des séries temporelles](../2026-10-changepoint-intro/index.qmd), j'ai présenté le principe de la programmation dynamique. On a fini par découvrir cette stratégie **capable de segmenter les données en un temps quadratique** alors que l'espace des solutions est de taille exponentielle. C'est en soit déjà un beau résultat. 
 
+On peut faire beaucoup mieux, et c'est ce que nous verrons avec la **méthode DUST**. C'est un travail en cours de publication, mais tous les détails sont présentés dans le preprint, [DUST: A Duality-Based Pruning Method For Exact Multiple Change-Point Detection](https://arxiv.org/abs/2507.02467) (arXiv:2507.02467).
+
+
+Donner un exemple de temps.
+
+
+On va reprendre les bases
+
+## L'élagage par inégalité
+
+## L'élagage fonctionnel
+
+## La méthode DUST
 
 
