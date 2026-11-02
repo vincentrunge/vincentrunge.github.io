@@ -25,10 +25,12 @@ Dans ce nouveau monde, **la mine est l'espace des vérités mathématiques**. Le
 Le mineur est composé de trois éléments :
 
 1. **Des cartes** menant aux diamants déjà connus : articles de recherche, bases de résultats démontrés, définitions, concepts, graphes de dépendances entre théorèmes. Il peut s'y référer à tout moment pour améliorer sa recherche.
+
 2. **Des outils** externes : Lean pour la vérification formelle, Python et le calcul formel pour l'expérimentation. Ils l'aident à explorer, vérifier, tester et s'orienter.
+
 3. **Un cerveau** : le cœur du système, un grand modèle de langage doté de trilliards de paramètres appris. Il incarne son intuition mathématique, ses représentations et ses heuristiques, et lui permet de décider où et comment creuser. Le mineur a aussi une mémoire : il se souvient de ses tentatives infructueuses et évite de reprendre les mêmes chemins.
 
-À ces trois éléments s'ajoute une limite extérieure à sa structure : un **budget** de calcul fini. La patience de la Machine est bornée, et ses ressources doivent être partagées entre tous les mathématiciens. Cette limite peut aussi être un choix délibéré : empêcher des explorations trop longues, ou même faire du rapport entre capacité mathématique et énergie consommée le nouvel objectif de la recherche.
+À ces trois éléments s'ajoute une limite extérieure à sa structure : un **budget** de calcul fini. La patience de la Machine est bornée, et ses ressources doivent être partagées entre tous les mathématiciens. Cette limite peut aussi être **un choix délibéré** : empêcher des explorations trop longues, ou même faire du rapport entre capacité mathématique et énergie consommée le nouvel objectif de la recherche.
 
 Laissée libre d'explorer, la Machine procède à ce que j'appelle une **convexification de la mine** : elle comble progressivement le territoire mathématique accessible à partir de ce qui est déjà connu. De nouveaux théorèmes sont démontrés, des preuves plus simples sont trouvées, des liens apparaissent entre des régions jusque-là séparées.
 
@@ -37,6 +39,7 @@ Laissée libre d'explorer, la Machine procède à ce que j'appelle une **convexi
 Mon hypothèse est que **l'intelligence et l'imagination humaines ne seront pas entièrement absorbées par la Machine**. Certains travaux resteront hors de cette convexification : de nouvelles façons de présenter des mathématiques connues, des définitions ou des points de vue inattendus, des recherches réellement originales que la Machine n'aurait pas trouvées seule. Cela dessine deux modes de recherche complémentaires :
 
 1. **Le mathématicien superviseur.** Il explore les mathématiques *à travers* l'IA, dirige le mineur et lui propose des pistes selon sa propre expertise. La Machine apprend, au fil des échanges, à mieux employer ses cartes, ses outils et sa mémoire. En pratique, cela peut devenir un véritable art du *prompt*, fait d'instructions, de retours et de corrections successives.
+
 2. **Le mathématicien mineur.** Il travaille *hors* de la Machine, explore la mine lui-même et cherche des mathématiques situées au-delà de ce qu'elle atteint. Ses articles constituent de nouvelles cartes qui, lors d'une **mise à jour de la Machine**, sont intégrées au cerveau du mineur et modifient sa façon d'explorer. Ce mode suppose de limiter volontairement sa dépendance à la Machine : la suivre de trop près, c'est rester dans un territoire qu'elle a déjà exploré.
 
 Pour soutenir ces deux modes, il faut de nouvelles métriques, capables d'évaluer la production mathématique et la contribution de chacun.
@@ -60,13 +63,15 @@ $$
 \mathcal H_M(B;p)=\left\{T : p_M(T\mid B)\geq p\right\}.
 $$
 
+En pratique, comment cela pourrait fonctionner ? On place la machine $M$ en mode test, avec des connaissances limitées (on limite $\mathcal{K}$), et on lui demande de démontrer un énoncé $T$ (que l'on connaît bien mais n'est pas dans le $\mathcal{K}$ de test). Si sur 100 essais avec un budget de $B$ fixé, la machine $M$ trouve le résultat 10 fois, alors ce résultat est dans $\mathcal H_M(B;0.05)$ mais pas dans $\mathcal H_M(B;0.2)$.
+
 Au-delà de cet horizon se trouvent des vérités que le mineur ne peut pas découvrir de façon fiable avec son cerveau, ses cartes, ses outils et son budget actuels.
 
 <div class="section-image-right image-small">
 <img src="Proofs_from_THE_BOOK.jpg" alt="Couverture de la première édition de Proofs from THE BOOK (1998)">
 </div>
 
-Étendre cet horizon rejoint la vision de Paul Erdős : *The Book*, un livre imaginaire où Dieu conserverait la plus belle preuve de chaque théorème. « Vous n'avez pas à croire en Dieu, mais vous devriez croire en The Book. » Cette idée a inspiré le recueil *Proofs from THE BOOK* de Martin Aigner et Günter Ziegler. L'objectif est ici voisin : plutôt que de chercher la plus belle preuve de chaque théorème, il s'agit de rendre les vérités mathématiques de plus en plus accessibles en améliorant la capacité du mineur à les découvrir. Comme une preuve de *The Book* révèle un chemin d'une élégance inattendue, une Machine plus capable pourrait ouvrir des voies plus courtes vers des régions entières de la mine.
+Étendre cet horizon rejoint la vision de Paul Erdős : *The Book*, un livre imaginaire où Dieu conserverait la plus belle preuve de chaque théorème. « Vous n'avez pas à croire en Dieu, mais vous devriez croire en The Book. » Cette idée a inspiré le recueil *Proofs from THE BOOK* de Martin Aigner et Günter Ziegler. **L'objectif est ici voisin** : plutôt que de chercher la plus belle preuve de chaque théorème, il s'agit de rendre les vérités mathématiques de plus en plus accessibles en améliorant la capacité du mineur à les découvrir. Comme une preuve de *The Book* révèle un chemin d'une élégance inattendue, une Machine plus capable pourrait **ouvrir des voies plus courtes** vers des régions entières de la mine.
 
 ## Mesurer le progrès
 
@@ -84,16 +89,22 @@ La Machine serait mise à jour à intervalles fixes, en intégrant les nouvelles
 
 Les mathématiciens partagent souvent des convictions progressistes sur la société, la science et la technologie, et beaucoup se soucient d'écologie et de climat. La trajectoire actuelle de l'IA n'est pas celle dont nous rêvions. Elle consomme énormément d'énergie, d'eau, de terres et de ressources matérielles. Son usage soulève de graves questions éthiques lorsqu'il est associé à la surveillance, au contrôle social ou à la guerre. L'IA pour les mathématiques est concentrée entre les mains de quelques entreprises privées, pour la plupart américaines, dont les modèles les plus puissants ne sont accessibles qu'à quelques collaborateurs sélectionnés. Pendant ce temps, les impacts physiques de ces usages sont mal mesurés et mal documentés. La plupart des mathématiciens trouvent cet état de fait difficile à accepter.
 
-Il ne faut pas s'y résigner. Nous pouvons nous organiser, agir collectivement et proposer un meilleur modèle : **construire une infrastructure d'IA universelle pour les mathématiques**, développée en partenariat avec une institution internationale comme l'UNESCO et gouvernée par les mathématiciens au sein d'une organisation internationale dédiée (par exemple l'Union mathématique internationale). Soutenue par les États, les universités et des institutions philanthropiques, elle appartiendrait au bien commun, et non à une poignée d'acteurs privés. Elle serait construite autour des valeurs de la communauté mathématique. Comme point de départ, voici six principes :
+Il ne faut pourtant pas s'y résigner. Nous pouvons nous organiser, agir collectivement et proposer un meilleur modèle : **construire une infrastructure d'IA universelle pour les mathématiques**, développée en partenariat avec une institution internationale comme l'UNESCO et gouvernée par les mathématiciens au sein d'une organisation internationale dédiée (par exemple l'Union mathématique internationale). Soutenue par les États, les universités et des institutions philanthropiques, elle appartiendrait au bien commun, et non à une poignée d'acteurs privés. Elle serait construite autour des valeurs de la communauté mathématique. Comme point de départ, voici six principes :
 
 1. **Responsabilité écologique.** Sa consommation d'énergie, son impact environnemental et son empreinte matérielle seraient évalués de façon indépendante et publiés chaque année.
+
 2. **Architecture ouverte.** L'architecture du modèle, ses poids et les composants essentiels du système seraient librement accessibles.
+
 3. **Accès universel et égal.** L'accès serait ouvert à toute la communauté mathématique, étudiants compris, avec un même budget de calcul (ou de *tokens*) pour chaque utilisateur.
+
 4. **Confidentialité.** Les utilisateurs garderaient le plein contrôle de leurs données. Les recherches privées, les résultats non publiés et les préprints soumis au système ne seraient jamais intégrés à la Machine partagée sans consentement explicite.
+
 5. **Mises à jour transparentes.** Une fois par an, la base mathématique et le cerveau du mineur seraient mis à jour avec les mathématiques nouvellement publiées et les préprints éligibles. L'importance de chaque contribution, nouvelle ou ancienne, serait alors estimée.
+
 6. **Gouvernance scientifique internationale.** Un laboratoire commun de mathématiques et d'informatique, créé au sein de l'UNESCO ou en partenariat avec elle, serait chargé des mises à jour, de la maintenance, de l'évaluation et de la communication.
+
 
 ## Dans la boue de la mine
 
-Selon une célèbre anecdote, à qui lui demandait quelle part des mathématiques on pouvait espérer comprendre, John von Neumann aurait répondu : « environ 28 % ». Avec la Machine, nous pourrions retrouver quelque chose de l'idéal du XIX<sup>e</sup> siècle : comprendre les mathématiques dans leur ensemble. Je ne veux pas paraître naïvement optimiste, ce texte adopte délibérément une posture positive. La réalité est plutôt déprimante. Mais dans la boue de la mine, nous avons encore le pouvoir d'organiser collectivement la recherche : s'adapter n'est pas facultatif (« For progress, there is no cure », écrivait von Neumann dans [*Can We Survive Technology?*](../../documents/von_Neumann_1955.pdf)), mais préserver nos valeurs, et certaines de nos habitudes de travail, reste possible.
+Selon une célèbre anecdote, à qui lui demandait quelle part des mathématiques on pouvait espérer comprendre, John von Neumann aurait répondu : « environ 28 % ». Avec la Machine, nous pourrions retrouver quelque chose de l'idéal du XIX<sup>e</sup> siècle : comprendre les mathématiques dans leur ensemble. Je ne veux pas paraître naïvement optimiste, ce texte adopte d'ailleurs délibérément une posture positive. La réalité est plutôt sombre. Mais dans la boue de la mine, nous avons encore le pouvoir d'organiser collectivement la recherche : s'adapter n'est pas facultatif (« For progress, there is no cure », écrivait von Neumann dans [*Can We Survive Technology?*](../../documents/von_Neumann_1955.pdf)), mais préserver nos valeurs, et certaines de nos habitudes de travail, reste possible.
 
